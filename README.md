@@ -1,5 +1,7 @@
 # Lessons In Love Guide Tool
 
+Would you like help with understanding what the next step in your Lessons in Love playthrough should be? This is the tool for you!
+
 Lessons In Love Guide Tool looks at your most recent save game, and lets you know what events you can perform next and their requirements. End all the endless trial and error to find the next event to trigger!
 
 ## Installation - Windows
