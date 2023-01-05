@@ -2,6 +2,9 @@
 
 Lessons In Love Guide Tool looks at your most recent save game, and lets you know what events you can perform next and their requirements. End all the endless trial and error to find the next event to trigger!
 
+## Game version supported
+This tool is expected to work regardless of game version. However, the v1.1 release of this tool will only include events that were added in v0.27.0 and before.
+
 ## Installation - Windows
 Download the [latest release](https://github.com/largestack/Lessons-In-Love-Guide-Tool/releases) executable here and run it.
 

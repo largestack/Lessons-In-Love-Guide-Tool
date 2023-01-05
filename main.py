@@ -6,6 +6,7 @@ import os
 from tkinter import filedialog
 import game_data
 from tooltip import Tooltip
+from event_ids import VALID_EVENTS
 
 # Create the Tkinter UI
 import tkinter as tk
@@ -35,7 +36,7 @@ def comparison_symbol_to_text(comparison_symbol):
 class App:
   def __init__(self, root):
     #setting title
-    root.title("Lessons in Love: Walkthrough guide")
+    root.title("Lessons in Love: Walkthrough guide v1.1")
     self.active_event = None
 
     #setting window size
@@ -206,6 +207,10 @@ class App:
       print("Invalid game folder. Please select the root folder of the game.")
       game_folder = filedialog.askdirectory(title="Select the game folder")
     self.game_folder = game_folder
+
+    # Write the game folder to a file
+    with open("game_folder.txt", "w") as f:
+      f.write(game_folder)
 
     self.refresh()
 
@@ -383,6 +388,10 @@ class App:
 
     # Load the game and save data
     (events, save_data, characters, save_file, save_file_timestamp) = game_data.load_game_data(self.game_folder)
+
+    # Filter events to approved events only
+    events = {id: event for id, event in events.items() if event["id"] in VALID_EVENTS}
+
     self.events = events
     self.save_data = save_data
     self.characters = sorted(characters)

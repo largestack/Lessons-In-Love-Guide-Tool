@@ -24,57 +24,63 @@ def load_game_data(game_folder):
   # Load the most recent save file
   save_folder = os.path.join(game_folder, "game", "saves")
 
-  # Enumerate the .save files, loading the most recent one
-  save_files = [f for f in os.listdir(save_folder) if f.endswith(".save")]
-  save_files.sort(key=lambda f: os.path.getmtime(os.path.join(save_folder, f)), reverse=True)
-  save_file = os.path.join(save_folder, save_files[0])
-  print(f"Loading most recent save file: {save_file}...")
-
-  # Unzip the save file in memory and load the log file
+  # Check if the folder exists
+  save_file = None
   save_data = {}
-  with zipfile.ZipFile(save_file, "r") as zip:
-    with zip.open("log") as f:
-      save = f.read()
+  if os.path.exists(save_folder):
+    # Enumerate the .save files, loading the most recent one
+    save_files = [f for f in os.listdir(save_folder) if f.endswith(".save")]
+    save_files.sort(key=lambda f: os.path.getmtime(os.path.join(save_folder, f)), reverse=True)
+    save_file = os.path.join(save_folder, save_files[0])
+    print(f"Loading most recent save file: {save_file}...")
 
-      # Basic parsing of all the values
-      # Find all "store." entries
-      index = 0
-      while(True):
-        index = save.find(b"store.", index)
-        if index == -1:
-          break
-        
-        # Format seems to be:
-        # <byte: len of name> <name> <byte: variable type> (<value>)
-        # Variable types:
-        #   0x4b: Byte, 1 byte value
-        #   0x4d: Word, 2 byte value
-        #   0x88: Boolean true, no optional vale
-        #   0x89: Boolean false, no optional vale
+    # Unzip the save file in memory and load the log file
+    with zipfile.ZipFile(save_file, "r") as zip:
+      with zip.open("log") as f:
+        save = f.read()
 
-        length = save[index - 1]
-        try:
-          name = save[index:index + length].replace(b"store.", b"").decode("utf8")
-        except:
-          #print(f"Error decoding name: {save[index:index + length]}")
-          next
-        type = save[index + length]
-        value = None
-        if type == 0x88:
-          value = True
-        elif type == 0x89:
-          value = False
-        elif type == 0x4b:
-          value = save[index + length + 1]
-        elif type == 0x4d:
-          value = save[index + length + 1] + save[index + length + 2] * 256
-        else:
-          pass
+        # Basic parsing of all the values
+        # Find all "store." entries
+        index = 0
+        while(True):
+          index = save.find(b"store.", index)
+          if index == -1:
+            break
+          
+          # Format seems to be:
+          # <byte: len of name> <name> <byte: variable type> (<value>)
+          # Variable types:
+          #   0x4b: Byte, 1 byte value
+          #   0x4d: Word, 2 byte value
+          #   0x88: Boolean true, no optional vale
+          #   0x89: Boolean false, no optional vale
 
-        save_data[name] = value
+          length = save[index - 1]
+          try:
+            name = save[index:index + length].replace(b"store.", b"").decode("utf8")
+          except:
+            #print(f"Error decoding name: {save[index:index + length]}")
+            next
+          type = save[index + length]
+          value = None
+          if type == 0x88:
+            value = True
+          elif type == 0x89:
+            value = False
+          elif type == 0x4b:
+            value = save[index + length + 1]
+          elif type == 0x4d:
+            value = save[index + length + 1] + save[index + length + 2] * 256
+          else:
+            pass
 
-        index += 1
-        
+          save_data[name] = value
+
+          index += 1
+  
+  if save_file == None:
+    print("No save file found.")
+
   print(f"Loaded {len(save_data)} saved variables")
 
   # Load the character names
@@ -95,27 +101,6 @@ def load_game_data(game_folder):
 
   print(f"Loaded {len(characters)} characters")
   print(f"Characters: {characters}")
-
-  # Build a map of all events with details
-  '''
-  for event in main_events:
-    event_details[event] = {
-      "id": event,
-      "name": event,
-      "type": "main",
-      "group": "Main"
-    }
-
-  for character, events in character_events.items():
-    for event in events:
-      if event not in event_details:
-        event_details[event] = {
-          "id": event,
-          "name": event,
-          "type": "character",
-          "group": character.capitalize()
-        }
-  '''
 
   events = {}
 
@@ -297,7 +282,7 @@ def load_game_data(game_folder):
                     }
                   )
 
-                  if satisfied == False and variable != "day":
+                  if satisfied == False and variable != "day" and "_love" not in variable and "_lust" not in variable:
                     events[event_name]["ready_to_trigger"] = False
                 
                 break
@@ -366,9 +351,12 @@ def load_game_data(game_folder):
     #  event["triggered_by"] = "weekday morning"
 
   # Get timestamp of save_file
-  save_file_timestamp = os.path.getmtime(save_file)
-  # Format it nicely
-  save_file_timestamp = datetime.datetime.fromtimestamp(save_file_timestamp).strftime('%Y-%m-%d %H:%M:%S')
+  if save_file is None:
+    save_file_timestamp = "No save found"
+  else:
+    save_file_timestamp = os.path.getmtime(save_file)
+    # Format it nicely
+    save_file_timestamp = datetime.datetime.fromtimestamp(save_file_timestamp).strftime('%Y-%m-%d %H:%M:%S')
 
   return (events, save_data, characters, save_file, save_file_timestamp)
 
