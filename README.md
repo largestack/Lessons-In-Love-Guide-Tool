@@ -1,4 +1,4 @@
-# Lessons In Love Guide Tool
+# Lessons In Love Walkthrough Guide Tool
 
 Would you like help with understanding what the next step in your Lessons in Love playthrough should be? This is the tool for you!
 
