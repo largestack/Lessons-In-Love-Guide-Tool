@@ -1,5 +1,6 @@
 # Import Module
 import datetime
+import glob
 from itertools import groupby
 import re
 from tkinter import *
@@ -31,52 +32,53 @@ def load_game_data(game_folder):
     # Enumerate the .save files, loading the most recent one
     save_files = [f for f in os.listdir(save_folder) if f.endswith(".save")]
     save_files.sort(key=lambda f: os.path.getmtime(os.path.join(save_folder, f)), reverse=True)
-    save_file = os.path.join(save_folder, save_files[0])
-    print(f"Loading most recent save file: {save_file}...")
+    if len(save_files) > 0:
+      save_file = os.path.join(save_folder, save_files[0])
+      print(f"Loading most recent save file: {save_file}...")
 
-    # Unzip the save file in memory and load the log file
-    with zipfile.ZipFile(save_file, "r") as zip:
-      with zip.open("log") as f:
-        save = f.read()
+      # Unzip the save file in memory and load the log file
+      with zipfile.ZipFile(save_file, "r") as zip:
+        with zip.open("log") as f:
+          save = f.read()
 
-        # Basic parsing of all the values
-        # Find all "store." entries
-        index = 0
-        while(True):
-          index = save.find(b"store.", index)
-          if index == -1:
-            break
-          
-          # Format seems to be:
-          # <byte: len of name> <name> <byte: variable type> (<value>)
-          # Variable types:
-          #   0x4b: Byte, 1 byte value
-          #   0x4d: Word, 2 byte value
-          #   0x88: Boolean true, no optional vale
-          #   0x89: Boolean false, no optional vale
+          # Basic parsing of all the values
+          # Find all "store." entries
+          index = 0
+          while(True):
+            index = save.find(b"store.", index)
+            if index == -1:
+              break
+            
+            # Format seems to be:
+            # <byte: len of name> <name> <byte: variable type> (<value>)
+            # Variable types:
+            #   0x4b: Byte, 1 byte value
+            #   0x4d: Word, 2 byte value
+            #   0x88: Boolean true, no optional vale
+            #   0x89: Boolean false, no optional vale
 
-          length = save[index - 1]
-          try:
-            name = save[index:index + length].replace(b"store.", b"").decode("utf8")
-          except:
-            #print(f"Error decoding name: {save[index:index + length]}")
-            next
-          type = save[index + length]
-          value = None
-          if type == 0x88:
-            value = True
-          elif type == 0x89:
-            value = False
-          elif type == 0x4b:
-            value = save[index + length + 1]
-          elif type == 0x4d:
-            value = save[index + length + 1] + save[index + length + 2] * 256
-          else:
-            pass
+            length = save[index - 1]
+            try:
+              name = save[index:index + length].replace(b"store.", b"").decode("utf8")
+            except:
+              #print(f"Error decoding name: {save[index:index + length]}")
+              next
+            type = save[index + length]
+            value = None
+            if type == 0x88:
+              value = True
+            elif type == 0x89:
+              value = False
+            elif type == 0x4b:
+              value = save[index + length + 1]
+            elif type == 0x4d:
+              value = save[index + length + 1] + save[index + length + 2] * 256
+            else:
+              pass
 
-          save_data[name] = value
+            save_data[name] = value
 
-          index += 1
+            index += 1
   
   if save_file == None:
     print("No save file found.")
@@ -144,13 +146,14 @@ def load_game_data(game_folder):
                 "code": None,
                 "jump_to_file": None,
                 "condition_text": None,
-                "conditions": [],
+                "conditions": [],                
               }
 
   print(f"Loaded {len(events)} named events")
   # Print the number of events by group
   for group, event_set in groupby(sorted(events.values(), key=lambda e: e["group"]), key=lambda e: e["group"]):
     print(f"  {group}: {len(list(event_set))}")
+
 
   # Update the events on if they are complete or not
   for event, details in events.items():
@@ -165,9 +168,11 @@ def load_game_data(game_folder):
 
   # Parse all script files to requirements to the main and character events
   label_to_jumps = {}
-  script_files = [f for f in os.listdir(os.path.join(game_folder, "game")) if f.endswith(".rpy")]
+  script_files = glob.glob(os.path.join(game_folder, "game", "*.rpy"), recursive=True)
+  script_files.append(os.path.join(game_folder, "game", "scripts", "subscribestar", "inappropriatecontent.rpy"))
   for script_file in script_files:
-    with open(os.path.join(game_folder, "game", script_file), "r", encoding="utf8") as f:
+    print(f"Processing {script_file}...")
+    with open(script_file, "r", encoding="utf8") as f:
       script = f.read()
       lines = script.split("\n")
 
@@ -192,6 +197,7 @@ def load_game_data(game_folder):
           target_label = line.strip().split(" ")[1]
           if target_label in label_to_jumps:
             label_to_jumps[target_label].append(label)
+            label_to_jumps[target_label] = list(set(label_to_jumps[target_label]))
           else:
             label_to_jumps[target_label] = [label]
 
@@ -211,87 +217,18 @@ def load_game_data(game_folder):
                 events[event_name]["code"] = "\n".join([l.strip() for l in lines[i - 1 - n : i + 1]])
 
                 # Parse the conditions, ignores complex conditions
-                conditions = condition_statement.replace("(","").replace(")","").replace(" or ", " and ").split("and")
-                events[event_name]["conditions"] = []
-                events[event_name]["required_events"] = []
-
-                if len(conditions) > 0:
-                  events[event_name]["ready_to_trigger"] = True
-
-                for condition in conditions:
-                  sections = re.split(r"([<>=!]+)", condition)
-                  variable = sections[0].strip()
-                  if len( sections ) == 3:
-                    comparison = sections[1].strip()
-                    value = sections[2].strip()
-                    if value == "True":
-                      value = True
-                    elif value == "False":
-                      value = False
-                    else:
-                      try:
-                        value = int(value)
-                      except:
-                        #print(f"WARNING: Unknown value: {value}")
-                        next
-                  elif len( sections ) == 1:
-                    comparison = "=="
-                    value = True
-                  else:
-                    print(f"ERROR: Unknown condition: {condition}")
-                    next
-                  
-                  # Add required events for this to occur
-                  if variable in events:
-                    events[event_name]["required_events"].append(variable)
-                  
-                  if variable not in save_data:
-                    # Default to 0 for int value, False for bool
-                    if isinstance(value, bool):
-                      comparison_value = False
-                    elif isinstance(value, int):
-                      comparison_value  = 0
-                  else:
-                    comparison_value = save_data[variable]
-
-                  # Determine if the condition is met
-                  satisfied = None
-                  if comparison == "==":
-                    satisfied = comparison_value == value
-                  elif comparison == "!=":
-                    satisfied = comparison_value != value
-                  elif comparison == ">":
-                    satisfied = comparison_value > value
-                  elif comparison == ">=":
-                    satisfied = comparison_value >= value
-                  elif comparison == "<":
-                    satisfied = comparison_value < value
-                  elif comparison == "<=":
-                    satisfied = comparison_value <= value
-                  else:
-                    print(f"ERROR: Unknown comparison: {comparison}")
-                    next
-                  
-                  events[event_name]["conditions"].append(
-                    {
-                      "variable": variable,
-                      "comparison": comparison,
-                      "value": value,
-                      "saved_value": comparison_value,
-                      "satisfied": satisfied
-                    }
-                  )
-
-                  if satisfied == False and variable != "day" and "_love" not in variable and "_lust" not in variable:
-                    events[event_name]["ready_to_trigger"] = False
-                
+                conditions = condition_statement.replace("(","").replace(")","").replace(" or ", " and ").split(" and ")
+                if "conditions_text" in events[event_name]:
+                  events[event_name]["conditions_text"].extend(conditions)
+                else:
+                  events[event_name]["conditions_text"] = conditions
                 break
   
   # Remove label_to_jumps with more than two jumps
   # This is to remove the jump chains that are not actually events
   deletes = []
   for label, jumps in label_to_jumps.items():
-    if len(jumps) > 2:
+    if len(jumps) > 3:
       deletes.append(label)
   for label in deletes:
     del label_to_jumps[label]
@@ -311,44 +248,243 @@ def load_game_data(game_folder):
       label_branchers.add(label)
 
   def unwind_label(label, depth, target_set):
+    # Unwinds the label unil a label in the target set is found.
+    # Returns: (label, depth, [path]) or (None, None, [path]) if not found
     if depth > MAX_CHAIN_DEPTH:
-      return None
+      return (None, None, None)
     if label in target_set:
-      return label
+      return (label, depth, [label])
     
     if label in label_to_jumps:
       labels = label_to_jumps[label]
       
+      best_label, best_depth, best_path = (None, None, None)
+
+      # Return the least deep label
       for label in labels:
         result = unwind_label(label, depth + 1, target_set)
-        if result != None:
-          return result
-    else:
-      return None
+        if result != (None, None, None):
+          if best_label == None or result[1] < best_depth:
+            best_label, best_depth, best_path = result
+      
+      if best_label != None:
+        return (best_label, best_depth, [label] + best_path)
+    
+    return (None, None, None)
 
   # Parse all script files to find the events that are triggered by other events
   # label_to_jumps = {label -> [jumping labels]}
   # Unwind the jump chains to find the first actual labelled event, and add it as a chain source
   MAX_CHAIN_DEPTH = 20
   for event_name, event in events.items():
-    # Unwind the label jumps to find the first real event that triggers it
-    if event_name in label_to_jumps:
-      for label in label_to_jumps[event_name]:
-        source_event_name = unwind_label(label, 0, events)
-
-        if source_event_name != None:
-          events[event_name]["chain_sources"] = source_event_name
-          break
-
-  # Add some event trigger information notes
-  for event_name, event in events.items():
     if event_name in label_to_jumps:
       event["triggered_by"] = label_to_jumps[event_name][0]
     
-    event["triggered_by_branch"] = unwind_label(event_name, 3, label_branchers) or ""
+    # Unwind chain events
+    chain_source_name = None
+    chain_source_depth = None
+    chain_source_path = None
+    if event_name in label_to_jumps:
+      for label in label_to_jumps[event_name]:
+        new_chain_source_name, new_chain_source_depth, new_chain_source_path = unwind_label(label, 0, events)
+
+        if new_chain_source_name is not None:
+          if chain_source_name is None or new_chain_source_depth < chain_source_depth:
+            chain_source_name = new_chain_source_name
+            chain_source_depth = new_chain_source_depth
+            chain_source_path = new_chain_source_path
+      
+    # Unwind branch events
+    branch_source_name, branch_source_depth, branch_source_path = unwind_label(event_name, 0, label_branchers)
+
+    # Select the shallowest chain or branch. Default to branch if both are the same depth.
+    if chain_source_depth is not None and branch_source_depth is not None:
+      if chain_source_depth < branch_source_depth:
+        events[event_name]["chain_sources"] = chain_source_name
+        events[event_name]["chain_sources_depth"] = chain_source_depth
+      else:
+        events[event_name]["triggered_by_branch"] = branch_source_name
+        events[event_name]["triggered_by_branch_depth"] = branch_source_depth
+    elif chain_source_depth is not None:
+      events[event_name]["chain_sources"] = chain_source_name
+      events[event_name]["chain_sources_depth"] = chain_source_depth
+    elif branch_source_depth is not None:
+      events[event_name]["triggered_by_branch"] = branch_source_name
+      events[event_name]["triggered_by_branch_depth"] = branch_source_depth
+
+  # Parse Phone.rpy getContacts() to get the call and invite over pre-requisites.
+  # Add these as requirements to the events.
+  invite_pre_reqs = {}
+  call_pre_reqs = {}
+  with open(os.path.join(game_folder, "game", "Phone.rpy"), "r", encoding="utf8") as f:
+    phone_script = f.read()
+    region = phone_script.split("contactsList = [")[1].split("]")[0]
+    contacts = region.split("Contact(")
+    for contact in contacts:
+      contact = contact.split("\n")[0]
+      tokens = contact.split(",")
+
+      if len(tokens) >= 9:
+        id_prefix = tokens[0].replace("\"","").strip()
+        id_req_call = tokens[7].strip()
+        id_req_invite = tokens[8].replace(")","").strip()
+
+        if id_req_call not in ["True","False"]:
+          call_pre_reqs[id_prefix] = id_req_call
+
+        if id_req_invite not in ["True","False"]:
+          invite_pre_reqs[id_prefix] = id_req_invite
+  
+  # Add the phone pre-requisites to the events
+  for event_name, event in events.items():
+    def get_call_name(id):
+      if not(id.startswith("call") and (id.endswith("morning") or id.endswith("afternoon") or id.endswith("night"))):
+        return None
+      
+      # Extract the name
+      name = id[4:].replace("morning","").replace("afternoon","").replace("night","")
+      return name
+
+    def get_invite_name(id):
+      if not(id.endswith("invite") or id[:-1].endswith("invite")):
+        return None
+      
+      # Extract the name
+      name = id.replace("invite","")
+      while name[-1].isdigit():
+        name = name[:-1]
+
+      return name
     
-    #if event["triggered_by"] == "weekdaymorning":
-    #  event["triggered_by"] = "weekday morning"
+    for id in [event_name, event["triggered_by"] if "triggered_by" in event else None]:
+      if id is not None:
+        # Add call pre-requisites
+        name = get_call_name(id)
+        
+        if name is not None and name in call_pre_reqs:
+          events[event_name]["call_pre_req"] = call_pre_reqs[name]
+          if "conditions_text" not in event:
+            event["conditions_text"] = []
+          
+          conditions = call_pre_reqs[name].replace("(","").replace(")","").replace(" or ", " and ").split(" and ")
+          event["conditions_text"].extend(conditions)
+        
+        # Add invite pre-requisites
+        name = get_invite_name(id)
+        if name is not None and name in invite_pre_reqs:
+          events[event_name]["invite_pre_req"] = invite_pre_reqs[name]
+          if "conditions_text" not in event:
+            event["conditions_text"] = []
+          
+          conditions = invite_pre_reqs[name].replace("(","").replace(")","").replace(" or ", " and ").split(" and ")
+          event["conditions_text"].extend(conditions)
+
+
+  # Add custom conditions. Used to add conditions that are not parsed in the game script.
+  # These are mostly introductions of new characters.
+  custom_conditions = {
+    # "event_name": ["condition1", "condition2"],
+    "iofirsthall": ["day247"],
+    "utafirsthall": ["day247"],
+    "yasufirsthall": ["day304"],
+    "toukafirsthall": ["day304"],
+    "toukastreets1": ["day304"],
+    "ramen1": ["day154"],
+    "tsuneyofirsthall": ["day154"],
+    "otohafirsthall": ["day288"],
+    "mollycafe1": ["day154"],
+    "mollyfirsthall": ["day154"],
+    "kirindate1": ["soccer20"],
+    "kirinfirsthall": ["day271"],
+    "nodokafirsthall": ["day288"],
+    "norikofirsthall": ["day271"],
+    "osakodojo1": ["osakodate1"],
+    "harukafirstlust": ["harukadate1"],
+    "harukalust10": ["harukadate1"],
+  }
+  for event_name, conditions in custom_conditions.items():
+    if event_name in events:
+      if "conditions_text" not in events[event_name]:
+        events[event_name]["conditions_text"] = []
+      events[event_name]["conditions_text"].extend(conditions)
+
+  # Process the event condition status
+  for event_name, event in events.items():
+    if "conditions_text" in event:
+      conditions = event["conditions_text"]
+
+      if len(conditions) > 0:
+        events[event_name]["ready_to_trigger"] = True
+
+      # Dedupe conditions, keeping order
+      conditions = list(dict.fromkeys(conditions))
+
+      for condition in conditions:
+        sections = re.split(r"([<>=!]+)", condition)
+        variable = sections[0].strip()
+        if len( sections ) == 3:
+          comparison = sections[1].strip()
+          value = sections[2].strip()
+          if value == "True":
+            value = True
+          elif value == "False":
+            value = False
+          else:
+            try:
+              value = int(value)
+            except:
+              #print(f"WARNING: Unknown value: {value}")
+              next
+        elif len( sections ) == 1:
+          comparison = "=="
+          value = True
+        else:
+          print(f"ERROR: Unknown condition: {condition}")
+          next
+        
+        # Add required events for this to occur
+        if variable in events:
+          events[event_name]["required_events"].append(variable)
+        
+        if variable not in save_data:
+          # Default to 0 for int value, False for bool
+          if isinstance(value, bool):
+            comparison_value = False
+          elif isinstance(value, int):
+            comparison_value  = 0
+        else:
+          comparison_value = save_data[variable]
+
+        # Determine if the condition is met
+        satisfied = None
+        if comparison == "==":
+          satisfied = comparison_value == value
+        elif comparison == "!=":
+          satisfied = comparison_value != value
+        elif comparison == ">":
+          satisfied = comparison_value > value
+        elif comparison == ">=":
+          satisfied = comparison_value >= value
+        elif comparison == "<":
+          satisfied = comparison_value < value
+        elif comparison == "<=":
+          satisfied = comparison_value <= value
+        else:
+          print(f"ERROR: Unknown comparison: {comparison}")
+          next
+        
+        events[event_name]["conditions"].append(
+          {
+            "variable": variable,
+            "comparison": comparison,
+            "value": value,
+            "saved_value": comparison_value,
+            "satisfied": satisfied
+          }
+        )
+
+        if satisfied == False and variable != "day" and "_love" not in variable and "_lust" not in variable:
+          events[event_name]["ready_to_trigger"] = False
 
   # Get timestamp of save_file
   if save_file is None:
