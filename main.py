@@ -36,7 +36,7 @@ def comparison_symbol_to_text(comparison_symbol):
 class App:
   def __init__(self, root):
     #setting title
-    root.title("Lessons in Love: Walkthrough guide v1.1")
+    root.title("Lessons in Love: Walkthrough guide v1.2")
     self.active_event = None
 
     #setting window size
@@ -275,8 +275,6 @@ class App:
     self.list_event_prereq_events.delete(0, tk.END)
     if "triggered_by_branch" in event and len(event["triggered_by_branch"]) > 0:
       self.list_event_prereq_events.insert(tk.END, "🔵 Triggered by '" + event["triggered_by_branch"] + "'")
-    else:
-      self.list_event_prereq_events.insert(tk.END, "❌ Triggered by 'unknown'")
     
     if "chain_sources" in event and len(event["chain_sources"]) > 0:
       name = event["chain_sources"]
@@ -335,7 +333,7 @@ class App:
           self.list_event_prereq_events.insert(tk.END, f'{"✅" if condition["satisfied"] else "❌"}{character} lust {comparison_symbol_to_text(condition["comparison"])} {condition["value"]}')
           
         elif condition["variable"] == event["id"]:
-          # Ignore condition requiring the event to be completed
+          # Ignore condition requiring itself to be completed
           pass
 
         elif condition["variable"] in self.events:
