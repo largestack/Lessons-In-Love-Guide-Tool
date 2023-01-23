@@ -9,7 +9,7 @@ people discover them manually.
 from game_data import load_game_data
 
 # Load the game data
-game_path = "D:\\Games\\Dult\\LessonsInLove0.27.0-0.27.0-pc-subscribestar"
+game_path = "D:\\Games\\Dult\\LessonsInLove0.28.0-0.28.0-pc-subscribestar"
 events, save_data, characters, save_file, save_file_timestamp = load_game_data(game_path)
 
 # Build the list of events
