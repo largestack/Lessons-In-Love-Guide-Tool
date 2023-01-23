@@ -36,7 +36,7 @@ def comparison_symbol_to_text(comparison_symbol):
 class App:
   def __init__(self, root):
     #setting title
-    root.title("Lessons in Love: Walkthrough guide v1.2")
+    root.title("Lessons in Love: Walkthrough guide v1.3")
     self.active_event = None
 
     #setting window size
