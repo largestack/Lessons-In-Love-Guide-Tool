@@ -25,7 +25,7 @@ Download the [latest release](https://github.com/largestack/Lessons-In-Love-Guid
 1. It will automatically load the most recent save-game every time it loads.
 1. You can also hit the "Reload" to load the most recent save game again. You can do this to refresh the guide tool while you play the game. Simply save your game, then hit "Reload" to update the guide.
 
-<img src="./website/images/UserInterface.png" width="70%" height="70%">
+<img src="./docs/images/UserInterface.png" width="70%" height="70%">
 
 * **Suggested next events**: Click on these events to see what's required for the next suggested events.
 * **Event group**: Browse events by character and main path.
