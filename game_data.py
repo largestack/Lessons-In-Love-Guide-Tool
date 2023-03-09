@@ -144,6 +144,11 @@ def load_game_data(game_folder):
                 "complete": None,
                 "ready_to_trigger": None,
                 "code": None,
+                "event_code": None,
+                "event_rpath": None,
+                "trigger_code": None,
+                "trigger_rpath": None,
+                "trigger_code": None,
                 "jump_to_file": None,
                 "condition_text": None,
                 "conditions": [],                
@@ -192,6 +197,25 @@ def load_game_data(game_folder):
           
           label = new_label
           had_jump = False
+
+          if label in events:
+            # Add code forwards until we hit another known label or 20K lines
+            code = "..."
+            for n in range(0, 20000):
+              if i + n >= len(lines):
+                break
+
+              code = code + "\n" + lines[i + n]
+
+              if n > 0 and lines[i + n].strip().startswith("label "):
+                label_name = lines[i + n].strip().split(" ")[1].split(":")[0]
+                if label_name in events:
+                  break
+            code = code.strip() + "\n..."
+            
+            events[label]["event_code"] = code
+            events[label]["event_rpath"] = script_file.replace(game_folder, "")
+
         elif line.strip().startswith("jump "):
           had_jump = True
           target_label = line.strip().split(" ")[1]
@@ -207,6 +231,18 @@ def load_game_data(game_folder):
           event_name = line.split("jump ")[-1].split(" ")[0].split("#")[0].strip()
           if event_name in events:
             events[event_name]["jump_to_file"].append(script_file)
+
+            # Add code backwards until we find a label
+            trigger_code = "..."
+            for n in range(0, 100):
+              trigger_code = lines[i - n] + "\n" + trigger_code
+
+              if lines[i - n].strip().startswith("label "):
+                break
+            trigger_code = "...\n" + trigger_code.strip()
+            
+            events[event_name]["trigger_code"] = trigger_code
+            events[event_name]["trigger_rpath"] = script_file.replace(game_folder, "")
             
             # Find the preceding if statement to find the condition
             prefix = lines[i].split("jump")[0][0:-4] + "if"
@@ -443,8 +479,12 @@ def load_game_data(game_folder):
           next
         
         # Add required events for this to occur
-        if variable in events:
+        if variable in events and variable != event_name:
           events[event_name]["required_events"].append(variable)
+          # Add a post-requisite to the required event
+          if "post_events" not in events[variable]:
+            events[variable]["post_events"] = []
+          events[variable]["post_events"].append(event_name)
         
         if variable not in save_data:
           # Default to 0 for int value, False for bool
