@@ -1,0 +1,31 @@
+# ${name}
+${group} event
+
+[Back to event list](./../)
+
+[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=${id}&go=Go)
+
+${event_chain}
+
+## Event preconditions
+${event_conditions}
+
+## Next events
+${post_events}
+
+## Event properties
+${event_properties}
+
+## Event code
+File: ${event_rpath}
+Code:
+```python
+${event_code}
+```
+
+## Code that triggers this event
+File: ${trigger_rpath}
+Code:
+```python
+${trigger_code}
+```

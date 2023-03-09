@@ -375,6 +375,14 @@ class App:
       self.text_code_snippets.insert(tk.END, "\nconditions:")
       for condition in event["conditions"]:
         self.text_code_snippets.insert(tk.END, f'\n{"✅" if condition["satisfied"] else "❌"} {condition["variable"]} {condition["comparison"]} {condition["value"]}')
+    
+    # Add the raw code
+    self.text_code_snippets.insert(tk.END, "\n\n----- event code path: -----\n" + (event["event_rpath"] if event["event_rpath"] is not None else ""))
+    self.text_code_snippets.insert(tk.END, "\n----- full event code: -----\n" + (event["event_code"] if event["event_code"] is not None else ""))
+
+    self.text_code_snippets.insert(tk.END, "\n\n----- trigger code path: -----\n" + (event["trigger_rpath"] if event["trigger_rpath"] is not None else ""))
+    self.text_code_snippets.insert(tk.END, "\n\n----- full trigger code: -----\n" + (event["trigger_code"] if event["trigger_code"] is not None else ""))
+
 
   def refresh(self):
     event_id_to_restore = self.active_event["id"] if self.active_event else None
