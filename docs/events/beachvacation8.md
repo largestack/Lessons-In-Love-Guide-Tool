@@ -1,26 +1,36 @@
-# The Legacy of Thaum Pt. I
-Main event
+# The Legacy of Thaum Pt. I (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation8&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Moon is Beautiful](./beachvacation7.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachvacation8
+
+* Id: beachvacation8
 * Group: Main
 * Triggered by label: beachvacation7
+* Chain sources: beachvacation7
+* Chain sources path: beachvacation7
+
+## Official wiki page
+
+[The Legacy of Thaum Pt. I](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation8&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -722,7 +732,9 @@ label beachvacation9:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

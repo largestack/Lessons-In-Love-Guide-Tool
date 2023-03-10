@@ -1,17 +1,18 @@
-# All is Bright. All is Beautiful.
-Main event
+# All is Bright. All is Beautiful. (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach18&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Goodnight](./secondbeach17.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Rin: The Paragon of Not Worrying About Stuff](./cafe50.md)
 * [Tsuneyo: Like Noodles in the Wind](./ramen25.md)
 * [Tsuneyo: Unsleeping Aegis](./tsuneyodorm25.md)
@@ -19,12 +20,21 @@ No event conditions found, it is likely part of an event chain.
 * [Niki: Thousands, If Not Millions](./nikidate10.md)
 
 ## Event properties
-* ID: secondbeach18
+
+* Id: secondbeach18
 * Group: Main
 * Triggered by label: goodnightp2
+* Chain sources: secondbeach17
+* Chain sources path: secondbeach17->secondbeach17
+
+## Official wiki page
+
+[All is Bright. All is Beautiful.](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach18&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -274,7 +284,9 @@ label halloweentwo1:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

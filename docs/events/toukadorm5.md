@@ -1,33 +1,42 @@
-# Loser
-Touka event
+# Loser (Touka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukadorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Touka love greater than or equal to 5
 
-✅Day of week is not Thursday
+* Touka love greater than or equal to 5
 
-✅Event "[Touka: A Brief Moment in Time](./toukastreets5.md)" is completed (event=toukastreets5)
+* Day of week is not Thursday
+
+* Event [A Brief Moment in Time](./toukastreets5.md) (Touka) is completed)
 
 
 
 ## Next events
+
 * [Main: Operation: Firestarter](./day318.md)
 * [Yasu: Repentance](./yasudorm10.md)
 
 ## Event properties
-* ID: toukadorm5
+
+* Id: toukadorm5
 * Group: Touka
 * Triggered by label: toukadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->toukadorm->toukadorm5
+
+## Official wiki page
+
+[Loser](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukadorm5&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -369,7 +378,9 @@ label yasudorm10:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

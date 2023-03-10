@@ -1,36 +1,45 @@
-# A Castle for Everyone
-Chika event
+# A Castle for Everyone (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikadorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chika love greater than or equal to 15
 
-✅Event "[Chika: Side Event](./chikadorm10.md)" is completed (event=chikadorm10)
+* Chika love greater than or equal to 15
 
-✅Day of week is not Wednesday
+* Event [Side Event](./chikadorm10.md) (Chika) is completed)
 
-✅Day of week is not Monday
+* Day of week is not Wednesday
+
+* Day of week is not Monday
 
 
 
 ## Next events
+
 * [Main: Scientific Research](./day79.md)
 * [Main: On The Bright Side](./day126.md)
 * [Chika: A Dog that Doesn't Do Math](./mall15.md)
 
 ## Event properties
-* ID: chikadorm15
+
+* Id: chikadorm15
 * Group: Chika
 * Triggered by label: chikadorm
 * Triggered by branch label: chikadorm
+* Triggered by path: chikadorm->chikadorm15
+
+## Official wiki page
+
+[A Castle for Everyone](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikadorm15&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -430,7 +439,9 @@ label yumidorm5:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

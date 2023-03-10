@@ -1,26 +1,36 @@
-# Twisting Ivy
-Nodoka event
+# Twisting Ivy (Nodoka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokaspecial20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The River Styx](./yasuspecial20.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: nodokaspecial20
+
+* Id: nodokaspecial20
 * Group: Nodoka
 * Triggered by label: yasuspecial20
+* Chain sources: yasuspecial20
+* Chain sources path: yasuspecial20
+
+## Official wiki page
+
+[Twisting Ivy](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokaspecial20&go=Go) for more details.
 
 ## Event code
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...
@@ -449,7 +459,9 @@ label nodokaspecial20:
 ```
 
 ## Code that triggers this event
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...

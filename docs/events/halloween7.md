@@ -1,26 +1,36 @@
-# Once, Twice, Ten Times
-Main event
+# Once, Twice, Ten Times (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween7&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [They're Just Lights](./halloween6.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloween7
+
+* Id: halloween7
 * Group: Main
 * Triggered by label: halloween6
+* Chain sources: halloween6
+* Chain sources path: halloween6
+
+## Official wiki page
+
+[Once, Twice, Ten Times](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween7&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -459,7 +469,9 @@ label saralust10:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

@@ -1,30 +1,39 @@
-# Beyond the Reach of God
-Nodoka event
+# Beyond the Reach of God (Nodoka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokadorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Nodoka love greater than or equal to 15
 
-❌Event "[Yasu: Glossolalia](./yasudorm20.md)" is completed (event=yasudorm20)
+* Nodoka love greater than or equal to 15
+
+* Event [Glossolalia](./yasudorm20.md) (Yasu) is completed)
 
 
 
 ## Next events
+
 * [Nodoka: So Far Below](./nodokaspecial15p1.md)
 
 ## Event properties
-* ID: nodokadorm15
+
+* Id: nodokadorm15
 * Group: Nodoka
 * Triggered by label: nodokadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->nodokadorm->nodokadorm15
+
+## Official wiki page
+
+[Beyond the Reach of God](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokadorm15&go=Go) for more details.
 
 ## Event code
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...
@@ -511,7 +520,9 @@ label nodokaspecial15p1:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

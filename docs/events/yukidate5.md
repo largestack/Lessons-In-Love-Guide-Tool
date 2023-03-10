@@ -1,35 +1,44 @@
-# Better Off Alone
-Yuki event
+# Better Off Alone (Yuki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yukidate5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yuki love greater than or equal to 5
 
-✅Event "[Yumi: Walls Too Thick to Hear Through](./yumidorm30.md)" is completed (event=yumidorm30)
+* Yuki love greater than or equal to 5
 
-✅Event "[Yuki: Rule #1](./yukidate1.md)" is completed (event=yukidate1)
+* Event [Walls Too Thick to Hear Through](./yumidorm30.md) (Yumi) is completed)
 
-✅yukinumber equal to True (unknown variable)
+* Event [Rule #1](./yukidate1.md) (Yuki) is completed)
+
+* yukinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Main: Operation: Firestarter](./day318.md)
 * [Yuki: Opposite Directions](./yukidate10.md)
 
 ## Event properties
-* ID: yukidate5
+
+* Id: yukidate5
 * Group: Yuki
 * Triggered by label: callyukinight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callyukinight->yukidate5
+
+## Official wiki page
+
+[Better Off Alone](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yukidate5&go=Go) for more details.
 
 ## Event code
-File: \game\YukiEvents.rpy
+
+File: (install folder)\game\YukiEvents.rpy
+
 Code:
 ```python
 ...
@@ -368,7 +377,9 @@ label yukidate10:
 ```
 
 ## Code that triggers this event
-File: \game\YukiEvents.rpy
+
+File: (install folder)\game\YukiEvents.rpy
+
 Code:
 ```python
 ...

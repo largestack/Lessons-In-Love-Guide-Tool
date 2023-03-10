@@ -1,28 +1,38 @@
-# Am I Awake?
-Main event
+# Am I Awake? (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firstfriday&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [A New You](./startsleepover.md)
 
 ## Event preconditions
-❌Day of week is Friday
+
+* Day of week is Friday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: firstfriday
+
+* Id: firstfriday
 * Group: Main
 * Triggered by label: nextstart
+* Chain sources: startsleepover
+* Chain sources path: startsleepover->amiwhattodo->amiwhattodo
+
+## Official wiki page
+
+[Am I Awake?](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firstfriday&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -120,7 +130,9 @@ label thefirstclass:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

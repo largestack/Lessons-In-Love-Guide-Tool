@@ -1,33 +1,42 @@
-# A Woman's Heart
-Sara event
+# A Woman's Heart (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saradate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sara love greater than or equal to 0
 
-✅Event "[Sana: Carry Me Home](./bar15.md)" is completed (event=bar15)
+* Sara love greater than or equal to 0
 
-✅saranumber equal to True (unknown variable)
+* Event [Carry Me Home](./bar15.md) (Sana) is completed)
+
+* saranumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Sara: Third Wheel](./sarainvite1.md)
 * [Sara: A Mostly Empty Home](./sarainvite2.md)
 
 ## Event properties
-* ID: saradate1
+
+* Id: saradate1
 * Group: Sara
 * Triggered by label: callsaraafternoon
 * Triggered by branch label: callafternoon
+* Triggered by path: callafternoon->callsaraafternoon->saradate1
+
+## Official wiki page
+
+[A Woman's Heart](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saradate1&go=Go) for more details.
 
 ## Event code
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...
@@ -362,7 +371,9 @@ label saralust5:
 ```
 
 ## Code that triggers this event
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...

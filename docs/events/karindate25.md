@@ -1,33 +1,42 @@
-# Emerald Eyes
-Karin event
+# Emerald Eyes (Karin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Karin love greater than or equal to 25
 
-❌Event "[Maki: Baby Steps](./makiinv3.md)" is completed (event=makiinv3)
+* Karin love greater than or equal to 25
 
-✅karinnumber equal to True (unknown variable)
+* Event [Baby Steps](./makiinv3.md) (Maki) is completed)
+
+* karinnumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Karin: Wrong Places/Wrong Times](./karindate30.md)
 * [Tsukasa: National Tsukasa Day](./tsukasaspecial1.md)
 
 ## Event properties
-* ID: karindate25
+
+* Id: karindate25
 * Group: Karin
 * Triggered by label: callkarinafternoon
 * Triggered by branch label: callkarinafternoon
+* Triggered by path: callkarinafternoon->karindate25
+
+## Official wiki page
+
+[Emerald Eyes](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate25&go=Go) for more details.
 
 ## Event code
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...
@@ -432,7 +441,9 @@ label karindate30:
 ```
 
 ## Code that triggers this event
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...

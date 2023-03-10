@@ -1,37 +1,46 @@
-# Semantics
-Rin event
+# Semantics (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm40&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 40
 
-✅Event "[Rin: Sketchy Basement](./cafe40.md)" is completed (event=cafe40)
+* Rin love greater than or equal to 40
 
-✅Day of week is not Tuesday
+* Event [Sketchy Basement](./cafe40.md) (Rin) is completed)
 
-❌Day of week is not Saturday
+* Day of week is not Tuesday
 
-✅Day of week is not Sunday
+* Day of week is not Saturday
+
+* Day of week is not Sunday
 
 
 
 ## Next events
+
 * [Rin: Debatably Bisexual Musicians](./cafe45.md)
 * [Niki: Like it's Any Other Day](./nikidate5.md)
 
 ## Event properties
-* ID: rindorm40
+
+* Id: rindorm40
 * Group: Rin
 * Triggered by label: rindorm
 * Triggered by branch label: rindorm
+* Triggered by path: rindorm->rindorm40
+
+## Official wiki page
+
+[Semantics](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm40&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -428,7 +437,9 @@ label rindorm45:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

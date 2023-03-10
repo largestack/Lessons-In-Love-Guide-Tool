@@ -1,34 +1,43 @@
-# Made Out of Nothing
-Kirin event
+# Made Out of Nothing (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinspecial30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 410
 
-✅Kirin love greater than or equal to 30
+* Days since the start of the game greater than or equal to 410
 
-✅Event "[Kirin: Four Hand Massage](./kirinsoccer25.md)" is completed (event=kirinsoccer25)
+* Kirin love greater than or equal to 30
 
-✅Event "[Ayane: What a Wonderful World](./ayanelust15.md)" is completed (event=ayanelust15)
+* Event [Four Hand Massage](./kirinsoccer25.md) (Kirin) is completed)
+
+* Event [What a Wonderful World](./ayanelust15.md) (Ayane) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kirinspecial30
+
+* Id: kirinspecial30
 * Group: Kirin
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->kirinspecial30
+
+## Official wiki page
+
+[Made Out of Nothing](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinspecial30&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -90,7 +99,9 @@ label kirinlust202:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

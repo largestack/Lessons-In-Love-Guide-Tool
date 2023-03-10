@@ -1,26 +1,36 @@
-# Somewhere Far From Here
-Main event
+# Somewhere Far From Here (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo12&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Misfit Maid Madness](./dormwartwo11.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwartwo12
+
+* Id: dormwartwo12
 * Group: Main
 * Triggered by label: dormwartwo11
+* Chain sources: dormwartwo11
+* Chain sources path: dormwartwo11
+
+## Official wiki page
+
+[Somewhere Far From Here](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo12&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -289,7 +299,9 @@ label dormwartwo13:
 ```
 
 ## Code that triggers this event
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...

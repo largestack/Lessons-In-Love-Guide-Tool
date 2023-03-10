@@ -1,29 +1,38 @@
-# Sculpture
-Noriko event
+# Sculpture (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikofirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: What Was](./day271.md)" is completed (event=day271)
+
+* Event [What Was](./day271.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: Annabel Lee](./day280.md)
 * [Noriko: Nakayarakawayama](./convenience1.md)
 
 ## Event properties
-* ID: norikofirsthall
+
+* Id: norikofirsthall
 * Group: Noriko
 * Triggered by label: dorm2wednesday
 * Triggered by branch label: dormwednesday
+* Triggered by path: dormwednesday->dorm2wednesday->norikofirsthall
+
+## Official wiki page
+
+[Sculpture](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikofirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -229,7 +238,9 @@ label kirindorm10:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

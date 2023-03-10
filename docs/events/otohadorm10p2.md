@@ -1,26 +1,36 @@
-# Vanilla Bean
-Otoha event
+# Vanilla Bean (Otoha)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohadorm10p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Breathing in Unison](./otohadorm10.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: otohadorm10p2
+
+* Id: otohadorm10p2
 * Group: Otoha
 * Triggered by label: otohadorm10
+* Chain sources: otohadorm10
+* Chain sources path: otohadorm10
+
+## Official wiki page
+
+[Vanilla Bean](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohadorm10p2&go=Go) for more details.
 
 ## Event code
-File: \game\OtohaEvents.rpy
+
+File: (install folder)\game\OtohaEvents.rpy
+
 Code:
 ```python
 ...
@@ -588,7 +598,9 @@ label otohadorm10p2:
 ```
 
 ## Code that triggers this event
-File: \game\OtohaEvents.rpy
+
+File: (install folder)\game\OtohaEvents.rpy
+
 Code:
 ```python
 ...

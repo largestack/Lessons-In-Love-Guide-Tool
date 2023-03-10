@@ -1,30 +1,39 @@
-# Cracks in the Armor
-Nodoka event
+# Cracks in the Armor (Nodoka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokalibrary1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Nodoka love greater than or equal to 0
 
-✅Event "[Otoha: Conversations Outside of a Girls’ Dorm](./otohadorm1.md)" is completed (event=otohadorm1)
+* Nodoka love greater than or equal to 0
+
+* Event [Conversations Outside of a Girls’ Dorm](./otohadorm1.md) (Otoha) is completed)
 
 
 
 ## Next events
+
 * [Nodoka: Coloring Book](./nodokalibrary5.md)
 
 ## Event properties
-* ID: nodokalibrary1
+
+* Id: nodokalibrary1
 * Group: Nodoka
 * Triggered by label: nodokalibrary
 * Triggered by branch label: saturdayafternoon
+* Triggered by path: saturdayafternoon->nodokalibrary->nodokalibrary1
+
+## Official wiki page
+
+[Cracks in the Armor](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokalibrary1&go=Go) for more details.
 
 ## Event code
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...
@@ -319,7 +328,9 @@ label nodokalibrary5:
 ```
 
 ## Code that triggers this event
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...

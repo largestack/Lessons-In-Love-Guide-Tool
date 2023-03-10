@@ -1,34 +1,43 @@
-# Shadowplay
-Futaba event
+# Shadowplay (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=library40&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 40
 
-✅Event "[Futaba: Skin](./futabadorm40.md)" is completed (event=futabadorm40)
+* Futaba love greater than or equal to 40
 
-✅Event "[Yumi: Abyss](./yumicallnight35.md)" is completed (event=yumicallnight35)
+* Event [Skin](./futabadorm40.md) (Futaba) is completed)
 
-✅Event "[Kaori: Clouds](./kaoridate15p3.md)" is completed (event=kaoridate15p3)
+* Event [Abyss](./yumicallnight35.md) (Yumi) is completed)
+
+* Event [Clouds](./kaoridate15p3.md) (Kaori) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: library40
+
+* Id: library40
 * Group: Futaba
 * Triggered by label: library
 * Triggered by branch label: library
+* Triggered by path: library->library40
+
+## Official wiki page
+
+[Shadowplay](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=library40&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -488,7 +497,9 @@ label library40part2:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

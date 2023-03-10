@@ -1,30 +1,39 @@
-# Sober-ish
-Haruka event
+# Sober-ish (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Haruka love greater than or equal to 20
 
-✅Event "[Main: War's End](./dormwar17.md)" is completed (event=dormwar17)
+* Haruka love greater than or equal to 20
+
+* Event [War's End](./dormwar17.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Haruka: Unfiltered Tap Water](./harukainvite3.md)
 
 ## Event properties
-* ID: harukadate20
+
+* Id: harukadate20
 * Group: Haruka
 * Triggered by label: callharukanighthang
 * Triggered by branch label: callharukanighthang
+* Triggered by path: callharukanighthang->harukadate20
+
+## Official wiki page
+
+[Sober-ish](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate20&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -435,7 +444,9 @@ label harukainvite3:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

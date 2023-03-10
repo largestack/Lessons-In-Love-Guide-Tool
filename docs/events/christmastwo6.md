@@ -1,26 +1,36 @@
-# Tokimeki Labyrinth
-Main event
+# Tokimeki Labyrinth (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo6&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Everything Evil](./christmastwo5.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: christmastwo6
+
+* Id: christmastwo6
 * Group: Main
 * Triggered by label: christmastwo5
+* Chain sources: christmastwo5
+* Chain sources path: christmastwo5
+
+## Official wiki page
+
+[Tokimeki Labyrinth](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo6&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -466,7 +476,9 @@ label christmastwo7:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

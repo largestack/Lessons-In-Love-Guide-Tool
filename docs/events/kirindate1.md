@@ -1,31 +1,40 @@
-# Partners in Crime
-Kirin event
+# Partners in Crime (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kirin love greater than or equal to 0
 
-✅Event "[Miku: Coach](./soccer20.md)" is completed (event=soccer20)
+* Kirin love greater than or equal to 0
+
+* Event [Coach](./soccer20.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Main: What's Done is Done](./beachvacation1.md)
 * [Kirin: Long and Hard](./kirindate5.md)
 
 ## Event properties
-* ID: kirindate1
+
+* Id: kirindate1
 * Group: Kirin
 * Triggered by label: kirinafternoonhang
 * Triggered by branch label: callafternoon
+* Triggered by path: callafternoon->callkirinafternoon->kirinafternoonhang->kirindate1
+
+## Official wiki page
+
+[Partners in Crime](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindate1&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -405,7 +414,9 @@ label kirindate5:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Like Noodles in the Wind
-Tsuneyo event
+# Like Noodles in the Wind (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 25
 
-✅Event "[Main: All is Bright. All is Beautiful.](./secondbeach18.md)" is completed (event=secondbeach18)
+* Tsuneyo love greater than or equal to 25
+
+* Event [All is Bright. All is Beautiful.](./secondbeach18.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: ramen25
+
+* Id: ramen25
 * Group: Tsuneyo
 * Triggered by label: ramenshop
 * Triggered by branch label: ramenshop
+* Triggered by path: ramenshop->ramen25
+
+## Official wiki page
+
+[Like Noodles in the Wind](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen25&go=Go) for more details.
 
 ## Event code
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...
@@ -339,7 +348,9 @@ label ramen25p2:
 ```
 
 ## Code that triggers this event
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...

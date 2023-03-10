@@ -1,31 +1,40 @@
-# Unpaid Promotion
-Molly event
+# Unpaid Promotion (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 15
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Molly love greater than or equal to 15
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Molly: The Legacy of Thaum Pt. II](./mollycafe20.md)
 * [Noriko: Mouthjob](./convenience5.md)
 
 ## Event properties
-* ID: mollydorm15
+
+* Id: mollydorm15
 * Group: Molly
 * Triggered by label: mollydorm
 * Triggered by branch label: mollydorm
+* Triggered by path: mollydorm->mollydorm15
+
+## Official wiki page
+
+[Unpaid Promotion](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm15&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -297,7 +306,9 @@ label mollydorm20:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Operation: Fallen Angel
-Main event
+# Operation: Fallen Angel (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day16&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 16
 
-✅Event "[Ayane: The Unwavering Bravery of Ayane Amamiya](./firsttimedojo.md)" is completed (event=firsttimedojo)
+* Days since the start of the game greater than or equal to 16
+
+* Event [The Unwavering Bravery of Ayane Amamiya](./firsttimedojo.md) (Ayane) is completed)
 
 
 
 ## Next events
+
 * [Main: Cleaning Duty](./day36.md)
 
 ## Event properties
-* ID: day16
+
+* Id: day16
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day16
+
+## Official wiki page
+
+[Operation: Fallen Angel](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day16&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -377,7 +386,9 @@ label day20:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

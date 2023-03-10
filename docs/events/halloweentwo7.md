@@ -1,26 +1,36 @@
-# The First Signs of Fraying Threads
-Main event
+# The First Signs of Fraying Threads (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo7&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Porcelain Labyrinth](./halloweentwo6.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloweentwo7
+
+* Id: halloweentwo7
 * Group: Main
-* Triggered by label: halloweentwo6
+* Triggered by label: norikobrx
+* Chain sources: halloweentwo6
+* Chain sources path: halloweentwo6
+
+## Official wiki page
+
+[The First Signs of Fraying Threads](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo7&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -422,7 +432,9 @@ label halloweentwo8:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

@@ -1,26 +1,36 @@
-# Taking the Reins
-Kirin event
+# Taking the Reins (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Taking the Reins](./kirinlust20intro.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kirinlust20
+
+* Id: kirinlust20
 * Group: Kirin
 * Triggered by label: kirinnodokax
+* Chain sources: kirinlust20intro
+* Chain sources path: kirinlust20intro->kirinlust20intro
+
+## Official wiki page
+
+[Taking the Reins](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust20&go=Go) for more details.
 
 ## Event code
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...
@@ -5535,7 +5545,9 @@ label saralust20x:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

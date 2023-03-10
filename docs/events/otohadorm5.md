@@ -1,32 +1,41 @@
-# Highly Pornographic
-Otoha event
+# Highly Pornographic (Otoha)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohadorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Otoha love greater than or equal to 5
 
-✅Event "[Otoha: Locked In](./otohapark5.md)" is completed (event=otohapark5)
+* Otoha love greater than or equal to 5
 
-✅Day of week is a weekend
+* Event [Locked In](./otohapark5.md) (Otoha) is completed)
+
+* Day of week is a weekend
 
 
 
 ## Next events
+
 * [Main: Operation: Firestarter](./day318.md)
 
 ## Event properties
-* ID: otohadorm5
+
+* Id: otohadorm5
 * Group: Otoha
 * Triggered by label: otohadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->otohadorm->otohadorm5
+
+## Official wiki page
+
+[Highly Pornographic](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohadorm5&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -641,7 +650,9 @@ label toukadorm1:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

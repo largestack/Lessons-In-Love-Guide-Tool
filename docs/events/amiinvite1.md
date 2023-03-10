@@ -1,28 +1,37 @@
-# Living
-Ami event
+# Living (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amiinvite1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Ami: Rising to the Challenge](./amiinvite2.md)
 
 ## Event properties
-* ID: amiinvite1
+
+* Id: amiinvite1
 * Group: Ami
 * Triggered by label: amiinvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->amiinvite->amiinvite1
+
+## Official wiki page
+
+[Living](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amiinvite1&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -409,7 +418,9 @@ label amiinvite2:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

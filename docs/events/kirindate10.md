@@ -1,30 +1,39 @@
-# Politics! Pleasure! Ponies!
-Kirin event
+# Politics! Pleasure! Ponies! (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindate10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kirin love greater than or equal to 10
 
-✅Event "[Kirin: Long and Hard](./kirindate5.md)" is completed (event=kirindate5)
+* Kirin love greater than or equal to 10
+
+* Event [Long and Hard](./kirindate5.md) (Kirin) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kirindate10
+
+* Id: kirindate10
 * Group: Kirin
 * Triggered by label: kirinafternoonhang
 * Triggered by branch label: callafternoon
+* Triggered by path: callafternoon->callkirinafternoon->kirinafternoonhang->kirindate10
+
+## Official wiki page
+
+[Politics! Pleasure! Ponies!](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindate10&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -187,7 +196,9 @@ label kirinlust5:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

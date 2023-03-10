@@ -1,27 +1,37 @@
-# Conversations Outside of a Girls’ Dorm
-Otoha event
+# Conversations Outside of a Girls’ Dorm (Otoha)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohadorm1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Man Who Would Be King](./nodokadorm1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Nodoka: Cracks in the Armor](./nodokalibrary1.md)
 * [Otoha: Japanese Summer](./otohapark1.md)
 
 ## Event properties
-* ID: otohadorm1
+
+* Id: otohadorm1
 * Group: Otoha
 * Triggered by label: nodokadorm1
+* Chain sources: nodokadorm1
+* Chain sources path: nodokadorm1
+
+## Official wiki page
+
+[Conversations Outside of a Girls’ Dorm](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohadorm1&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -410,7 +420,9 @@ label nodokadorm5:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

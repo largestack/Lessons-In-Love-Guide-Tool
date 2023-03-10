@@ -1,26 +1,36 @@
-# Left Out in Light
-Main event
+# Left Out in Light (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach12&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Into the Woods](./chikalust20.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: secondbeach12
+
+* Id: secondbeach12
 * Group: Main
-* Triggered by label: secondbeach11floor1
+* Triggered by label: secondbeach11floor2
+* Chain sources: chikalust20
+* Chain sources path: chikalust20->chikalust20
+
+## Official wiki page
+
+[Left Out in Light](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach12&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -427,7 +437,9 @@ label secondbeach13:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

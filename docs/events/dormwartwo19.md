@@ -1,26 +1,36 @@
-# Redeemer
-Main event
+# Redeemer (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo19&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Falling Asleep Standing Up](./kirinlust30.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwartwo19
+
+* Id: dormwartwo19
 * Group: Main
-* Triggered by label: kirinlust30intro
+* Triggered by label: kirinlust30
+* Chain sources: kirinlust30
+* Chain sources path: kirinlust30
+
+## Official wiki page
+
+[Redeemer](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo19&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -595,7 +605,9 @@ label beachmas1:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

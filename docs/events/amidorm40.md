@@ -1,36 +1,45 @@
-# Heaven for Human Blood
-Ami event
+# Heaven for Human Blood (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm40&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 40
 
-✅Event "[Ami: The Big Sleep](./amidate35.md)" is completed (event=amidate35)
+* Ami love greater than or equal to 40
 
-✅amidorm40miss equal to False (unknown variable)
+* Event [The Big Sleep](./amidate35.md) (Ami) is completed)
 
-✅Event "[Maya: Stop Looking For Answers](./shrine35.md)" is completed (event=shrine35)
+* amidorm40miss equal to False (unknown variable)
 
-✅Day of week is not Monday
+* Event [Stop Looking For Answers](./shrine35.md) (Maya) is completed)
+
+* Day of week is not Monday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amidorm40
+
+* Id: amidorm40
 * Group: Ami
 * Triggered by label: amidorm
 * Triggered by branch label: amidorm
+* Triggered by path: amidorm->amidorm40
+
+## Official wiki page
+
+[Heaven for Human Blood](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm40&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -605,7 +614,9 @@ label roomwithclocks:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

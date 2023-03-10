@@ -1,26 +1,36 @@
-# Pry With a Smile
-Main event
+# Pry With a Smile (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween13&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Depressing Implication of Goosebumps](./halloween12.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloween13
+
+* Id: halloween13
 * Group: Main
 * Triggered by label: halloween12
+* Chain sources: halloween12
+* Chain sources path: halloween12
+
+## Official wiki page
+
+[Pry With a Smile](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween13&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -312,7 +322,9 @@ label halloween14:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

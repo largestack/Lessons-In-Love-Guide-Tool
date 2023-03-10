@@ -1,28 +1,37 @@
-# Past/Present/Future
-Maya event
+# Past/Present/Future (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 10
+
+* Maya love greater than or equal to 10
 
 
 
 ## Next events
+
 * [Maya: You and Me](./shrine15.md)
 
 ## Event properties
-* ID: shrine10
+
+* Id: shrine10
 * Group: Maya
 * Triggered by label: shrine
 * Triggered by branch label: shrine
+* Triggered by path: shrine->shrine10
+
+## Official wiki page
+
+[Past/Present/Future](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine10&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -292,7 +301,9 @@ label shrine15:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

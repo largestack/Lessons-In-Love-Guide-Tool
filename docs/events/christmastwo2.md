@@ -1,26 +1,36 @@
-# The Reliable and Totally Legitimate Princess Imani
-Main event
+# The Reliable and Totally Legitimate Princess Imani (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Three Amigos](./christmastwo1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: christmastwo2
+
+* Id: christmastwo2
 * Group: Main
 * Triggered by label: christmastwo1
+* Chain sources: christmastwo1
+* Chain sources path: christmastwo1
+
+## Official wiki page
+
+[The Reliable and Totally Legitimate Princess Imani](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo2&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -417,7 +427,9 @@ label christmastwo3:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

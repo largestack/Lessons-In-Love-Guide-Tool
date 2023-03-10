@@ -1,26 +1,36 @@
-# Lavender's Green
-Main event
+# Lavender's Green (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo11&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Escape Rope](./halloweentwo10.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloweentwo11
+
+* Id: halloweentwo11
 * Group: Main
 * Triggered by label: halloweentwo10
+* Chain sources: halloweentwo10
+* Chain sources path: halloweentwo10
+
+## Official wiki page
+
+[Lavender's Green](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo11&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -61,7 +71,9 @@ label halloweentwo12:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

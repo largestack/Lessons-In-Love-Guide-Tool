@@ -1,26 +1,36 @@
-# Die For What You Believe In
-Main event
+# Die For What You Believe In (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation11&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Where Puppies Roam Free](./beachvacation10.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachvacation11
+
+* Id: beachvacation11
 * Group: Main
 * Triggered by label: beachvacation10
+* Chain sources: beachvacation10
+* Chain sources path: beachvacation10
+
+## Official wiki page
+
+[Die For What You Believe In](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation11&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -471,7 +481,9 @@ label beachvacation12:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

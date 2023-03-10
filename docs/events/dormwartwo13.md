@@ -1,26 +1,36 @@
-# Swimming With Sharks
-Main event
+# Swimming With Sharks (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo13&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Somewhere Far From Here](./dormwartwo12.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwartwo13
+
+* Id: dormwartwo13
 * Group: Main
 * Triggered by label: dormwartwo12
+* Chain sources: dormwartwo12
+* Chain sources path: dormwartwo12
+
+## Official wiki page
+
+[Swimming With Sharks](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo13&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -544,7 +554,9 @@ label dormwartwo14:
 ```
 
 ## Code that triggers this event
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...

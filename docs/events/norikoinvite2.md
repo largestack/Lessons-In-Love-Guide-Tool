@@ -1,28 +1,38 @@
-# Beginnings. Endings. Things in Between.
-Noriko event
+# Beginnings. Endings. Things in Between. (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikoinvite2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [New Shoes](./norikoinvite1.md)
 
 ## Event preconditions
-✅Event "[Noriko: Kind Of, Yes. Kind Of, No.](./norikodorm10.md)" is completed (event=norikodorm10)
+
+* Event [Kind Of, Yes. Kind Of, No.](./norikodorm10.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Maya: What it Means to Be Destroyed](./mayadorm30.md)
 
 ## Event properties
-* ID: norikoinvite2
+
+* Id: norikoinvite2
 * Group: Noriko
 * Triggered by label: norikoinvite1
+* Chain sources: norikoinvite1
+* Chain sources path: norikoinvite1
+
+## Official wiki page
+
+[Beginnings. Endings. Things in Between.](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikoinvite2&go=Go) for more details.
 
 ## Event code
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...
@@ -110,7 +120,9 @@ label norikospecial20:
 ```
 
 ## Code that triggers this event
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...

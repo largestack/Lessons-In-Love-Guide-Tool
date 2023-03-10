@@ -1,26 +1,36 @@
-# Robin Hood
-Main event
+# Robin Hood (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachmas12&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
-Part of event chain [Toys](./makotofutabafuntimelustevent.md)
+Part of event chain [いないいない。。。ばあ！](./beachmas11.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachmas12
+
+* Id: beachmas12
 * Group: Main
-* Triggered by label: makotofutabafuntimelustevent
+* Triggered by label: beachmas11
+* Chain sources: beachmas11
+* Chain sources path: beachmas11
+
+## Official wiki page
+
+[Robin Hood](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachmas12&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -312,7 +322,9 @@ label beachmas13:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

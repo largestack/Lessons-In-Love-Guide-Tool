@@ -1,33 +1,42 @@
-# Shawshank Redemption
-Uta event
+# Shawshank Redemption (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utadorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Uta love greater than or equal to 10
 
-✅Event "[Uta: The VIP Treatment](./utadorm5.md)" is completed (event=utadorm5)
+* Uta love greater than or equal to 10
 
-✅Day of week is not Tuesday
+* Event [The VIP Treatment](./utadorm5.md) (Uta) is completed)
+
+* Day of week is not Tuesday
 
 
 
 ## Next events
+
 * [Ami: Third Place](./amimaid30.md)
 * [Main: Operation: Firestarter](./day318.md)
 
 ## Event properties
-* ID: utadorm10
+
+* Id: utadorm10
 * Group: Uta
 * Triggered by label: utadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->utadorm->utadorm10
+
+## Official wiki page
+
+[Shawshank Redemption](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utadorm10&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -400,7 +409,9 @@ label utadorm15:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

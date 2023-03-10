@@ -1,34 +1,43 @@
-# Fucking...Or What it Means to Live
-Tsuneyo event
+# Fucking...Or What it Means to Live (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsuneyodorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 20
 
-✅Event "[Tsuneyo: Moe Fan Service](./tsuneyodorm15.md)" is completed (event=tsuneyodorm15)
+* Tsuneyo love greater than or equal to 20
 
-✅Day of week is not Friday
+* Event [Moe Fan Service](./tsuneyodorm15.md) (Tsuneyo) is completed)
 
-✅Event "[Main: Caterpillar](./day247.md)" is completed (event=day247)
+* Day of week is not Friday
+
+* Event [Caterpillar](./day247.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Tsuneyo: Blackout](./ramen20.md)
 
 ## Event properties
-* ID: tsuneyodorm20
+
+* Id: tsuneyodorm20
 * Group: Tsuneyo
 * Triggered by label: tsuneyodorm
 * Triggered by branch label: tsuneyodorm
+* Triggered by path: tsuneyodorm->tsuneyodorm20
+
+## Official wiki page
+
+[Fucking...Or What it Means to Live](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsuneyodorm20&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -425,7 +434,9 @@ label tsuneyodorm25:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

@@ -1,26 +1,36 @@
-# Three Afloat On One Raft
-Maki event
+# Three Afloat On One Raft (Maki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makiday351&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Food Groups](./day351.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Maki: Thank You For Your Business](./makidate15.md)
 
 ## Event properties
-* ID: makiday351
+
+* Id: makiday351
 * Group: Maki
 * Triggered by label: dressingafter
+* Chain sources: day351
+* Chain sources path: day351->day351->dressingx
+
+## Official wiki page
+
+[Three Afloat On One Raft](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makiday351&go=Go) for more details.
 
 ## Event code
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...
@@ -378,7 +388,9 @@ label makidate15:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

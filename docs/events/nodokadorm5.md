@@ -1,34 +1,43 @@
-# I See Everything
-Nodoka event
+# I See Everything (Nodoka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokadorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Nodoka love greater than or equal to 5
 
-✅Event "[Nodoka: Coloring Book](./nodokalibrary5.md)" is completed (event=nodokalibrary5)
+* Nodoka love greater than or equal to 5
 
-❌Day of week is a weekday
+* Event [Coloring Book](./nodokalibrary5.md) (Nodoka) is completed)
 
-✅Day of week is not Monday
+* Day of week is a weekday
+
+* Day of week is not Monday
 
 
 
 ## Next events
+
 * [Futaba: C'est La Vie](./futabalust15.md)
 
 ## Event properties
-* ID: nodokadorm5
+
+* Id: nodokadorm5
 * Group: Nodoka
 * Triggered by label: nodokadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->nodokadorm->nodokadorm5
+
+## Official wiki page
+
+[I See Everything](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokadorm5&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -502,7 +511,9 @@ label otohadorm5:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# Somewhere Inside of a Dream
-Maya event
+# Somewhere Inside of a Dream (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayafestival1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 464
 
-❌Event "[Main: Glued to the Sky](./christmastwo20.md)" is completed (event=christmastwo20)
+* Days since the start of the game greater than or equal to 464
 
-✅Day of week is Saturday
+* Event [Glued to the Sky](./christmastwo20.md) (Main) is completed)
+
+* Day of week is Saturday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: mayafestival1
+
+* Id: mayafestival1
 * Group: Maya
 * Triggered by label: saturdaymorning
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->mayafestival1
+
+## Official wiki page
+
+[Somewhere Inside of a Dream](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayafestival1&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -434,7 +443,9 @@ label mayafestival2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Armor of Older Gods
-Yasu event
+# Armor of Older Gods (Yasu)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=church5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yasu love greater than or equal to 5
 
-✅Event "[Yasu: Transference](./church1.md)" is completed (event=church1)
+* Yasu love greater than or equal to 5
+
+* Event [Transference](./church1.md) (Yasu) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: church5
+
+* Id: church5
 * Group: Yasu
 * Triggered by label: church
 * Triggered by branch label: church
+* Triggered by path: church->church5
+
+## Official wiki page
+
+[Armor of Older Gods](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=church5&go=Go) for more details.
 
 ## Event code
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...
@@ -416,7 +425,9 @@ label church10:
 ```
 
 ## Code that triggers this event
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...

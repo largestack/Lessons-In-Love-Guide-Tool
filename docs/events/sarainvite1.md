@@ -1,28 +1,37 @@
-# Third Wheel
-Sara event
+# Third Wheel (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarainvite1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Sara: A Woman's Heart](./saradate1.md)" is completed (event=saradate1)
+
+* Event [A Woman's Heart](./saradate1.md) (Sara) is completed)
 
 
 
 ## Next events
+
 * [Sara: A Mostly Empty Home](./sarainvite2.md)
 
 ## Event properties
-* ID: sarainvite1
+
+* Id: sarainvite1
 * Group: Sara
 * Triggered by label: sarainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->sarainvite->sarainvite1
+
+## Official wiki page
+
+[Third Wheel](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarainvite1&go=Go) for more details.
 
 ## Event code
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...
@@ -412,7 +421,9 @@ label sarainvite2:
 ```
 
 ## Code that triggers this event
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...

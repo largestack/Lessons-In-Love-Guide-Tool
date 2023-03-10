@@ -1,32 +1,41 @@
-# Two Hours
-Futaba event
+# Two Hours (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 25
 
-✅Day of week is a weekend
+* Futaba love greater than or equal to 25
 
-✅bookdate equal to True (unknown variable)
+* Day of week is a weekend
+
+* bookdate equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Futaba: Under the Table](./library30.md)
 
 ## Event properties
-* ID: futabadorm25
+
+* Id: futabadorm25
 * Group: Futaba
 * Triggered by label: futabadorm
 * Triggered by branch label: futabadorm
+* Triggered by path: futabadorm->futabadorm25
+
+## Official wiki page
+
+[Two Hours](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm25&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -578,7 +587,9 @@ label rindorm25:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

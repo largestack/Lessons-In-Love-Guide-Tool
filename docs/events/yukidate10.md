@@ -1,34 +1,43 @@
-# Opposite Directions
-Yuki event
+# Opposite Directions (Yuki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yukidate10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yuki love greater than or equal to 10
 
-✅Event "[Yuki: Better Off Alone](./yukidate5.md)" is completed (event=yukidate5)
+* Yuki love greater than or equal to 10
 
-✅Event "[Kirin: Temporary Bliss](./kirindorm25.md)" is completed (event=kirindorm25)
+* Event [Better Off Alone](./yukidate5.md) (Yuki) is completed)
 
-✅yukinumber equal to True (unknown variable)
+* Event [Temporary Bliss](./kirindorm25.md) (Kirin) is completed)
+
+* yukinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: yukidate10
+
+* Id: yukidate10
 * Group: Yuki
 * Triggered by label: callyukinight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callyukinight->yukidate10
+
+## Official wiki page
+
+[Opposite Directions](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yukidate10&go=Go) for more details.
 
 ## Event code
-File: \game\YukiEvents.rpy
+
+File: (install folder)\game\YukiEvents.rpy
+
 Code:
 ```python
 ...
@@ -388,7 +397,9 @@ label yukidate10p2:
 ```
 
 ## Code that triggers this event
-File: \game\YukiEvents.rpy
+
+File: (install folder)\game\YukiEvents.rpy
+
 Code:
 ```python
 ...

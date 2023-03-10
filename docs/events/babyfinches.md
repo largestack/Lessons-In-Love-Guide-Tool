@@ -1,28 +1,38 @@
-# Baby Finches
-Happy scenes event
+# Baby Finches (Happy scenes)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=babyfinches&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
-Part of event chain [Baby Finches](./babyfinches.md)
+Part of event chain [There is Nothing](./day220.md)
 
 ## Event preconditions
-❌user equal to "HOPE" (unknown variable)
+
+* user equal to "HOPE" (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: babyfinches
+
+* Id: babyfinches
 * Group: Happy scenes
 * Triggered by label: enterusername
+* Chain sources: day220
+* Chain sources path: day220->babyfinches->coolrectanglemachine
+
+## Official wiki page
+
+[Baby Finches](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=babyfinches&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -444,7 +454,9 @@ label christmas1:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

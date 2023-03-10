@@ -1,26 +1,36 @@
-# The Princess & The Pauper
-Chika event
+# The Princess & The Pauper (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikalust15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Post-Game Celebration!](./dormwar16.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: chikalust15
+
+* Id: chikalust15
 * Group: Chika
 * Triggered by label: dormwar16
+* Chain sources: dormwar16
+* Chain sources path: dormwar16
+
+## Official wiki page
+
+[The Princess & The Pauper](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikalust15&go=Go) for more details.
 
 ## Event code
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...
@@ -154,7 +164,9 @@ label chikaspecial40:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

@@ -1,36 +1,45 @@
-# Still Young
-Ayane event
+# Still Young (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ayane love greater than or equal to 20
 
-✅Event "[Ayane: Endless Torment](./dojo20.md)" is completed (event=dojo20)
+* Ayane love greater than or equal to 20
 
-✅Event "[Ayane: Less Like the Vulture](./ayanedorm10.md)" is completed (event=ayanedorm10)
+* Event [Endless Torment](./dojo20.md) (Ayane) is completed)
 
-✅Event "[Sana: Shaking The Tree](./sanadorm15.md)" is completed (event=sanadorm15)
+* Event [Less Like the Vulture](./ayanedorm10.md) (Ayane) is completed)
 
-✅Day of week is Saturday
+* Event [Shaking The Tree](./sanadorm15.md) (Sana) is completed)
+
+* Day of week is Saturday
 
 
 
 ## Next events
+
 * [Ayane: Regularly Scheduled Programming](./dojo25.md)
 
 ## Event properties
-* ID: ayanedorm20
+
+* Id: ayanedorm20
 * Group: Ayane
 * Triggered by label: ayanedorm
 * Triggered by branch label: ayanedorm20
+* Triggered by path: ayanedorm20
+
+## Official wiki page
+
+[Still Young](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm20&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -620,7 +629,9 @@ label sanadorm25:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

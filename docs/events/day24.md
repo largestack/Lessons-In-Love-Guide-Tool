@@ -1,29 +1,38 @@
-# No Romeo
-Main event
+# No Romeo (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day24&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 24
+
+* Days since the start of the game greater than or equal to 24
 
 
 
 ## Next events
+
 * [Ami: Couple's Discount](./aminew1.md)
 * [Ami: No One Can See Us](./amidorm10.md)
 
 ## Event properties
-* ID: day24
+
+* Id: day24
 * Group: Main
 * Triggered by label: saturdaymorning
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->day24
+
+## Official wiki page
+
+[No Romeo](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day24&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -364,7 +373,9 @@ label day26:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

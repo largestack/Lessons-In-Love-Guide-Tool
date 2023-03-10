@@ -1,17 +1,18 @@
-# See You in the Morning
-Main event
+# See You in the Morning (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation16&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Cry. Cry. Cry.](./beachvacation15.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Main: The Value of Sharing](./halloween1.md)
 * [Ami: Cute Girls and Stuff](./amisroom20.md)
 * [Maya: Nothing is Real](./shrine20.md)
@@ -21,12 +22,21 @@ No event conditions found, it is likely part of an event chain.
 * [Kirin: Long and Hard](./kirindate5.md)
 
 ## Event properties
-* ID: beachvacation16
+
+* Id: beachvacation16
 * Group: Main
 * Triggered by label: beachvacation15
+* Chain sources: beachvacation15
+* Chain sources path: beachvacation15
+
+## Official wiki page
+
+[See You in the Morning](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation16&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -427,7 +437,9 @@ label trinity2:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

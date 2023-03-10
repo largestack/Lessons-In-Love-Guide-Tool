@@ -1,30 +1,39 @@
-# Coach
-Miku event
+# Coach (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 20
 
-✅Event "[Miku: Hormones Running Wild](./soccer15.md)" is completed (event=soccer15)
+* Miku love greater than or equal to 20
+
+* Event [Hormones Running Wild](./soccer15.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Kirin: Partners in Crime](./kirindate1.md)
 
 ## Event properties
-* ID: soccer20
+
+* Id: soccer20
 * Group: Miku
 * Triggered by label: soccerfield
 * Triggered by branch label: soccerfield
+* Triggered by path: soccerfield->soccer20
+
+## Official wiki page
+
+[Coach](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer20&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -449,7 +458,9 @@ label soccer25:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

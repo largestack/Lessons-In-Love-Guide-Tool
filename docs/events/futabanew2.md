@@ -1,32 +1,41 @@
-# Great Burdock Leaves
-Futaba event
+# Great Burdock Leaves (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabanew2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 64
 
-✅Event "[Futaba: Broken Flowers](./futabanew1.md)" is completed (event=futabanew1)
+* Days since the start of the game greater than or equal to 64
 
-✅Event "[Main: Weight Limit](./day72.md)" is completed (event=day72)
+* Event [Broken Flowers](./futabanew1.md) (Futaba) is completed)
+
+* Event [Weight Limit](./day72.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Futaba: Clam's Tongue](./futabanew3.md)
 
 ## Event properties
-* ID: futabanew2
+
+* Id: futabanew2
 * Group: Futaba
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->futabanew2
+
+## Official wiki page
+
+[Great Burdock Leaves](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabanew2&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -392,7 +401,9 @@ label futabanew3:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

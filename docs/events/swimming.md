@@ -1,26 +1,36 @@
-# Swim Trip
-Happy scenes event
+# Swim Trip (Happy scenes)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=swimming&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Still Young](./ayanedorm20.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: swimming
+
+* Id: swimming
 * Group: Happy scenes
 * Triggered by label: ayanedorm20
+* Chain sources: ayanedorm20
+* Chain sources path: ayanedorm20
+
+## Official wiki page
+
+[Swim Trip](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=swimming&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -410,7 +420,9 @@ label howifeel:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Nightvision
-Miku event
+# Nightvision (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 10
+
+* Miku love greater than or equal to 10
 
 
 
 ## Next events
+
 * [Main: A Proper Introduction](./day150.md)
 * [Happy scenes: Everything is Connected](./everythingisconnected.md)
 * [Miku: You and Me and the Night](./mikudorm10.md)
 
 ## Event properties
-* ID: soccer10
+
+* Id: soccer10
 * Group: Miku
 * Triggered by label: soccerfield
 * Triggered by branch label: soccerfield
+* Triggered by path: soccerfield->soccer10
+
+## Official wiki page
+
+[Nightvision](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer10&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -437,7 +446,9 @@ label soccer15:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,35 +1,44 @@
-# Abyss
-Yumi event
+# Abyss (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumicallnight35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yumi love greater than or equal to 35
 
-✅Event "[Yumi: Tech Support](./yumidorm35.md)" is completed (event=yumidorm35)
+* Yumi love greater than or equal to 35
 
-❌Day of week is not Saturday
+* Event [Tech Support](./yumidorm35.md) (Yumi) is completed)
 
-✅yuminumber equal to True (unknown variable)
+* Day of week is not Saturday
+
+* yuminumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Futaba: Shadowplay](./library40.md)
 * [Kaori: To Die, To Sleep](./kaoridate15.md)
 
 ## Event properties
-* ID: yumicallnight35
+
+* Id: yumicallnight35
 * Group: Yumi
 * Triggered by label: callyuminight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callyuminight->yumicallnight35
+
+## Official wiki page
+
+[Abyss](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumicallnight35&go=Go) for more details.
 
 ## Event code
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...
@@ -564,7 +573,9 @@ label yumispecial40:
 ```
 
 ## Code that triggers this event
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...

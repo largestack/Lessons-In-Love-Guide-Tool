@@ -1,26 +1,36 @@
-# Green Onions and Contraceptives
-Tsuneyo event
+# Green Onions and Contraceptives (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen25p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Like Noodles in the Wind](./ramen25.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Tsuneyo: Things Like Stairs](./ramen30.md)
 
 ## Event properties
-* ID: ramen25p2
+
+* Id: ramen25p2
 * Group: Tsuneyo
 * Triggered by label: ramen25
+* Chain sources: ramen25
+* Chain sources path: ramen25
+
+## Official wiki page
+
+[Green Onions and Contraceptives](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen25p2&go=Go) for more details.
 
 ## Event code
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...
@@ -443,7 +453,9 @@ label ramen30:
 ```
 
 ## Code that triggers this event
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...

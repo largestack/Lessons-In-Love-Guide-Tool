@@ -1,30 +1,39 @@
-# Seeds
-Tsuneyo event
+# Seeds (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 15
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Tsuneyo love greater than or equal to 15
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Tsuneyo: Moe Fan Service](./tsuneyodorm15.md)
 
 ## Event properties
-* ID: ramen15
+
+* Id: ramen15
 * Group: Tsuneyo
 * Triggered by label: ramenshop
 * Triggered by branch label: ramenshop
+* Triggered by path: ramenshop->ramen15
+
+## Official wiki page
+
+[Seeds](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen15&go=Go) for more details.
 
 ## Event code
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...
@@ -400,7 +409,9 @@ label ramen20:
 ```
 
 ## Code that triggers this event
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...

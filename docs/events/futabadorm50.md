@@ -1,30 +1,39 @@
-# This Infected Wound
-Futaba event
+# This Infected Wound (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm50&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 50
 
-❌Event "[Maki: Baby Steps](./makiinv3.md)" is completed (event=makiinv3)
+* Futaba love greater than or equal to 50
+
+* Event [Baby Steps](./makiinv3.md) (Maki) is completed)
 
 
 
 ## Next events
+
 * [Futaba: Bestial Vigor](./library50.md)
 
 ## Event properties
-* ID: futabadorm50
+
+* Id: futabadorm50
 * Group: Futaba
 * Triggered by label: futabadorm
 * Triggered by branch label: futabadorm
+* Triggered by path: futabadorm->futabadorm50
+
+## Official wiki page
+
+[This Infected Wound](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm50&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -331,7 +340,9 @@ label library50:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Dear You
-Niki event
+# Dear You (Niki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nikiinvite2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Niki: Sisters](./nikiinvite1.md)" is completed (event=nikiinvite1)
 
-✅Event "[Noriko: Loxosceles Reclusa](./norikodorm25.md)" is completed (event=norikodorm25)
+* Event [Sisters](./nikiinvite1.md) (Niki) is completed)
+
+* Event [Loxosceles Reclusa](./norikodorm25.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Main: Three Amigos](./christmastwo1.md)
 
 ## Event properties
-* ID: nikiinvite2
+
+* Id: nikiinvite2
 * Group: Niki
 * Triggered by label: nikiinvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->nikiinvite->nikiinvite2
+
+## Official wiki page
+
+[Dear You](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nikiinvite2&go=Go) for more details.
 
 ## Event code
-File: \game\NikiEvents.rpy
+
+File: (install folder)\game\NikiEvents.rpy
+
 Code:
 ```python
 ...
@@ -263,7 +272,9 @@ label nikiinvite2:
 ```
 
 ## Code that triggers this event
-File: \game\NikiEvents.rpy
+
+File: (install folder)\game\NikiEvents.rpy
+
 Code:
 ```python
 ...

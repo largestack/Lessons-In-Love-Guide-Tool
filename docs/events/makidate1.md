@@ -1,34 +1,43 @@
-# Beautiful Porn Salesman
-Maki event
+# Beautiful Porn Salesman (Maki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makidate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maki love greater than or equal to 0
 
-✅Event "[Molly: NTR & Pregnancy](./mollycafe1.md)" is completed (event=mollycafe1)
+* Maki love greater than or equal to 0
 
-✅makinumber equal to True (unknown variable)
+* Event [NTR & Pregnancy](./mollycafe1.md) (Molly) is completed)
+
+* makinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Sana: Life is a Tomato](./bar25.md)
 * [Makoto: Residual Sadness](./makotodorm20.md)
 * [Maki: Maki Miyamura's Mom-Mode Mission](./makidate5.md)
 
 ## Event properties
-* ID: makidate1
+
+* Id: makidate1
 * Group: Maki
 * Triggered by label: callmakinight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callmakinight->makidate1
+
+## Official wiki page
+
+[Beautiful Porn Salesman](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makidate1&go=Go) for more details.
 
 ## Event code
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...
@@ -491,7 +500,9 @@ label makidate5:
 ```
 
 ## Code that triggers this event
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...

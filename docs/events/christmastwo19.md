@@ -1,26 +1,36 @@
-# The Color White
-Main event
+# The Color White (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo19&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Me Without You](./christmastwo18.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: christmastwo19
+
+* Id: christmastwo19
 * Group: Main
 * Triggered by label: christmastwo18
+* Chain sources: christmastwo18
+* Chain sources path: christmastwo18
+
+## Official wiki page
+
+[The Color White](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo19&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -490,7 +500,9 @@ label christmastwo20:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

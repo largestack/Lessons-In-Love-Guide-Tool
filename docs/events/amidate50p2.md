@@ -1,26 +1,36 @@
-# Fruits of the Two Seasons
-Ami event
+# Fruits of the Two Seasons (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidate50p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Outcry of the Hunted Hare](./amidate50.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amidate50p2
+
+* Id: amidate50p2
 * Group: Ami
 * Triggered by label: amidate50
+* Chain sources: amidate50
+* Chain sources path: amidate50
+
+## Official wiki page
+
+[Fruits of the Two Seasons](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidate50p2&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -351,7 +361,9 @@ label amidate50p3:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

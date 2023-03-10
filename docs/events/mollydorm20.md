@@ -1,30 +1,39 @@
-# Ahead of the Curve
-Molly event
+# Ahead of the Curve (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 20
 
-✅Event "[Molly: The Legacy of Thaum Pt. II](./mollycafe20.md)" is completed (event=mollycafe20)
+* Molly love greater than or equal to 20
+
+* Event [The Legacy of Thaum Pt. II](./mollycafe20.md) (Molly) is completed)
 
 
 
 ## Next events
+
 * [Main: Operation: Firestarter](./day318.md)
 
 ## Event properties
-* ID: mollydorm20
+
+* Id: mollydorm20
 * Group: Molly
 * Triggered by label: mollydorm
 * Triggered by branch label: mollydorm
+* Triggered by path: mollydorm->mollydorm20
+
+## Official wiki page
+
+[Ahead of the Curve](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm20&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -111,7 +120,9 @@ label tsuneyodorm15:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

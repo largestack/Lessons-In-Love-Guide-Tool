@@ -1,32 +1,41 @@
-# You and Me and the Night
-Miku event
+# You and Me and the Night (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 10
 
-✅Event "[Miku: Nightvision](./soccer10.md)" is completed (event=soccer10)
+* Miku love greater than or equal to 10
+
+* Event [Nightvision](./soccer10.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Main: Parasite](./day83.md)
 * [Miku: Hormones Running Wild](./soccer15.md)
 * [Miku: Moments Like This](./mikudorm15.md)
 
 ## Event properties
-* ID: mikudorm10
+
+* Id: mikudorm10
 * Group: Miku
 * Triggered by label: mikudorm
 * Triggered by branch label: mikudorm
+* Triggered by path: mikudorm->mikudorm10
+
+## Official wiki page
+
+[You and Me and the Night](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm10&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -325,7 +334,9 @@ label mikudorm15:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# A Beautiful Mind
-Makoto event
+# A Beautiful Mind (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sadgirls8&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 522
 
-❌Event "[Makoto: Parallelogram](./sadgirls7.md)" is completed (event=sadgirls7)
+* Days since the start of the game greater than or equal to 522
 
-❌Day of week is Friday
+* Event [Parallelogram](./sadgirls7.md) (Makoto) is completed)
+
+* Day of week is Friday
 
 
 
 ## Next events
+
 * [Maki: Baby Steps](./makiinv3.md)
 
 ## Event properties
-* ID: sadgirls8
+
+* Id: sadgirls8
 * Group: Makoto
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->sadgirls8
+
+## Official wiki page
+
+[A Beautiful Mind](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sadgirls8&go=Go) for more details.
 
 ## Event code
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...
@@ -439,7 +448,9 @@ label sadgirls8:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# A Short List
-Tsuneyo event
+# A Short List (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 10
 
-✅Event "[Tsuneyo: Between the Slurps of Pork Broth](./ramen5.md)" is completed (event=ramen5)
+* Tsuneyo love greater than or equal to 10
 
-✅Event "[Tsuneyo: Drug Use & Jump-Rope](./tsuneyodorm5.md)" is completed (event=tsuneyodorm5)
+* Event [Between the Slurps of Pork Broth](./ramen5.md) (Tsuneyo) is completed)
+
+* Event [Drug Use & Jump-Rope](./tsuneyodorm5.md) (Tsuneyo) is completed)
 
 
 
 ## Next events
+
 * [Tsuneyo: The Man Who Loves Nothing](./tsuneyodorm10.md)
 
 ## Event properties
-* ID: ramen10
+
+* Id: ramen10
 * Group: Tsuneyo
 * Triggered by label: ramenshop
 * Triggered by branch label: ramenshop
+* Triggered by path: ramenshop->ramen10
+
+## Official wiki page
+
+[A Short List](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen10&go=Go) for more details.
 
 ## Event code
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...
@@ -442,7 +451,9 @@ label ramen15:
 ```
 
 ## Code that triggers this event
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...

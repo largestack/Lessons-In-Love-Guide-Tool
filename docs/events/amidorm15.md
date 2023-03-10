@@ -1,34 +1,43 @@
-# Back Out in the Heat
-Ami event
+# Back Out in the Heat (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 15
 
-✅Event "[Ami: No One Can See Us](./amidorm10.md)" is completed (event=amidorm10)
+* Ami love greater than or equal to 15
 
-✅Event "[Maya: Secrets Worth Keeping](./mayadorm5.md)" is completed (event=mayadorm5)
+* Event [No One Can See Us](./amidorm10.md) (Ami) is completed)
+
+* Event [Secrets Worth Keeping](./mayadorm5.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Main: Size Matters](./day142.md)
 * [Main: What's Done is Done](./beachvacation1.md)
 * [Ami: Important Things](./amisroom15.md)
 
 ## Event properties
-* ID: amidorm15
+
+* Id: amidorm15
 * Group: Ami
 * Triggered by label: amidorm
 * Triggered by branch label: amidorm
+* Triggered by path: amidorm->amidorm15
+
+## Official wiki page
+
+[Back Out in the Heat](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm15&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -398,7 +407,9 @@ label mayadorm20:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

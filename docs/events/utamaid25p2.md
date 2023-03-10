@@ -1,27 +1,37 @@
-# After the Rain
-Uta event
+# After the Rain (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid25p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Where Wishes Come True](./utamaid25p1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Uta: Uta-chan](./utadorm30.md)
 * [Io: 1999 PC Classic, Rollercoaster Tycoon](./iospecial30.md)
 
 ## Event properties
-* ID: utamaid25p2
+
+* Id: utamaid25p2
 * Group: Uta
 * Triggered by label: utamaid25p1
+* Chain sources: utamaid25p1
+* Chain sources path: utamaid25p1
+
+## Official wiki page
+
+[After the Rain](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid25p2&go=Go) for more details.
 
 ## Event code
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...
@@ -422,7 +432,9 @@ label utadorm30:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

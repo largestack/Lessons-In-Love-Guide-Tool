@@ -1,32 +1,41 @@
-# Sakura Season
-Yasu event
+# Sakura Season (Yasu)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=church10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yasu love greater than or equal to 10
 
-✅Event "[Yasu: Repentance](./yasudorm10.md)" is completed (event=yasudorm10)
+* Yasu love greater than or equal to 10
 
-❌Day of week is Sunday
+* Event [Repentance](./yasudorm10.md) (Yasu) is completed)
+
+* Day of week is Sunday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: church10
+
+* Id: church10
 * Group: Yasu
 * Triggered by label: church
 * Triggered by branch label: church
+* Triggered by path: church->church10
+
+## Official wiki page
+
+[Sakura Season](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=church10&go=Go) for more details.
 
 ## Event code
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...
@@ -309,7 +318,9 @@ label church15:
 ```
 
 ## Code that triggers this event
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...

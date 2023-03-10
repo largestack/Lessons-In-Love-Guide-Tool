@@ -1,26 +1,36 @@
-# Samhain
-Main event
+# Samhain (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [At Least It's Not Christmas](./halloween9.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloween10
+
+* Id: halloween10
 * Group: Main
 * Triggered by label: halloween9
+* Chain sources: halloween9
+* Chain sources path: halloween9
+
+## Official wiki page
+
+[Samhain](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween10&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -494,7 +504,9 @@ label halloween11:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

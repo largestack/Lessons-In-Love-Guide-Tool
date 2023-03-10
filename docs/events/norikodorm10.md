@@ -1,33 +1,42 @@
-# Kind Of, Yes. Kind Of, No.
-Noriko event
+# Kind Of, Yes. Kind Of, No. (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikodorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Noriko love greater than or equal to 10
 
-✅Event "[Noriko: Mouthjob](./convenience5.md)" is completed (event=convenience5)
+* Noriko love greater than or equal to 10
 
-✅Event "[Kirin: Terms & Conditions](./kirindorm20.md)" is completed (event=kirindorm20)
+* Event [Mouthjob](./convenience5.md) (Noriko) is completed)
+
+* Event [Terms & Conditions](./kirindorm20.md) (Kirin) is completed)
 
 
 
 ## Next events
+
 * [Noriko: New Shoes](./norikoinvite1.md)
 * [Noriko: Beginnings. Endings. Things in Between.](./norikoinvite2.md)
 
 ## Event properties
-* ID: norikodorm10
+
+* Id: norikodorm10
 * Group: Noriko
 * Triggered by label: norikodorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->norikodorm->norikodorm10
+
+## Official wiki page
+
+[Kind Of, Yes. Kind Of, No.](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikodorm10&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -82,7 +91,9 @@ label norikodorm25:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

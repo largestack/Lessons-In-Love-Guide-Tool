@@ -1,26 +1,36 @@
-# Impulse
-Uta event
+# Impulse (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utaarchery1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Cupid's Arrow](./ioarchery1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Uta: Where Wishes Come True](./utamaid25p1.md)
 
 ## Event properties
-* ID: utaarchery1
+
+* Id: utaarchery1
 * Group: Uta
 * Triggered by label: ioarchery1
+* Chain sources: ioarchery1
+* Chain sources path: ioarchery1
+
+## Official wiki page
+
+[Impulse](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utaarchery1&go=Go) for more details.
 
 ## Event code
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...
@@ -418,7 +428,9 @@ label utamaid25p1:
 ```
 
 ## Code that triggers this event
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...

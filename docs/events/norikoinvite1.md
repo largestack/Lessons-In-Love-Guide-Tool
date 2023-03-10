@@ -1,32 +1,41 @@
-# New Shoes
-Noriko event
+# New Shoes (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikoinvite1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-❌Day of week is not Saturday
 
-✅Day of week is not Sunday
+* Day of week is not Saturday
 
-✅Event "[Noriko: Kind Of, Yes. Kind Of, No.](./norikodorm10.md)" is completed (event=norikodorm10)
+* Day of week is not Sunday
+
+* Event [Kind Of, Yes. Kind Of, No.](./norikodorm10.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: norikoinvite1
+
+* Id: norikoinvite1
 * Group: Noriko
 * Triggered by label: norikoinvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->norikoinvite->norikoinvite1
+
+## Official wiki page
+
+[New Shoes](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikoinvite1&go=Go) for more details.
 
 ## Event code
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...
@@ -574,7 +583,9 @@ label norikoinvite2:
 ```
 
 ## Code that triggers this event
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...

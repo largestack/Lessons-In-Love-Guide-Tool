@@ -1,32 +1,41 @@
-# Loxonin
-Miku event
+# Loxonin (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 35
 
-✅Event "[Miku: One. Two. Three.](./mikudorm30.md)" is completed (event=mikudorm30)
+* Miku love greater than or equal to 35
 
-✅Event "[Main: What Was](./day271.md)" is completed (event=day271)
+* Event [One. Two. Three.](./mikudorm30.md) (Miku) is completed)
+
+* Event [What Was](./day271.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Makoto: Condoms in the Sand](./makotowinterbeach1.md)
 
 ## Event properties
-* ID: soccer35
+
+* Id: soccer35
 * Group: Miku
 * Triggered by label: soccerfield
 * Triggered by branch label: soccerfield
+* Triggered by path: soccerfield->soccer35
+
+## Official wiki page
+
+[Loxonin](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer35&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -376,7 +385,9 @@ label mikudorm45:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

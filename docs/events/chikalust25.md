@@ -1,28 +1,38 @@
-# Mating Season
-Chika event
+# Mating Season (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikalust25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Swimming With Sharks](./dormwartwo13.md)
 
 ## Event preconditions
-✅Chika lust greater than or equal to 25
+
+* Chika lust greater than or equal to 25
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: chikalust25
+
+* Id: chikalust25
 * Group: Chika
 * Triggered by label: dormwartwo13
+* Chain sources: dormwartwo13
+* Chain sources path: dormwartwo13
+
+## Official wiki page
+
+[Mating Season](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikalust25&go=Go) for more details.
 
 ## Event code
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...
@@ -531,7 +541,9 @@ label chikalust25:
 ```
 
 ## Code that triggers this event
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...

@@ -1,33 +1,42 @@
-# Supermom
-Sana event
+# Supermom (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bar10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sana love greater than or equal to 10
 
-✅Event "[Sana: Nothing to Do](./sanafirsthall.md)" is completed (event=sanafirsthall)
+* Sana love greater than or equal to 10
+
+* Event [Nothing to Do](./sanafirsthall.md) (Sana) is completed)
 
 
 
 ## Next events
+
 * [Main: The 'S' Word](./day70.md)
 * [Main: What's Done is Done](./beachvacation1.md)
 * [Sana: Anywhere At All](./sanadorm10.md)
 * [Sana: Carry Me Home](./bar15.md)
 
 ## Event properties
-* ID: bar10
+
+* Id: bar10
 * Group: Sana
 * Triggered by label: sanasbar
 * Triggered by branch label: sanasbar
+* Triggered by path: sanasbar->bar10
+
+## Official wiki page
+
+[Supermom](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bar10&go=Go) for more details.
 
 ## Event code
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -294,7 +303,9 @@ label bar15:
 ```
 
 ## Code that triggers this event
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...

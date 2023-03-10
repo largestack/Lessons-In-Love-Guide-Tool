@@ -1,26 +1,36 @@
-# Pressure Point
-Osako event
+# Pressure Point (Osako)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=osakodate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Soup, or Another Year With You](./wakanadate5.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Osako: Floating Forever, Unfulfilled](./osakodojo1.md)
 
 ## Event properties
-* ID: osakodate1
+
+* Id: osakodate1
 * Group: Osako
 * Triggered by label: wakanadate5
+* Chain sources: wakanadate5
+* Chain sources path: wakanadate5
+
+## Official wiki page
+
+[Pressure Point](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=osakodate1&go=Go) for more details.
 
 ## Event code
-File: \game\OsakoEvents.rpy
+
+File: (install folder)\game\OsakoEvents.rpy
+
 Code:
 ```python
 ...
@@ -357,7 +367,9 @@ label osakodojo1:
 ```
 
 ## Code that triggers this event
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# Heartbreak & Harmony
-Io event
+# Heartbreak & Harmony (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iodorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Io love greater than or equal to 25
 
-❌Event "[Io: Work Less, Not Hard](./bathhouse25.md)" is completed (event=bathhouse25)
+* Io love greater than or equal to 25
 
-✅Day of week is not Friday
+* Event [Work Less, Not Hard](./bathhouse25.md) (Io) is completed)
+
+* Day of week is not Friday
 
 
 
 ## Next events
+
 * [Io: 1999 PC Classic, Rollercoaster Tycoon](./iospecial30.md)
 
 ## Event properties
-* ID: iodorm25
+
+* Id: iodorm25
 * Group: Io
 * Triggered by label: iodorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->iodorm->iodorm25
+
+## Official wiki page
+
+[Heartbreak & Harmony](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iodorm25&go=Go) for more details.
 
 ## Event code
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...
@@ -321,7 +330,9 @@ label iospecial30:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

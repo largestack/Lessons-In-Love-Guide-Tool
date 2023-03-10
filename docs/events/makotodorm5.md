@@ -1,32 +1,41 @@
-# Completely Platonic
-Makoto event
+# Completely Platonic (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotodorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Makoto love greater than or equal to 5
 
-✅Event "[Makoto: Unexpected Profession](./firsttimepornshop.md)" is completed (event=firsttimepornshop)
+* Makoto love greater than or equal to 5
 
-✅Event "[Makoto: Teacher's Pet](./makotofirsthall.md)" is completed (event=makotofirsthall)
+* Event [Unexpected Profession](./firsttimepornshop.md) (Makoto) is completed)
+
+* Event [Teacher's Pet](./makotofirsthall.md) (Makoto) is completed)
 
 
 
 ## Next events
+
 * [Makoto: Sowing the Seeds](./makotonew2.md)
 
 ## Event properties
-* ID: makotodorm5
+
+* Id: makotodorm5
 * Group: Makoto
 * Triggered by label: makotodorm
 * Triggered by branch label: makotodorm
+* Triggered by path: makotodorm->makotodorm5
+
+## Official wiki page
+
+[Completely Platonic](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotodorm5&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -400,7 +409,9 @@ label mikudorm5:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

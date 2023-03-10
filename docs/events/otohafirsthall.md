@@ -1,28 +1,37 @@
-# Everybody Loves Otoha
-Otoha event
+# Everybody Loves Otoha (Otoha)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohafirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: Adult Supervision](./day288.md)" is completed (event=day288)
+
+* Event [Adult Supervision](./day288.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Nodoka: The Man Who Would Be King](./nodokadorm1.md)
 
 ## Event properties
-* ID: otohafirsthall
+
+* Id: otohafirsthall
 * Group: Otoha
 * Triggered by label: otohahall
 * Triggered by branch label: dorm2monday
+* Triggered by path: dorm2monday->otohafirsthall
+
+## Official wiki page
+
+[Everybody Loves Otoha](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohafirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -218,7 +227,9 @@ label nodokadorm1:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# Giant Pool of Jell-O
-Chinami event
+# Giant Pool of Jell-O (Chinami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chinami love greater than or equal to 10
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Chinami love greater than or equal to 10
 
-✅chinaminumber equal to True (unknown variable)
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
+
+* chinaminumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: chinamidate10
+
+* Id: chinamidate10
 * Group: Chinami
 * Triggered by label: callchinamimorning
 * Triggered by branch label: callchinamimorning
+* Triggered by path: callchinamimorning->chinamidate10
+
+## Official wiki page
+
+[Giant Pool of Jell-O](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate10&go=Go) for more details.
 
 ## Event code
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...
@@ -349,7 +358,9 @@ label chinamidate15:
 ```
 
 ## Code that triggers this event
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...

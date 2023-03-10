@@ -1,30 +1,39 @@
-# An Extra Set of Arms
-Miku event
+# An Extra Set of Arms (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 30
 
-✅Event "[Miku: Scaredy Cat](./mikudorm25.md)" is completed (event=mikudorm25)
+* Miku love greater than or equal to 30
+
+* Event [Scaredy Cat](./mikudorm25.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Miku: One. Two. Three.](./mikudorm30.md)
 
 ## Event properties
-* ID: soccer30
+
+* Id: soccer30
 * Group: Miku
 * Triggered by label: soccerfield
 * Triggered by branch label: soccerfield
+* Triggered by path: soccerfield->soccer30
+
+## Official wiki page
+
+[An Extra Set of Arms](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer30&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -348,7 +357,9 @@ label mikuwinterbeach1:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

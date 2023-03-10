@@ -1,33 +1,42 @@
-# Love Me to Pieces
-Uta event
+# Love Me to Pieces (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Uta love greater than or equal to 5
 
-✅Event "[Uta: Abuse of Power](./utamaid1.md)" is completed (event=utamaid1)
+* Uta love greater than or equal to 5
 
-✅Day of week is a weekend
+* Event [Abuse of Power](./utamaid1.md) (Uta) is completed)
+
+* Day of week is a weekend
 
 
 
 ## Next events
+
 * [Sana: Purest Intentions](./bar35.md)
 * [Uta: The VIP Treatment](./utadorm5.md)
 
 ## Event properties
-* ID: utamaid5
+
+* Id: utamaid5
 * Group: Uta
 * Triggered by label: utamaid
 * Triggered by branch label: utamaid
+* Triggered by path: utamaid->utamaid5
+
+## Official wiki page
+
+[Love Me to Pieces](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid5&go=Go) for more details.
 
 ## Event code
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...
@@ -406,7 +415,9 @@ label utamaid10:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

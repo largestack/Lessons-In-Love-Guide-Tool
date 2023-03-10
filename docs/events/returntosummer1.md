@@ -1,26 +1,36 @@
-# The Light of Last Summer
-Main event
+# The Light of Last Summer (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=returntosummer1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Somnambula](./amidate50p4.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: returntosummer1
+
+* Id: returntosummer1
 * Group: Main
 * Triggered by label: amidate50p4
+* Chain sources: amidate50p4
+* Chain sources path: amidate50p4
+
+## Official wiki page
+
+[The Light of Last Summer](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=returntosummer1&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -770,7 +780,9 @@ label returntosummer2:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,33 +1,42 @@
-# Walk in the Park
-Main event
+# Walk in the Park (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day38&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 38
 
-✅Event "[Makoto: Unexpected Profession](./firsttimepornshop.md)" is completed (event=firsttimepornshop)
+* Days since the start of the game greater than or equal to 38
 
-✅Event "[Main: Cleaning Duty](./day36.md)" is completed (event=day36)
+* Event [Unexpected Profession](./firsttimepornshop.md) (Makoto) is completed)
+
+* Event [Cleaning Duty](./day36.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: This Town Has Two Halves](./day44.md)
 * [Makoto: Rising of the Tide](./pornshop10.md)
 
 ## Event properties
-* ID: day38
+
+* Id: day38
 * Group: Main
 * Triggered by label: saturdayafternoon
 * Triggered by branch label: saturdayafternoon
+* Triggered by path: saturdayafternoon->day38
+
+## Official wiki page
+
+[Walk in the Park](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day38&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -345,7 +354,9 @@ label day40:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

@@ -1,28 +1,38 @@
-# As Light as Air
-Ami event
+# As Light as Air (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amilust15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Before the Sun Comes Up](./ayanespecial2.md)
 
 ## Event preconditions
-✅Ami lust greater than or equal to 15
+
+* Ami lust greater than or equal to 15
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amilust15
+
+* Id: amilust15
 * Group: Ami
 * Triggered by label: ayanespecial2
+* Chain sources: ayanespecial2
+* Chain sources path: ayanespecial2
+
+## Official wiki page
+
+[As Light as Air](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amilust15&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -65,7 +75,9 @@ label amidate50:
 ```
 
 ## Code that triggers this event
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...

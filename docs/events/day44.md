@@ -1,30 +1,39 @@
-# This Town Has Two Halves
-Main event
+# This Town Has Two Halves (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day44&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 44
 
-✅Event "[Main: Walk in the Park](./day38.md)" is completed (event=day38)
+* Days since the start of the game greater than or equal to 44
+
+* Event [Walk in the Park](./day38.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Yumi: I See You](./streets10.md)
 
 ## Event properties
-* ID: day44
+
+* Id: day44
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day44
+
+## Official wiki page
+
+[This Town Has Two Halves](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day44&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -563,7 +572,9 @@ label day48:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

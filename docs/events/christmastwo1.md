@@ -1,40 +1,49 @@
-# Three Amigos
-Main event
+# Three Amigos (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 455
 
-❌Event "[Chika: The Gap in the Door](./chikadate45.md)" is completed (event=chikadate45)
+* Days since the start of the game greater than or equal to 455
 
-❌Event "[Yumi: See You Around](./yumispecial45.md)" is completed (event=yumispecial45)
+* Event [The Gap in the Door](./chikadate45.md) (Chika) is completed)
 
-✅Event "[Noriko: Loxosceles Reclusa](./norikodorm25.md)" is completed (event=norikodorm25)
+* Event [See You Around](./yumispecial45.md) (Yumi) is completed)
 
-✅Event "[Niki: Dear You](./nikiinvite2.md)" is completed (event=nikiinvite2)
+* Event [Loxosceles Reclusa](./norikodorm25.md) (Noriko) is completed)
 
-✅Event "[Sara: The Place She Falls Asleep At Night](./sarabar25p2.md)" is completed (event=sarabar25p2)
+* Event [Dear You](./nikiinvite2.md) (Niki) is completed)
 
-❌Day of week is Thursday
+* Event [The Place She Falls Asleep At Night](./sarabar25p2.md) (Sara) is completed)
+
+* Day of week is Thursday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: christmastwo1
+
+* Id: christmastwo1
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->christmastwo1
+
+## Official wiki page
+
+[Three Amigos](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo1&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -469,7 +478,9 @@ label christmastwo2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

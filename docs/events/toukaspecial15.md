@@ -1,30 +1,39 @@
-# A Commoner's Tour of Summer
-Touka event
+# A Commoner's Tour of Summer (Touka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukaspecial15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Touka love greater than or equal to 15
 
-❌Event "[Touka: House Call](./toukadorm10.md)" is completed (event=toukadorm10)
+* Touka love greater than or equal to 15
+
+* Event [House Call](./toukadorm10.md) (Touka) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: toukaspecial15
+
+* Id: toukaspecial15
 * Group: Touka
 * Triggered by label: toukastreets
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->toukastreets->toukaspecial15
+
+## Official wiki page
+
+[A Commoner's Tour of Summer](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukaspecial15&go=Go) for more details.
 
 ## Event code
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -404,7 +413,9 @@ label toukaspecial15p2:
 ```
 
 ## Code that triggers this event
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Mother Duck
-Yasu event
+# Mother Duck (Yasu)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=church20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yasu love greater than or equal to 20
 
-❌Event "[Yasu: Sore Thumb](./yasuspecial15.md)" is completed (event=yasuspecial15)
+* Yasu love greater than or equal to 20
+
+* Event [Sore Thumb](./yasuspecial15.md) (Yasu) is completed)
 
 
 
 ## Next events
+
 * [Yasu: Glossolalia](./yasudorm20.md)
 
 ## Event properties
-* ID: church20
+
+* Id: church20
 * Group: Yasu
 * Triggered by label: church
 * Triggered by branch label: church
+* Triggered by path: church->church20
+
+## Official wiki page
+
+[Mother Duck](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=church20&go=Go) for more details.
 
 ## Event code
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...
@@ -356,7 +365,9 @@ label yasudorm20:
 ```
 
 ## Code that triggers this event
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...

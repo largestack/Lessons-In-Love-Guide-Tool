@@ -1,30 +1,39 @@
-# One to Seven
-Main event
+# One to Seven (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day63&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 63
 
-✅Event "[Rin: Delirium](./rindorm20.md)" is completed (event=rindorm20)
+* Days since the start of the game greater than or equal to 63
+
+* Event [Delirium](./rindorm20.md) (Rin) is completed)
 
 
 
 ## Next events
+
 * [Main: Stronger I Become](./day91.md)
 
 ## Event properties
-* ID: day63
+
+* Id: day63
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day63
+
+## Official wiki page
+
+[One to Seven](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day63&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -339,7 +348,9 @@ label day65:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

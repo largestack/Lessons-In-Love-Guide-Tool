@@ -1,34 +1,43 @@
-# To Die, To Sleep
-Kaori event
+# To Die, To Sleep (Kaori)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kaori love greater than or equal to 15
 
-✅Event "[Main: What Was](./day271.md)" is completed (event=day271)
+* Kaori love greater than or equal to 15
 
-✅Event "[Yumi: Abyss](./yumicallnight35.md)" is completed (event=yumicallnight35)
+* Event [What Was](./day271.md) (Main) is completed)
 
-✅kaorinumber equal to True (unknown variable)
+* Event [Abyss](./yumicallnight35.md) (Yumi) is completed)
+
+* kaorinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kaoridate15
+
+* Id: kaoridate15
 * Group: Kaori
 * Triggered by label: callkaorimorning
 * Triggered by branch label: callkaorimorning
+* Triggered by path: callkaorimorning->kaoridate15
+
+## Official wiki page
+
+[To Die, To Sleep](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate15&go=Go) for more details.
 
 ## Event code
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...
@@ -396,7 +405,9 @@ label kaoridate15p2:
 ```
 
 ## Code that triggers this event
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...

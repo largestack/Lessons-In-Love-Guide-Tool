@@ -1,28 +1,37 @@
-# Shades of Green
-Haruka event
+# Shades of Green (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukainvite1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Haruka: Roses](./harukainvite2.md)
 
 ## Event properties
-* ID: harukainvite1
+
+* Id: harukainvite1
 * Group: Haruka
 * Triggered by label: harukainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->harukainvite->harukainvite1
+
+## Official wiki page
+
+[Shades of Green](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukainvite1&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -386,7 +395,9 @@ label harukainvite2:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

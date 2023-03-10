@@ -1,34 +1,43 @@
-# Disaster Lesbian
-Rin event
+# Disaster Lesbian (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm55&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 55
 
-❌Event "[Main: No Strings Attached](./imanispecial1.md)" is completed (event=imanispecial1)
+* Rin love greater than or equal to 55
 
-❌Event "[Futaba: Too Blind To See](./futabainvite3.md)" is completed (event=futabainvite3)
+* Event [No Strings Attached](./imanispecial1.md) (Main) is completed)
 
-✅Day of week is not Tuesday
+* Event [Too Blind To See](./futabainvite3.md) (Futaba) is completed)
+
+* Day of week is not Tuesday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: rindorm55
+
+* Id: rindorm55
 * Group: Rin
 * Triggered by label: rindorm
 * Triggered by branch label: rindorm
+* Triggered by path: rindorm->rindorm55
+
+## Official wiki page
+
+[Disaster Lesbian](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm55&go=Go) for more details.
 
 ## Event code
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...
@@ -410,7 +419,9 @@ label rindorm55p2:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

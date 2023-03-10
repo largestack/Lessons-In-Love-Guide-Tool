@@ -1,26 +1,36 @@
-# Neon Heart
-Yumi event
+# Neon Heart (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumispecial40p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Reconciliation](./yumispecial40.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Yumi: Unsung Heroes](./streets40.md)
 
 ## Event properties
-* ID: yumispecial40p2
+
+* Id: yumispecial40p2
 * Group: Yumi
 * Triggered by label: yumispecial40
+* Chain sources: yumispecial40
+* Chain sources path: yumispecial40
+
+## Official wiki page
+
+[Neon Heart](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumispecial40p2&go=Go) for more details.
 
 ## Event code
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...
@@ -402,7 +412,9 @@ label streets40:
 ```
 
 ## Code that triggers this event
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,33 +1,42 @@
-# Snake Venom
-Tsuneyo event
+# Snake Venom (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 0
 
-✅Event "[Main: Lifting the Curse](./day154.md)" is completed (event=day154)
+* Tsuneyo love greater than or equal to 0
+
+* Event [Lifting the Curse](./day154.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: What's Done is Done](./beachvacation1.md)
 * [Yumi: Token Tsundere](./streets20.md)
 * [Tsuneyo: Between the Slurps of Pork Broth](./ramen5.md)
 * [Tsuneyo: Drug Use & Jump-Rope](./tsuneyodorm5.md)
 
 ## Event properties
-* ID: ramen1
+
+* Id: ramen1
 * Group: Tsuneyo
 * Triggered by label: ramenshop
 * Triggered by branch label: ramenshop
+* Triggered by path: ramenshop->ramen1
+
+## Official wiki page
+
+[Snake Venom](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen1&go=Go) for more details.
 
 ## Event code
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...
@@ -346,7 +355,9 @@ label ramen5:
 ```
 
 ## Code that triggers this event
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,42 @@
-# Engulfed
-Sara event
+# Engulfed (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saralust20x&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Engulfed](./saralust20intro.md)
 
 ## Event preconditions
-✅Sara lust greater than or equal to 20
 
-❌Haruka lust greater than or equal to 20
+* Sara lust greater than or equal to 20
 
-❌bonus equal to True (unknown variable)
+* Haruka lust greater than or equal to 20
+
+* bonus equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: saralust20x
+
+* Id: saralust20x
 * Group: Sara
 * Triggered by label: saralust20intro
+* Chain sources: saralust20intro
+* Chain sources path: saralust20intro
+
+## Official wiki page
+
+[Engulfed](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saralust20x&go=Go) for more details.
 
 ## Event code
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...
@@ -1218,7 +1228,9 @@ label mikudorm50x:
 ```
 
 ## Code that triggers this event
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...

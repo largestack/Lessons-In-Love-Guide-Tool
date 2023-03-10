@@ -1,30 +1,40 @@
-# Tendrils of Flame
-Karin event
+# Tendrils of Flame (Karin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karinsoccer15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Still Young](./ayanedorm20.md)
 
 ## Event preconditions
-✅Karin love greater than or equal to 15
 
-✅Event "[Main: What Was](./day271.md)" is completed (event=day271)
+* Karin love greater than or equal to 15
+
+* Event [What Was](./day271.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: karinsoccer15
+
+* Id: karinsoccer15
 * Group: Karin
 * Triggered by label: soccerfieldkarin
+* Chain sources: ayanedorm20
+* Chain sources path: ayanedorm20->saturdaymorning
+
+## Official wiki page
+
+[Tendrils of Flame](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karinsoccer15&go=Go) for more details.
 
 ## Event code
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...
@@ -430,7 +440,9 @@ label karinsoccer20:
 ```
 
 ## Code that triggers this event
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...

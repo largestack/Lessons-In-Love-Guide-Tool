@@ -1,44 +1,53 @@
-# Girls in Spandex
-Main event
+# Girls in Spandex (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 400
 
-✅Event "[Main: All is Bright. All is Beautiful.](./secondbeach18.md)" is completed (event=secondbeach18)
+* Days since the start of the game greater than or equal to 400
 
-❌Event "[Rin: The Happiest Girl in the World](./rindate50.md)" is completed (event=rindate50)
+* Event [All is Bright. All is Beautiful.](./secondbeach18.md) (Main) is completed)
 
-✅Event "[Rin: Lifejacket](./rindorm50special.md)" is completed (event=rindorm50special)
+* Event [The Happiest Girl in the World](./rindate50.md) (Rin) is completed)
 
-✅rinbetrayed equal to True (unknown variable)
+* Event [Lifejacket](./rindorm50special.md) (Rin) is completed)
 
-✅Event "[Tsuneyo: Things Like Stairs](./ramen30.md)" is completed (event=ramen30)
+* rinbetrayed equal to True (unknown variable)
 
-✅Event "[Molly: Walkthrough](./mollydorm30.md)" is completed (event=mollydorm30)
+* Event [Things Like Stairs](./ramen30.md) (Tsuneyo) is completed)
 
-✅Event "[Niki: Hotel Rooms](./nikidate15.md)" is completed (event=nikidate15)
+* Event [Walkthrough](./mollydorm30.md) (Molly) is completed)
 
-❌Day of week is Friday
+* Event [Hotel Rooms](./nikidate15.md) (Niki) is completed)
+
+* Day of week is Friday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloweentwo1
+
+* Id: halloweentwo1
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->halloweentwo1
+
+## Official wiki page
+
+[Girls in Spandex](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo1&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -733,7 +742,9 @@ label halloweentwo2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

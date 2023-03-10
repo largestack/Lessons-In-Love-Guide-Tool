@@ -1,34 +1,43 @@
-# Soup, or Another Year With You
-Wakana event
+# Soup, or Another Year With You (Wakana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanadate5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Wakana love greater than or equal to 5
 
-✅Event "[Wakana: To the River](./wakanadate1.md)" is completed (event=wakanadate1)
+* Wakana love greater than or equal to 5
 
-✅Event "[Kaori: Clouds](./kaoridate15p3.md)" is completed (event=kaoridate15p3)
+* Event [To the River](./wakanadate1.md) (Wakana) is completed)
 
-✅wakananumber equal to True (unknown variable)
+* Event [Clouds](./kaoridate15p3.md) (Kaori) is completed)
+
+* wakananumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: wakanadate5
+
+* Id: wakanadate5
 * Group: Wakana
 * Triggered by label: callwakananight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callwakananight->wakanadate5
+
+## Official wiki page
+
+[Soup, or Another Year With You](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanadate5&go=Go) for more details.
 
 ## Event code
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -435,7 +444,9 @@ label wakanadate15:
 ```
 
 ## Code that triggers this event
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...

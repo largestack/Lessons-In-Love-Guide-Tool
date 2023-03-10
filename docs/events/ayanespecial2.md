@@ -1,26 +1,36 @@
-# Before the Sun Comes Up
-Ayane event
+# Before the Sun Comes Up (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanespecial2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Sayonara](./thirdreset3.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: ayanespecial2
+
+* Id: ayanespecial2
 * Group: Ayane
 * Triggered by label: thirdreset3
+* Chain sources: thirdreset3
+* Chain sources path: thirdreset3
+
+## Official wiki page
+
+[Before the Sun Comes Up](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanespecial2&go=Go) for more details.
 
 ## Event code
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...
@@ -482,7 +492,9 @@ label ayanelust20:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

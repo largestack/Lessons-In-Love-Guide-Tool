@@ -1,30 +1,39 @@
-# Cupid's Arrow
-Io event
+# Cupid's Arrow (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ioarchery1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Io love greater than or equal to 20
 
-❌Event "[Maki: Baby Steps](./makiinv3.md)" is completed (event=makiinv3)
+* Io love greater than or equal to 20
+
+* Event [Baby Steps](./makiinv3.md) (Maki) is completed)
 
 
 
 ## Next events
+
 * [Io: Work Less, Not Hard](./bathhouse25.md)
 
 ## Event properties
-* ID: ioarchery1
+
+* Id: ioarchery1
 * Group: Io
 * Triggered by label: utaarchery
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->utaarchery->ioarchery1
+
+## Official wiki page
+
+[Cupid's Arrow](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ioarchery1&go=Go) for more details.
 
 ## Event code
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...
@@ -256,7 +265,9 @@ label bathhouse25:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

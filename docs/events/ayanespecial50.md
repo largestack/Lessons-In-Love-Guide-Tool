@@ -1,35 +1,44 @@
-# Chiburi
-Ayane event
+# Chiburi (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanespecial50&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 547
 
-❌Event "[Main: Grief Seed](./day543.md)" is completed (event=day543)
+* Days since the start of the game greater than or equal to 547
 
-❌Event "[Ayane: How the World Works](./ayanesanabeach1.md)" is completed (event=ayanesanabeach1)
+* Event [Grief Seed](./day543.md) (Main) is completed)
 
-❌Day of week is Monday
+* Event [How the World Works](./ayanesanabeach1.md) (Ayane) is completed)
+
+* Day of week is Monday
 
 
 
 ## Next events
+
 * [Ayane: Furlough](./ayanekirintalk.md)
 * [Main: A Walk Through Hell](./dormwartwo1.md)
 
 ## Event properties
-* ID: ayanespecial50
+
+* Id: ayanespecial50
 * Group: Ayane
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->ayanespecial50
+
+## Official wiki page
+
+[Chiburi](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanespecial50&go=Go) for more details.
 
 ## Event code
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...
@@ -366,7 +375,9 @@ label ayanekirintalk:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

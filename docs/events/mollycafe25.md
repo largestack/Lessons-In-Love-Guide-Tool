@@ -1,34 +1,43 @@
-# Resurrection Sickness
-Molly event
+# Resurrection Sickness (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 25
 
-✅Event "[Tsuneyo: Unsleeping Aegis](./tsuneyodorm25.md)" is completed (event=tsuneyodorm25)
+* Molly love greater than or equal to 25
 
-✅Event "[Rin: Technicolored Happiness Explosion](./rindorm50.md)" is completed (event=rindorm50)
+* Event [Unsleeping Aegis](./tsuneyodorm25.md) (Tsuneyo) is completed)
 
-✅Day of week is a weekend
+* Event [Technicolored Happiness Explosion](./rindorm50.md) (Rin) is completed)
+
+* Day of week is a weekend
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: mollycafe25
+
+* Id: mollycafe25
 * Group: Molly
 * Triggered by label: mollycafe
 * Triggered by branch label: mollycafe
+* Triggered by path: mollycafe->mollycafe25
+
+## Official wiki page
+
+[Resurrection Sickness](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe25&go=Go) for more details.
 
 ## Event code
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...
@@ -394,7 +403,9 @@ label mollycafe25p2:
 ```
 
 ## Code that triggers this event
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...

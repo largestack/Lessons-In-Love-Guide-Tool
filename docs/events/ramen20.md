@@ -1,32 +1,41 @@
-# Blackout
-Tsuneyo event
+# Blackout (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 20
 
-✅Event "[Tsuneyo: Fucking...Or What it Means to Live](./tsuneyodorm20.md)" is completed (event=tsuneyodorm20)
+* Tsuneyo love greater than or equal to 20
+
+* Event [Fucking...Or What it Means to Live](./tsuneyodorm20.md) (Tsuneyo) is completed)
 
 
 
 ## Next events
+
 * [Yuki: Rule #1](./yukidate1.md)
 * [Touka: A Brief Moment in Time](./toukastreets5.md)
 * [Yasu: Transference](./church1.md)
 
 ## Event properties
-* ID: ramen20
+
+* Id: ramen20
 * Group: Tsuneyo
 * Triggered by label: ramenshop
 * Triggered by branch label: ramenshop
+* Triggered by path: ramenshop->ramen20
+
+## Official wiki page
+
+[Blackout](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen20&go=Go) for more details.
 
 ## Event code
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...
@@ -421,7 +430,9 @@ label ramen25:
 ```
 
 ## Code that triggers this event
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...

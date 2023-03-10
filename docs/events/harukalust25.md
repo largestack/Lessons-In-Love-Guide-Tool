@@ -1,32 +1,42 @@
-# Secret Weapon
-Haruka event
+# Secret Weapon (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukalust25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Midnight Mom Mosh](./dormwartwo9.md)
 
 ## Event preconditions
-❌saralust20 equal to True (unknown variable)
 
-❌Haruka lust greater than or equal to 25
+* saralust20 equal to True (unknown variable)
 
-❌Sara lust greater than or equal to 25
+* Haruka lust greater than or equal to 25
+
+* Sara lust greater than or equal to 25
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: harukalust25
+
+* Id: harukalust25
 * Group: Haruka
 * Triggered by label: harukalust25intro
+* Chain sources: dormwartwo9
+* Chain sources path: dormwartwo9->dormwartwo9
+
+## Official wiki page
+
+[Secret Weapon](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukalust25&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -485,7 +495,9 @@ label harukalust25:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

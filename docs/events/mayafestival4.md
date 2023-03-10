@@ -1,26 +1,36 @@
-# Everlasting Mercy
-Maya event
+# Everlasting Mercy (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayafestival4&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [As The Sun Disappears](./mayafestival3.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Kaori: Såsom i en Spegel](./kaoridate20.md)
 
 ## Event properties
-* ID: mayafestival4
+
+* Id: mayafestival4
 * Group: Maya
 * Triggered by label: mayafestival3
+* Chain sources: mayafestival3
+* Chain sources path: mayafestival3
+
+## Official wiki page
+
+[Everlasting Mercy](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayafestival4&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -441,7 +451,9 @@ label mayafestival4:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,35 +1,44 @@
-# Girl-Talk
-Main event
+# Girl-Talk (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day65&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 65
 
-✅Event "[Sana: Carry Me Home](./bar15.md)" is completed (event=bar15)
+* Days since the start of the game greater than or equal to 65
 
-✅Event "[Rin: Nothing Was Missing, Except Me](./cafe20.md)" is completed (event=cafe20)
+* Event [Carry Me Home](./bar15.md) (Sana) is completed)
+
+* Event [Nothing Was Missing, Except Me](./cafe20.md) (Rin) is completed)
 
 
 
 ## Next events
+
 * [Main: Milk, Eggs, and Water](./day89.md)
 * [Main: Stronger I Become](./day91.md)
 * [Sana: Scouting Mission](./bar20.md)
 * [Rin: Good Day, Humans](./cafe25.md)
 
 ## Event properties
-* ID: day65
+
+* Id: day65
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day65
+
+## Official wiki page
+
+[Girl-Talk](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day65&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -387,7 +396,9 @@ label day68:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

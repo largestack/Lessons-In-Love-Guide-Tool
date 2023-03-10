@@ -1,26 +1,36 @@
-# O World
-Main event
+# O World (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day60&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Ode to a Marsh Warbler](./aminew2.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Ami: No One Can See Us](./amidorm10.md)
 
 ## Event properties
-* ID: day60
+
+* Id: day60
 * Group: Main
 * Triggered by label: aminew2
+* Chain sources: aminew2
+* Chain sources path: aminew2
+
+## Official wiki page
+
+[O World](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day60&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -449,7 +459,9 @@ label swimming:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

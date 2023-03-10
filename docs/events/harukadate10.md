@@ -1,34 +1,43 @@
-# Performance Review
-Haruka event
+# Performance Review (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Haruka love greater than or equal to 10
 
-✅Event "[Main: Kadrillionbilliontrillion](./halloween14.md)" is completed (event=halloween14)
+* Haruka love greater than or equal to 10
 
-✅Event "[Haruka: Invisible Worm](./harukadate5.md)" is completed (event=harukadate5)
+* Event [Kadrillionbilliontrillion](./halloween14.md) (Main) is completed)
 
-✅Event "[Rin: Ten Steps Forward](./rindorm35.md)" is completed (event=rindorm35)
+* Event [Invisible Worm](./harukadate5.md) (Haruka) is completed)
+
+* Event [Ten Steps Forward](./rindorm35.md) (Rin) is completed)
 
 
 
 ## Next events
+
 * [Haruka: Watching TV Alone](./harukadate15.md)
 
 ## Event properties
-* ID: harukadate10
+
+* Id: harukadate10
 * Group: Haruka
 * Triggered by label: harukacafe
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->harukacafe->harukadate10
+
+## Official wiki page
+
+[Performance Review](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate10&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -470,7 +479,9 @@ label harukadate15:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

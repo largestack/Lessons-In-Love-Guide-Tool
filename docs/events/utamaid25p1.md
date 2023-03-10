@@ -1,30 +1,39 @@
-# Where Wishes Come True
-Uta event
+# Where Wishes Come True (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid25p1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Uta love greater than or equal to 25
 
-❌Event "[Uta: Impulse](./utaarchery1.md)" is completed (event=utaarchery1)
+* Uta love greater than or equal to 25
+
+* Event [Impulse](./utaarchery1.md) (Uta) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: utamaid25p1
+
+* Id: utamaid25p1
 * Group: Uta
 * Triggered by label: utamaid
 * Triggered by branch label: utamaid
+* Triggered by path: utamaid->utamaid25p1
+
+## Official wiki page
+
+[Where Wishes Come True](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid25p1&go=Go) for more details.
 
 ## Event code
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...
@@ -435,7 +444,9 @@ label utamaid25p2:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

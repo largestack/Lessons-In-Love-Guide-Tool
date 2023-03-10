@@ -1,30 +1,39 @@
-# Four Hand Massage
-Kirin event
+# Four Hand Massage (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinsoccer25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kirin love greater than or equal to 25
 
-✅Event "[Kirin: Temporary Bliss](./kirindorm25.md)" is completed (event=kirindorm25)
+* Kirin love greater than or equal to 25
+
+* Event [Temporary Bliss](./kirindorm25.md) (Kirin) is completed)
 
 
 
 ## Next events
+
 * [Kirin: Made Out of Nothing](./kirinspecial30.md)
 
 ## Event properties
-* ID: kirinsoccer25
+
+* Id: kirinsoccer25
 * Group: Kirin
 * Triggered by label: soccerfieldkirin
 * Triggered by branch label: soccerfieldkirin
+* Triggered by path: soccerfieldkirin->kirinsoccer25
+
+## Official wiki page
+
+[Four Hand Massage](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinsoccer25&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -479,7 +488,9 @@ label kirinspecial30:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

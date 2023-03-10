@@ -1,32 +1,41 @@
-# Worse Comes to Worst
-Yumi event
+# Worse Comes to Worst (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumidorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yumi love greater than or equal to 15
 
-✅Event "[Yumi: Yumi Revitalization Project](./yumidorm10.md)" is completed (event=yumidorm10)
+* Yumi love greater than or equal to 15
 
-✅Event "[Rin: Nothing Was Missing, Except Me](./cafe20.md)" is completed (event=cafe20)
+* Event [Yumi Revitalization Project](./yumidorm10.md) (Yumi) is completed)
+
+* Event [Nothing Was Missing, Except Me](./cafe20.md) (Rin) is completed)
 
 
 
 ## Next events
+
 * [Yumi: Apples to Apples](./streets15.md)
 
 ## Event properties
-* ID: yumidorm15
+
+* Id: yumidorm15
 * Group: Yumi
 * Triggered by label: yumidorm
 * Triggered by branch label: yumidorm
+* Triggered by path: yumidorm->yumidorm15
+
+## Official wiki page
+
+[Worse Comes to Worst](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumidorm15&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -443,7 +452,9 @@ label chikadorm20:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,26 +1,36 @@
-# Somnambula
-Ami event
+# Somnambula (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidate50p4&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [My Life With You](./amidate50p3.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amidate50p4
+
+* Id: amidate50p4
 * Group: Ami
 * Triggered by label: amidate50p3
+* Chain sources: amidate50p3
+* Chain sources path: amidate50p3
+
+## Official wiki page
+
+[Somnambula](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidate50p4&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -347,7 +357,9 @@ label aminew1:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

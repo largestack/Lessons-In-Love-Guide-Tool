@@ -1,30 +1,40 @@
-# The Adventures of Karli & Steve
-Karin event
+# The Adventures of Karli & Steve (Karin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karinsoccer20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Still Young](./ayanedorm20.md)
 
 ## Event preconditions
-✅Karin love greater than or equal to 20
 
-✅Event "[Main: Food Groups](./day351.md)" is completed (event=day351)
+* Karin love greater than or equal to 20
+
+* Event [Food Groups](./day351.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Karin: Sweet Tooth](./karindate20.md)
 
 ## Event properties
-* ID: karinsoccer20
+
+* Id: karinsoccer20
 * Group: Karin
 * Triggered by label: soccerfieldkarin
+* Chain sources: ayanedorm20
+* Chain sources path: ayanedorm20->saturdaymorning
+
+## Official wiki page
+
+[The Adventures of Karli & Steve](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karinsoccer20&go=Go) for more details.
 
 ## Event code
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...
@@ -453,7 +463,9 @@ label karindate20:
 ```
 
 ## Code that triggers this event
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...

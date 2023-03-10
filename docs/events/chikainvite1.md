@@ -1,31 +1,40 @@
-# A Trip to the Moon
-Chika event
+# A Trip to the Moon (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikainvite1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Chika: Detention](./day139.md)" is completed (event=day139)
 
-✅chikanumber equal to True (unknown variable)
+* Event [Detention](./day139.md) (Chika) is completed)
+
+* chikanumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Main: The Value of Sharing](./halloween1.md)
 * [Chika: First Hunt](./chikainvite2.md)
 
 ## Event properties
-* ID: chikainvite1
+
+* Id: chikainvite1
 * Group: Chika
 * Triggered by label: chikainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->chikainvite->chikainvite1
+
+## Official wiki page
+
+[A Trip to the Moon](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikainvite1&go=Go) for more details.
 
 ## Event code
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...
@@ -416,7 +425,9 @@ label chikainvite2:
 ```
 
 ## Code that triggers this event
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,36 +1,45 @@
-# Egg Tooth
-Makoto event
+# Egg Tooth (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotonew3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Makoto love greater than or equal to 20
 
-✅Event "[Makoto: Sowing the Seeds](./makotonew2.md)" is completed (event=makotonew2)
+* Makoto love greater than or equal to 20
 
-✅Day of week (Mon-Sun) is after Thursday
+* Event [Sowing the Seeds](./makotonew2.md) (Makoto) is completed)
 
-✅Day of week (Mon-Sun) is before Sunday
+* Day of week (Mon-Sun) is after Thursday
+
+* Day of week (Mon-Sun) is before Sunday
 
 
 
 ## Next events
+
 * [Main: What's Done is Done](./beachvacation1.md)
 * [Makoto: Fishing For Love](./pornshop15.md)
 * [Makoto: Quid Pro Quo](./makotolust5.md)
 
 ## Event properties
-* ID: makotonew3
+
+* Id: makotonew3
 * Group: Makoto
 * Triggered by label: pornshop
 * Triggered by branch label: pornshop
+* Triggered by path: pornshop->makotonew3
+
+## Official wiki page
+
+[Egg Tooth](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotonew3&go=Go) for more details.
 
 ## Event code
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...
@@ -408,7 +417,9 @@ label sadgirls1:
 ```
 
 ## Code that triggers this event
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...

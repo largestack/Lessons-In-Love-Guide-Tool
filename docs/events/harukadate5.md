@@ -1,32 +1,41 @@
-# Invisible Worm
-Haruka event
+# Invisible Worm (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Haruka love greater than or equal to 1
 
-✅Haruka love greater than or equal to 5
+* Haruka love greater than or equal to 1
 
-✅Event "[Haruka: Drunk Again](./harukadate1.md)" is completed (event=harukadate1)
+* Haruka love greater than or equal to 5
+
+* Event [Drunk Again](./harukadate1.md) (Haruka) is completed)
 
 
 
 ## Next events
+
 * [Haruka: Performance Review](./harukadate10.md)
 
 ## Event properties
-* ID: harukadate5
+
+* Id: harukadate5
 * Group: Haruka
 * Triggered by label: callharukanighthang
 * Triggered by branch label: callharukanighthang
+* Triggered by path: callharukanighthang->harukadate5
+
+## Official wiki page
+
+[Invisible Worm](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate5&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -505,7 +514,9 @@ label harukafirstlust:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

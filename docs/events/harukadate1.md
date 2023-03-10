@@ -1,33 +1,42 @@
-# Drunk Again
-Haruka event
+# Drunk Again (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Haruka love greater than or equal to 0
 
-✅Event "[Main: Milk, Eggs, and Water](./day89.md)" is completed (event=day89)
+* Haruka love greater than or equal to 0
+
+* Event [Milk, Eggs, and Water](./day89.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: The Value of Sharing](./halloween1.md)
 * [Haruka: Invisible Worm](./harukadate5.md)
 * [Haruka: The Need to be Hurt](./harukafirstlust.md)
 * [Haruka: Bad Kitty](./harukalust10.md)
 
 ## Event properties
-* ID: harukadate1
+
+* Id: harukadate1
 * Group: Haruka
 * Triggered by label: callharukanighthang
 * Triggered by branch label: callharukanighthang
+* Triggered by path: callharukanighthang->harukadate1
+
+## Official wiki page
+
+[Drunk Again](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate1&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -506,7 +515,9 @@ label harukadate5:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

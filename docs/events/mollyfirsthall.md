@@ -1,28 +1,37 @@
-# The Cult of Molly
-Molly event
+# The Cult of Molly (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollyfirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: Lifting the Curse](./day154.md)" is completed (event=day154)
+
+* Event [Lifting the Curse](./day154.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: mollyfirsthall
+
+* Id: mollyfirsthall
 * Group: Molly
 * Triggered by label: dorm2monday
 * Triggered by branch label: dorm2monday
+* Triggered by path: dorm2monday->mollyfirsthall
+
+## Official wiki page
+
+[The Cult of Molly](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollyfirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -185,7 +194,9 @@ label tsuneyofirsthall:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

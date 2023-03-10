@@ -1,28 +1,37 @@
-# Sonnet 18
-Futaba event
+# Sonnet 18 (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabainvite1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Futaba: Floral Aura](./futabainvite2.md)
 
 ## Event properties
-* ID: futabainvite1
+
+* Id: futabainvite1
 * Group: Futaba
 * Triggered by label: futabainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->futabainvite->futabainvite1
+
+## Official wiki page
+
+[Sonnet 18](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabainvite1&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -353,7 +362,9 @@ label futabainvite2:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Watermelons and Violin
-Maya event
+# Watermelons and Violin (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 25
 
-✅Event "[Maya: Close Your Eyes](./mayadorm20.md)" is completed (event=mayadorm20)
+* Maya love greater than or equal to 25
+
+* Event [Close Your Eyes](./mayadorm20.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Maya: FLAVOR BEAM!](./mayadorm25.md)
 
 ## Event properties
-* ID: shrine25
+
+* Id: shrine25
 * Group: Maya
 * Triggered by label: shrine
 * Triggered by branch label: shrine
+* Triggered by path: shrine->shrine25
+
+## Official wiki page
+
+[Watermelons and Violin](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine25&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -331,7 +340,9 @@ label shrine30:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

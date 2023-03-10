@@ -1,27 +1,37 @@
-# Don't Hold Back
-Wakana event
+# Don't Hold Back (Wakana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanaspecial15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [No Strings Attached](./imanispecial1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Imani: Somewhere I Belong](./imanidate1.md)
 * [Osako: Young At Heart](./osakodate15.md)
 
 ## Event properties
-* ID: wakanaspecial15
+
+* Id: wakanaspecial15
 * Group: Wakana
 * Triggered by label: imanispecial1
+* Chain sources: imanispecial1
+* Chain sources path: imanispecial1
+
+## Official wiki page
+
+[Don't Hold Back](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanaspecial15&go=Go) for more details.
 
 ## Event code
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -400,7 +410,9 @@ label wakanaspecial15:
 ```
 
 ## Code that triggers this event
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...

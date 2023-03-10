@@ -1,28 +1,37 @@
-# Home Sweet Home
-Ayane event
+# Home Sweet Home (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ayane love greater than or equal to 5
+
+* Ayane love greater than or equal to 5
 
 
 
 ## Next events
+
 * [Ayane: Imprinting](./ayanenew1.md)
 
 ## Event properties
-* ID: ayanedorm5
+
+* Id: ayanedorm5
 * Group: Ayane
 * Triggered by label: ayanedorm
 * Triggered by branch label: ayanedorm
+* Triggered by path: ayanedorm->ayanedorm5
+
+## Official wiki page
+
+[Home Sweet Home](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm5&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -326,7 +335,9 @@ label ayanedorm10:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

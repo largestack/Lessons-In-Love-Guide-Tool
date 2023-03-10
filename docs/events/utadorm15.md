@@ -1,32 +1,41 @@
-# Facetime With My Mom
-Uta event
+# Facetime With My Mom (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utadorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Uta love greater than or equal to 15
 
-✅Day of week is not Tuesday
+* Uta love greater than or equal to 15
 
-✅Event "[Uta: Happier Things](./utamaid10.md)" is completed (event=utamaid10)
+* Day of week is not Tuesday
+
+* Event [Happier Things](./utamaid10.md) (Uta) is completed)
 
 
 
 ## Next events
+
 * [Uta: Veins and the Circulatory System](./utamaid20.md)
 
 ## Event properties
-* ID: utadorm15
+
+* Id: utadorm15
 * Group: Uta
 * Triggered by label: utadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->utadorm->utadorm15
+
+## Official wiki page
+
+[Facetime With My Mom](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utadorm15&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -517,7 +526,9 @@ label utadorm20:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

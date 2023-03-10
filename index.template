@@ -1,22 +1,15 @@
 # Lessons In Love Walkthrough Guide Tool
 
-Tired of endlessly clicking to try and figure out what the next event you can trigger in Lessons In Love is? This tool will automatically analyze your save file to give you a hint of what your next action should be and it's prerequisites. End all the endless trial and error to find the next event to trigger!
+Welcome to the Lessons In Love event details and guide tool website. The guide tool is the recommended experience since it will automatically parse your save-game to recommend the next events and how to reach them. A detailed list of events along with their code are published here in case you are stuck on a particular event or are unable to use the guide tool.
 
-## Game version supported
-This tool is expected to work regardless of game version. However, the v1.1 release of this tool will only include events that were added in v0.28.0 and before.
+This is an open source project with the code available at [https://github.com/largestack/Lessons-In-Love-Guide-Tool](https://github.com/largestack/Lessons-In-Love-Guide-Tool).
 
-## Installation - Windows
+## Interactive guide tool
+Tired of endlessly clicking to try and figure out what the next event you can trigger in Lessons In Love is? This tool will automatically analyze your save file to give you a hint of what your next action should be and its prerequisites. End all the endless trial and error to find the next event to trigger!
+
 Download the [latest release](https://github.com/largestack/Lessons-In-Love-Guide-Tool/releases) executable here and run it.
 
-## Installation - Linux or macOS
-1. Download and extract the entire repo.
-1. Install Python 3.7
-1. Install the dependency packages:
-* `pip install tkinter`
-* `pip install webbrowser`
-4. From terminal run `python main.py` or `python3 main.py`.
-
-## Using the tool
+### Using the tool
 
 1. Run the tool.
 1. On first run, it will ask you to select the base game folder.
@@ -31,8 +24,8 @@ Download the [latest release](https://github.com/largestack/Lessons-In-Love-Guid
 * **Event prerequisites**: The requirements for the event to trigger.
 * **Event raw details**: Some extra notes about the event.
 
-## Events supported
+# Event details
 
-${main_events}
+Here is a list of events along with their details and code. These are generated automatically through code analysis and includes some errors. If you are stuck on an event, I recommend viewing the full event page and the notes and code may hint at how to trigger the event.
 
-${character_events}
+${event_tables}

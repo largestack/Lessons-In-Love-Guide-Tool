@@ -1,26 +1,36 @@
-# No Escape
-Main event
+# No Escape (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo16&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [A Way's Away](./christmastwo15.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: christmastwo16
+
+* Id: christmastwo16
 * Group: Main
 * Triggered by label: christmastwo15
+* Chain sources: christmastwo15
+* Chain sources path: christmastwo15
+
+## Official wiki page
+
+[No Escape](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo16&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -480,7 +490,9 @@ label christmastwo17:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

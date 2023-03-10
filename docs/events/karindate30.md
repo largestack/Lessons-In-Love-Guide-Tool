@@ -1,32 +1,41 @@
-# Wrong Places/Wrong Times
-Karin event
+# Wrong Places/Wrong Times (Karin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Karin love greater than or equal to 30
 
-❌Event "[Karin: Emerald Eyes](./karindate25.md)" is completed (event=karindate25)
+* Karin love greater than or equal to 30
 
-✅karinnumber equal to True (unknown variable)
+* Event [Emerald Eyes](./karindate25.md) (Karin) is completed)
+
+* karinnumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: karindate30
+
+* Id: karindate30
 * Group: Karin
 * Triggered by label: callkarinafternoon
 * Triggered by branch label: callkarinafternoon
+* Triggered by path: callkarinafternoon->karindate30
+
+## Official wiki page
+
+[Wrong Places/Wrong Times](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate30&go=Go) for more details.
 
 ## Event code
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...
@@ -452,7 +461,9 @@ label karindate30:
 ```
 
 ## Code that triggers this event
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...

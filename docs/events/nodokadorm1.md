@@ -1,38 +1,47 @@
-# The Man Who Would Be King
-Nodoka event
+# The Man Who Would Be King (Nodoka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokadorm1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Nodoka love greater than or equal to 0
 
-✅Event "[Main: Adult Supervision](./day288.md)" is completed (event=day288)
+* Nodoka love greater than or equal to 0
 
-✅Event "[Nodoka: Humbert Humbert](./nodokafirsthall.md)" is completed (event=nodokafirsthall)
+* Event [Adult Supervision](./day288.md) (Main) is completed)
 
-✅Event "[Otoha: Everybody Loves Otoha](./otohafirsthall.md)" is completed (event=otohafirsthall)
+* Event [Humbert Humbert](./nodokafirsthall.md) (Nodoka) is completed)
 
-✅Day of week is not Monday
+* Event [Everybody Loves Otoha](./otohafirsthall.md) (Otoha) is completed)
 
-✅Day of week is not Friday
+* Day of week is not Monday
+
+* Day of week is not Friday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: nodokadorm1
+
+* Id: nodokadorm1
 * Group: Nodoka
-* Triggered by label: nodokadorm
+* Triggered by label: otohadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->nodokadorm->nodokadorm1
+
+## Official wiki page
+
+[The Man Who Would Be King](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokadorm1&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -422,7 +431,9 @@ label otohadorm1:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

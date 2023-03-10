@@ -1,35 +1,44 @@
-# Repentance
-Yasu event
+# Repentance (Yasu)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yasudorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yasu love greater than or equal to 10
 
-✅Event "[Yasu: The Hole That Swallowed Everything](./yasufirsthall.md)" is completed (event=yasufirsthall)
+* Yasu love greater than or equal to 10
 
-✅Event "[Touka: Loser](./toukadorm5.md)" is completed (event=toukadorm5)
+* Event [The Hole That Swallowed Everything](./yasufirsthall.md) (Yasu) is completed)
 
-✅Event "[Makoto: Something, Somewhere](./makotowinterbeach4.md)" is completed (event=makotowinterbeach4)
+* Event [Loser](./toukadorm5.md) (Touka) is completed)
+
+* Event [Something, Somewhere](./makotowinterbeach4.md) (Makoto) is completed)
 
 
 
 ## Next events
+
 * [Main: Operation: Firestarter](./day318.md)
 * [Yasu: Sakura Season](./church10.md)
 
 ## Event properties
-* ID: yasudorm10
+
+* Id: yasudorm10
 * Group: Yasu
 * Triggered by label: yasudorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->yasudorm->yasudorm10
+
+## Official wiki page
+
+[Repentance](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yasudorm10&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -575,7 +584,9 @@ label kirinfirsthall:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

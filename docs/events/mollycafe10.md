@@ -1,32 +1,41 @@
-# Something Out of a Nukige
-Molly event
+# Something Out of a Nukige (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 10
 
-✅Event "[Molly: Remnants of Forgotten Memes](./mollycafe5.md)" is completed (event=mollycafe5)
+* Molly love greater than or equal to 10
 
-✅Event "[Molly: Torrent of Power](./mollydorm5.md)" is completed (event=mollydorm5)
+* Event [Remnants of Forgotten Memes](./mollycafe5.md) (Molly) is completed)
+
+* Event [Torrent of Power](./mollydorm5.md) (Molly) is completed)
 
 
 
 ## Next events
+
 * [Molly: The Dark Entity](./mollydorm10.md)
 
 ## Event properties
-* ID: mollycafe10
+
+* Id: mollycafe10
 * Group: Molly
 * Triggered by label: mollycafe
 * Triggered by branch label: mollycafe
+* Triggered by path: mollycafe->mollycafe10
+
+## Official wiki page
+
+[Something Out of a Nukige](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe10&go=Go) for more details.
 
 ## Event code
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...
@@ -388,7 +397,9 @@ label mollycafe15:
 ```
 
 ## Code that triggers this event
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...

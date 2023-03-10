@@ -1,32 +1,41 @@
-# Such Small Hands
-Ami event
+# Such Small Hands (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amisroom25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 25
 
-✅ami_virgin equal to False (unknown variable)
+* Ami love greater than or equal to 25
 
-✅Event "[Ami: Divergence](./amidorm20.md)" is completed (event=amidorm20)
+* ami_virgin equal to False (unknown variable)
+
+* Event [Divergence](./amidorm20.md) (Ami) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amisroom25
+
+* Id: amisroom25
 * Group: Ami
 * Triggered by label: amisroom
 * Triggered by branch label: amisroom
+* Triggered by path: amisroom->amisroom25
+
+## Official wiki page
+
+[Such Small Hands](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amisroom25&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -157,7 +166,9 @@ label amiinvite1:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

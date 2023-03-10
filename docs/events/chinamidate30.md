@@ -1,30 +1,39 @@
-# Bad News Bears
-Chinami event
+# Bad News Bears (Chinami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chinami love greater than or equal to 30
 
-❌Event "[Main: The Road to Recovery](./yumiyukispecial1.md)" is completed (event=yumiyukispecial1)
+* Chinami love greater than or equal to 30
+
+* Event [The Road to Recovery](./yumiyukispecial1.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: chinamidate30
+
+* Id: chinamidate30
 * Group: Chinami
 * Triggered by label: mall
 * Triggered by branch label: mall
+* Triggered by path: mall->chinamidate30
+
+## Official wiki page
+
+[Bad News Bears](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate30&go=Go) for more details.
 
 ## Event code
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...
@@ -367,7 +376,9 @@ label chinamidate30:
 ```
 
 ## Code that triggers this event
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,33 +1,42 @@
-# Scientific Research
-Main event
+# Scientific Research (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day79&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 79
 
-❌Day of week is Friday
+* Days since the start of the game greater than or equal to 79
 
-✅Event "[Chika: A Castle for Everyone](./chikadorm15.md)" is completed (event=chikadorm15)
+* Day of week is Friday
+
+* Event [A Castle for Everyone](./chikadorm15.md) (Chika) is completed)
 
 
 
 ## Next events
+
 * [Main: What's Done is Done](./beachvacation1.md)
 * [Chika: A Dog that Doesn't Do Math](./mall15.md)
 
 ## Event properties
-* ID: day79
+
+* Id: day79
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day79
+
+## Official wiki page
+
+[Scientific Research](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day79&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -858,7 +867,9 @@ label day80:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

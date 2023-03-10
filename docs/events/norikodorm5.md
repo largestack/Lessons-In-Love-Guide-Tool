@@ -1,32 +1,41 @@
-# Semi-Constructive Criticism
-Noriko event
+# Semi-Constructive Criticism (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikodorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Noriko love greater than or equal to 5
 
-✅Event "[Kirin: Love, Dorms, and Other Things](./kirindorm10.md)" is completed (event=kirindorm10)
+* Noriko love greater than or equal to 5
 
-✅Event "[Noriko: Nakayarakawayama](./convenience1.md)" is completed (event=convenience1)
+* Event [Love, Dorms, and Other Things](./kirindorm10.md) (Kirin) is completed)
+
+* Event [Nakayarakawayama](./convenience1.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Noriko: Mouthjob](./convenience5.md)
 
 ## Event properties
-* ID: norikodorm5
+
+* Id: norikodorm5
 * Group: Noriko
 * Triggered by label: norikodorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->norikodorm->norikodorm5
+
+## Official wiki page
+
+[Semi-Constructive Criticism](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikodorm5&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -372,7 +381,9 @@ label norikodorm10:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

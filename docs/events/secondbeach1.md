@@ -1,44 +1,53 @@
-# Good Morning
-Main event
+# Good Morning (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Day of week is Saturday
 
-✅Days since the start of the game greater than or equal to 370
+* Day of week is Saturday
 
-✅Event "[Main: Permission Slip](./day355.md)" is completed (event=day355)
+* Days since the start of the game greater than or equal to 370
 
-✅Event "[Karin: Sweet Tooth](./karindate20.md)" is completed (event=karindate20)
+* Event [Permission Slip](./day355.md) (Main) is completed)
 
-✅Event "[Chinami: Happy Hour](./chinamidate20.md)" is completed (event=chinamidate20)
+* Event [Sweet Tooth](./karindate20.md) (Karin) is completed)
 
-✅Event "[Uta: Blood Everywhere](./utadorm20.md)" is completed (event=utadorm20)
+* Event [Happy Hour](./chinamidate20.md) (Chinami) is completed)
 
-✅Event "[Sana: Mine](./sanadorm50.md)" is completed (event=sanadorm50)
+* Event [Blood Everywhere](./utadorm20.md) (Uta) is completed)
 
-✅Event "[Osako: Floating Forever, Unfulfilled](./osakodojo1.md)" is completed (event=osakodojo1)
+* Event [Mine](./sanadorm50.md) (Sana) is completed)
 
-✅Event "[Kirin: All That is Contaminated](./kirindate25.md)" is completed (event=kirindate25)
+* Event [Floating Forever, Unfulfilled](./osakodojo1.md) (Osako) is completed)
+
+* Event [All That is Contaminated](./kirindate25.md) (Kirin) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: secondbeach1
+
+* Id: secondbeach1
 * Group: Main
 * Triggered by label: saturdaymorning
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->secondbeach1
+
+## Official wiki page
+
+[Good Morning](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach1&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -638,7 +647,9 @@ label secondbeach2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

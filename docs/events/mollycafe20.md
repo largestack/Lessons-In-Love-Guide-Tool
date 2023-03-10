@@ -1,32 +1,41 @@
-# The Legacy of Thaum Pt. II
-Molly event
+# The Legacy of Thaum Pt. II (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 20
 
-✅Event "[Molly: Onward to Valhalla](./mollycafe15.md)" is completed (event=mollycafe15)
+* Molly love greater than or equal to 20
 
-✅Event "[Molly: Unpaid Promotion](./mollydorm15.md)" is completed (event=mollydorm15)
+* Event [Onward to Valhalla](./mollycafe15.md) (Molly) is completed)
+
+* Event [Unpaid Promotion](./mollydorm15.md) (Molly) is completed)
 
 
 
 ## Next events
+
 * [Molly: Ahead of the Curve](./mollydorm20.md)
 
 ## Event properties
-* ID: mollycafe20
+
+* Id: mollycafe20
 * Group: Molly
 * Triggered by label: mollycafe
 * Triggered by branch label: mollycafe
+* Triggered by path: mollycafe->mollycafe20
+
+## Official wiki page
+
+[The Legacy of Thaum Pt. II](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe20&go=Go) for more details.
 
 ## Event code
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...
@@ -490,7 +499,9 @@ label mollycafe25:
 ```
 
 ## Code that triggers this event
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...

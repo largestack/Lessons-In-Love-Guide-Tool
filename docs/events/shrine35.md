@@ -1,32 +1,41 @@
-# Stop Looking For Answers
-Maya event
+# Stop Looking For Answers (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 30
 
-✅Event "[Maya: A Place That Can Only Exist in Our Minds](./mayadorm35.md)" is completed (event=mayadorm35)
+* Maya love greater than or equal to 30
+
+* Event [A Place That Can Only Exist in Our Minds](./mayadorm35.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Ami: Best Friends Forever](./amiinvite3.md)
 * [Ami: The Big Sleep](./amidate35.md)
 * [Ami: Heaven for Human Blood](./amidorm40.md)
 
 ## Event properties
-* ID: shrine35
+
+* Id: shrine35
 * Group: Maya
 * Triggered by label: shrine
 * Triggered by branch label: shrine
+* Triggered by path: shrine->shrine35
+
+## Official wiki page
+
+[Stop Looking For Answers](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine35&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -475,7 +484,9 @@ label mayafestival1:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

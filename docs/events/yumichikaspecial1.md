@@ -1,26 +1,36 @@
-# Dead in the Water
-Main event
+# Dead in the Water (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumichikaspecial1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Death Trap](./chinamidate25.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: yumichikaspecial1
+
+* Id: yumichikaspecial1
 * Group: Main
 * Triggered by label: chinamidate25
+* Chain sources: chinamidate25
+* Chain sources path: chinamidate25
+
+## Official wiki page
+
+[Dead in the Water](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumichikaspecial1&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -323,7 +333,9 @@ label yumiyukispecial1:
 ```
 
 ## Code that triggers this event
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...

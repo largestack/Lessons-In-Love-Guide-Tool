@@ -1,28 +1,37 @@
-# Morals vs. Orgasms
-Kirin event
+# Morals vs. Orgasms (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinfirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: What Was](./day271.md)" is completed (event=day271)
+
+* Event [What Was](./day271.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kirinfirsthall
+
+* Id: kirinfirsthall
 * Group: Kirin
 * Triggered by label: dorm2thursday
 * Triggered by branch label: dormthursday
+* Triggered by path: dormthursday->dorm2thursday->kirinfirsthall
+
+## Official wiki page
+
+[Morals vs. Orgasms](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinfirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -253,7 +262,9 @@ label norikofirsthall:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

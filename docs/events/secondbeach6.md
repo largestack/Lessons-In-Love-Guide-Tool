@@ -1,26 +1,36 @@
-# The Yellow Wallpaper
-Main event
+# The Yellow Wallpaper (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach6&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Next Best Thing](./secondbeach5.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: secondbeach6
+
+* Id: secondbeach6
 * Group: Main
 * Triggered by label: secondbeach5
+* Chain sources: secondbeach5
+* Chain sources path: secondbeach5
+
+## Official wiki page
+
+[The Yellow Wallpaper](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach6&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -439,7 +449,9 @@ label kirinlust20intro:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

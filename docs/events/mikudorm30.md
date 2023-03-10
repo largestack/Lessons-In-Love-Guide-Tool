@@ -1,36 +1,46 @@
-# One. Two. Three.
-Miku event
+# One. Two. Three. (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [One. Two. Three.](./mikudorm30.md)
 
 ## Event preconditions
-✅Miku love greater than or equal to 30
 
-✅Event "[Miku: An Extra Set of Arms](./soccer30.md)" is completed (event=soccer30)
+* Miku love greater than or equal to 30
 
-✅Day of week is not Thursday
+* Event [An Extra Set of Arms](./soccer30.md) (Miku) is completed)
 
-✅trinity3track equal to True (unknown variable)
+* Day of week is not Thursday
+
+* trinity3track equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Main: As Loud as a Whisper Can Be](./day214.md)
 * [Makoto: Bluejay](./makotodorm25.md)
 * [Miku: Loxonin](./soccer35.md)
 
 ## Event properties
-* ID: mikudorm30
+
+* Id: mikudorm30
 * Group: Miku
-* Triggered by label: mikudorm30
+* Triggered by label: mikudorm
+* Chain sources: mikudorm30
+* Chain sources path: mikudorm30
+
+## Official wiki page
+
+[One. Two. Three.](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm30&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -546,7 +556,9 @@ label makotodorm20:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,28 +1,38 @@
-# No One Can Hear Us
-Ami event
+# No One Can Hear Us (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amilust35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Robin Hood](./beachmas12.md)
 
 ## Event preconditions
-✅Ami lust greater than or equal to 35
+
+* Ami lust greater than or equal to 35
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amilust35
+
+* Id: amilust35
 * Group: Ami
 * Triggered by label: amilust35intro
+* Chain sources: beachmas12
+* Chain sources path: beachmas12->beachmas12
+
+## Official wiki page
+
+[No One Can Hear Us](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amilust35&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -209,7 +219,9 @@ label amilust35:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

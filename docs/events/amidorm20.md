@@ -1,35 +1,44 @@
-# Divergence
-Ami event
+# Divergence (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 20
 
-✅Day of week is not Monday
+* Ami love greater than or equal to 20
 
-✅Day of week is not Friday
+* Day of week is not Monday
 
-✅Event "[Ami: Cute Girls and Stuff](./amisroom20.md)" is completed (event=amisroom20)
+* Day of week is not Friday
+
+* Event [Cute Girls and Stuff](./amisroom20.md) (Ami) is completed)
 
 
 
 ## Next events
+
 * [Ami: Such Small Hands](./amisroom25.md)
 * [Ami: Everlasting Love](./amidorm25.md)
 
 ## Event properties
-* ID: amidorm20
+
+* Id: amidorm20
 * Group: Ami
 * Triggered by label: amidorm
 * Triggered by branch label: amidorm
+* Triggered by path: amidorm->amidorm20
+
+## Official wiki page
+
+[Divergence](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm20&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -444,7 +453,9 @@ label amidorm25:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

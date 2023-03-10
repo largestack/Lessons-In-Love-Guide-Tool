@@ -1,34 +1,43 @@
-# Temporary Bliss
-Kirin event
+# Temporary Bliss (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kirin love greater than or equal to 25
 
-✅Event "[Noriko: Loxosceles Reclusa](./norikodorm25.md)" is completed (event=norikodorm25)
+* Kirin love greater than or equal to 25
 
-✅Day of week is not Wednesday
+* Event [Loxosceles Reclusa](./norikodorm25.md) (Noriko) is completed)
+
+* Day of week is not Wednesday
 
 
 
 ## Next events
+
 * [Chika: In Search of Summer](./chikaspecial40.md)
 * [Kirin: Four Hand Massage](./kirinsoccer25.md)
 * [Yuki: Opposite Directions](./yukidate10.md)
 
 ## Event properties
-* ID: kirindorm25
+
+* Id: kirindorm25
 * Group: Kirin
 * Triggered by label: kirindorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->kirindorm->kirindorm25
+
+## Official wiki page
+
+[Temporary Bliss](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindorm25&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -153,7 +162,9 @@ label kirinsoccer25:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

@@ -1,34 +1,43 @@
-# Rewind/Repeat/Refuse
-Maya event
+# Rewind/Repeat/Refuse (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 10
 
-✅Day of week is not Monday
+* Maya love greater than or equal to 10
 
-✅Day of week is not Friday
+* Day of week is not Monday
 
-✅Event "[Maya: Secrets Worth Keeping](./mayadorm5.md)" is completed (event=mayadorm5)
+* Day of week is not Friday
+
+* Event [Secrets Worth Keeping](./mayadorm5.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Maya: You and Me](./shrine15.md)
 
 ## Event properties
-* ID: mayadorm10
+
+* Id: mayadorm10
 * Group: Maya
 * Triggered by label: mayadorm
 * Triggered by branch label: mayadorm
+* Triggered by path: mayadorm->mayadorm10
+
+## Official wiki page
+
+[Rewind/Repeat/Refuse](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm10&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -433,7 +442,9 @@ label mayadorm15:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

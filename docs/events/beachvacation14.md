@@ -1,26 +1,36 @@
-# Prayer Position
-Main event
+# Prayer Position (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation14&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Smile Guide](./beachvacation13.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachvacation14
+
+* Id: beachvacation14
 * Group: Main
 * Triggered by label: beachvacation13
+* Chain sources: beachvacation13
+* Chain sources path: beachvacation13
+
+## Official wiki page
+
+[Prayer Position](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation14&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -392,7 +402,9 @@ label beachvacation15:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

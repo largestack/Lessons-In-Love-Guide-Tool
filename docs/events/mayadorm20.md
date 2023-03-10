@@ -1,32 +1,41 @@
-# Close Your Eyes
-Maya event
+# Close Your Eyes (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 20
 
-✅Event "[Maya: Nothing is Real](./shrine20.md)" is completed (event=shrine20)
+* Maya love greater than or equal to 20
 
-✅Event "[Yumi: Yumi Revitalization Project](./yumidorm10.md)" is completed (event=yumidorm10)
+* Event [Nothing is Real](./shrine20.md) (Maya) is completed)
+
+* Event [Yumi Revitalization Project](./yumidorm10.md) (Yumi) is completed)
 
 
 
 ## Next events
+
 * [Maya: Watermelons and Violin](./shrine25.md)
 
 ## Event properties
-* ID: mayadorm20
+
+* Id: mayadorm20
 * Group: Maya
 * Triggered by label: mayadorm
 * Triggered by branch label: mayadorm
+* Triggered by path: mayadorm->mayadorm20
+
+## Official wiki page
+
+[Close Your Eyes](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm20&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -408,7 +417,9 @@ label mayadorm25:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

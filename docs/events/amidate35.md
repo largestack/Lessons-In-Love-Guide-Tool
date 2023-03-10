@@ -1,33 +1,42 @@
-# The Big Sleep
-Ami event
+# The Big Sleep (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidate35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 35
 
-✅Event "[Ami: Third Place](./amimaid30.md)" is completed (event=amimaid30)
+* Ami love greater than or equal to 35
 
-✅Event "[Maya: Stop Looking For Answers](./shrine35.md)" is completed (event=shrine35)
+* Event [Third Place](./amimaid30.md) (Ami) is completed)
+
+* Event [Stop Looking For Answers](./shrine35.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Ami: Heaven for Human Blood](./amidorm40.md)
 * [Main: The WAP Man](./day295.md)
 
 ## Event properties
-* ID: amidate35
+
+* Id: amidate35
 * Group: Ami
 * Triggered by label: callamiafternoon
 * Triggered by branch label: callafternoon
+* Triggered by path: callafternoon->callamiafternoon->amidate35
+
+## Official wiki page
+
+[The Big Sleep](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidate35&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -546,7 +555,9 @@ label amilust15:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
