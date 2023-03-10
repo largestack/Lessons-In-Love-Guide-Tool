@@ -1,32 +1,41 @@
-# A Tree Falls in the Forest
-Futaba event
+# A Tree Falls in the Forest (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 30
 
-✅Event "[Futaba: Under the Table](./library30.md)" is completed (event=library30)
+* Futaba love greater than or equal to 30
 
-✅Day of week is not Wednesday
+* Event [Under the Table](./library30.md) (Futaba) is completed)
+
+* Day of week is not Wednesday
 
 
 
 ## Next events
+
 * [Futaba: No, You](./library35.md)
 
 ## Event properties
-* ID: futabadorm30
+
+* Id: futabadorm30
 * Group: Futaba
 * Triggered by label: futabadorm
 * Triggered by branch label: futabadorm
+* Triggered by path: futabadorm->futabadorm30
+
+## Official wiki page
+
+[A Tree Falls in the Forest](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm30&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -356,7 +365,9 @@ label futabadorm35:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Watching TV Alone
-Haruka event
+# Watching TV Alone (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Haruka love greater than or equal to 15
 
-✅Event "[Haruka: Performance Review](./harukadate10.md)" is completed (event=harukadate10)
+* Haruka love greater than or equal to 15
+
+* Event [Performance Review](./harukadate10.md) (Haruka) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: harukadate15
+
+* Id: harukadate15
 * Group: Haruka
 * Triggered by label: callharukanighthang
 * Triggered by branch label: callharukanighthang
+* Triggered by path: callharukanighthang->harukadate15
+
+## Official wiki page
+
+[Watching TV Alone](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukadate15&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -488,7 +497,9 @@ label harukainvite1:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

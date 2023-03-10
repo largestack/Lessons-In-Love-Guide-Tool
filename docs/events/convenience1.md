@@ -1,31 +1,40 @@
-# Nakayarakawayama
-Noriko event
+# Nakayarakawayama (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=convenience1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Noriko love greater than or equal to 0
 
-✅Event "[Noriko: Sculpture](./norikofirsthall.md)" is completed (event=norikofirsthall)
+* Noriko love greater than or equal to 0
+
+* Event [Sculpture](./norikofirsthall.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Noriko: Semi-Constructive Criticism](./norikodorm5.md)
 * [Noriko: Mouthjob](./convenience5.md)
 
 ## Event properties
-* ID: convenience1
+
+* Id: convenience1
 * Group: Noriko
 * Triggered by label: convenience
-* Triggered by branch label: afterschoolmenu
+* Triggered by branch label: saturdaynight
+* Triggered by path: afterschoolmenu->convenience->convenience1
+
+## Official wiki page
+
+[Nakayarakawayama](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=convenience1&go=Go) for more details.
 
 ## Event code
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...
@@ -370,7 +379,9 @@ label convenience5:
 ```
 
 ## Code that triggers this event
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...

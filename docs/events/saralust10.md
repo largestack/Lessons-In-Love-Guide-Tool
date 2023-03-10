@@ -1,28 +1,38 @@
-# Medical Assistance
-Sara event
+# Medical Assistance (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saralust10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Once, Twice, Ten Times](./halloween7.md)
 
 ## Event preconditions
-❌Sara lust less than 10
+
+* Sara lust less than 10
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: saralust10
+
+* Id: saralust10
 * Group: Sara
 * Triggered by label: halloween7
+* Chain sources: halloween7
+* Chain sources path: halloween7
+
+## Official wiki page
+
+[Medical Assistance](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saralust10&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -51,7 +61,9 @@ label halloween8:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

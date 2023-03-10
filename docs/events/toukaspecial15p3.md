@@ -1,26 +1,36 @@
-# Something Less Lonely
-Touka event
+# Something Less Lonely (Touka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukaspecial15p3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Red-ish Light District](./toukaspecial15p2.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Tsubasa: Everbloom](./tsubasadate1.md)
 
 ## Event properties
-* ID: toukaspecial15p3
+
+* Id: toukaspecial15p3
 * Group: Touka
 * Triggered by label: endoftoukaarcade
+* Chain sources: toukaspecial15p2
+* Chain sources path: toukaspecial15p2->toukaspecial15p2
+
+## Official wiki page
+
+[Something Less Lonely](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukaspecial15p3&go=Go) for more details.
 
 ## Event code
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -329,7 +339,9 @@ label toukaspecial15p3:
 ```
 
 ## Code that triggers this event
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...

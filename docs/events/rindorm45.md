@@ -1,26 +1,36 @@
-# The Art of Never Knowing
-Rin event
+# The Art of Never Knowing (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm45&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Debatably Bisexual Musicians](./cafe45.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Main: Annabel Lee](./day280.md)
 
 ## Event properties
-* ID: rindorm45
+
+* Id: rindorm45
 * Group: Rin
 * Triggered by label: cafe45
+* Chain sources: cafe45
+* Chain sources path: cafe45
+
+## Official wiki page
+
+[The Art of Never Knowing](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm45&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -545,7 +555,9 @@ label futabadorm40:
 ```
 
 ## Code that triggers this event
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...

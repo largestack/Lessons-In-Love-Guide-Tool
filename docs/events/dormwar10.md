@@ -1,26 +1,36 @@
-# In Some Cases, Love
-Main event
+# In Some Cases, Love (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwar10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Why Now?](./dormwar9.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwar10
+
+* Id: dormwar10
 * Group: Main
-* Triggered by label: futabanodokax
+* Triggered by label: dormwar9
+* Chain sources: dormwar9
+* Chain sources path: dormwar9
+
+## Official wiki page
+
+[In Some Cases, Love](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwar10&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -512,7 +522,9 @@ label dormwar11:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

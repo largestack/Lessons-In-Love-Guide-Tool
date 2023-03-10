@@ -1,32 +1,41 @@
-# Happy Hour
-Chinami event
+# Happy Hour (Chinami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chinami love greater than or equal to 20
 
-✅Event "[Chinami: Pool Party](./chinamidate15.md)" is completed (event=chinamidate15)
+* Chinami love greater than or equal to 20
 
-✅chinaminumber equal to True (unknown variable)
+* Event [Pool Party](./chinamidate15.md) (Chinami) is completed)
+
+* chinaminumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Main: Good Morning](./secondbeach1.md)
 
 ## Event properties
-* ID: chinamidate20
+
+* Id: chinamidate20
 * Group: Chinami
 * Triggered by label: callchinamiafternoon
 * Triggered by branch label: callafternoon
+* Triggered by path: callafternoon->callchinamiafternoon->chinamidate20
+
+## Official wiki page
+
+[Happy Hour](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate20&go=Go) for more details.
 
 ## Event code
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...
@@ -479,7 +488,9 @@ label chinamidate25:
 ```
 
 ## Code that triggers this event
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...

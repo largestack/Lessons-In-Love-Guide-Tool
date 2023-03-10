@@ -1,30 +1,39 @@
-# Scaredy Cat
-Miku event
+# Scaredy Cat (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 25
 
-✅Event "[Miku: Thighs On-Demand](./soccer25.md)" is completed (event=soccer25)
+* Miku love greater than or equal to 25
+
+* Event [Thighs On-Demand](./soccer25.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Miku: An Extra Set of Arms](./soccer30.md)
 
 ## Event properties
-* ID: mikudorm25
+
+* Id: mikudorm25
 * Group: Miku
 * Triggered by label: mikudorm
 * Triggered by branch label: mikudorm
+* Triggered by path: mikudorm->mikudorm25
+
+## Official wiki page
+
+[Scaredy Cat](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm25&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -198,7 +207,9 @@ label mikudorm30:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# The Paragon of Not Worrying About Stuff
-Rin event
+# The Paragon of Not Worrying About Stuff (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=cafe50&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 50
 
-✅Event "[Main: All is Bright. All is Beautiful.](./secondbeach18.md)" is completed (event=secondbeach18)
+* Rin love greater than or equal to 50
+
+* Event [All is Bright. All is Beautiful.](./secondbeach18.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Rin: Technicolored Happiness Explosion](./rindorm50.md)
 
 ## Event properties
-* ID: cafe50
+
+* Id: cafe50
 * Group: Rin
 * Triggered by label: cafe
 * Triggered by branch label: cafe
+* Triggered by path: cafe->cafe50
+
+## Official wiki page
+
+[The Paragon of Not Worrying About Stuff](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=cafe50&go=Go) for more details.
 
 ## Event code
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...
@@ -375,7 +384,9 @@ label rindate50:
 ```
 
 ## Code that triggers this event
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...

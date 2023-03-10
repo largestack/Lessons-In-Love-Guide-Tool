@@ -1,30 +1,39 @@
-# No Extortion Necessary
-Kirin event
+# No Extortion Necessary (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirininvite2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Kirin: Too Much, All at Once](./kirininvite1.md)" is completed (event=kirininvite1)
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Event [Too Much, All at Once](./kirininvite1.md) (Kirin) is completed)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: Let Me Die in Spring](./day261.md)
 
 ## Event properties
-* ID: kirininvite2
+
+* Id: kirininvite2
 * Group: Kirin
 * Triggered by label: kirininvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->kirininvite->kirininvite2
+
+## Official wiki page
+
+[No Extortion Necessary](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirininvite2&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -79,7 +88,9 @@ label kirinsoccer15:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

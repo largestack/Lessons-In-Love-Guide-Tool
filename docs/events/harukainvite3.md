@@ -1,32 +1,41 @@
-# Unfiltered Tap Water
-Haruka event
+# Unfiltered Tap Water (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukainvite3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Haruka: Sober-ish](./harukadate20.md)" is completed (event=harukadate20)
 
-❌harukasex equal to True (unknown variable)
+* Event [Sober-ish](./harukadate20.md) (Haruka) is completed)
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* harukasex equal to True (unknown variable)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: harukainvite3
+
+* Id: harukainvite3
 * Group: Haruka
 * Triggered by label: harukainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->harukainvite->harukainvite3
+
+## Official wiki page
+
+[Unfiltered Tap Water](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukainvite3&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -544,7 +553,9 @@ label sadgirls2:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

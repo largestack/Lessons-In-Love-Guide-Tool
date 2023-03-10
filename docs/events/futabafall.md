@@ -1,28 +1,37 @@
-# Fan Fiction
-Futaba event
+# Fan Fiction (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabafall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 5
+
+* Futaba love greater than or equal to 5
 
 
 
 ## Next events
+
 * [Futaba: Under the Radar](./futabafirstvisit.md)
 
 ## Event properties
-* ID: futabafall
+
+* Id: futabafall
 * Group: Futaba
 * Triggered by label: library
 * Triggered by branch label: library
+* Triggered by path: library->futabafall
+
+## Official wiki page
+
+[Fan Fiction](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabafall&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -319,7 +328,9 @@ label library10:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

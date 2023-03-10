@@ -1,36 +1,45 @@
-# A Walk Through Hell
-Main event
+# A Walk Through Hell (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 558
 
-❌Event "[Ayane: Chiburi](./ayanespecial50.md)" is completed (event=ayanespecial50)
+* Days since the start of the game greater than or equal to 558
 
-❌Event "[Main: Grief Seed](./day543.md)" is completed (event=day543)
+* Event [Chiburi](./ayanespecial50.md) (Ayane) is completed)
 
-❌Day of week is Friday
+* Event [Grief Seed](./day543.md) (Main) is completed)
 
-❌Event "[Futaba: Too Blind To See](./futabainvite3.md)" is completed (event=futabainvite3)
+* Day of week is Friday
+
+* Event [Too Blind To See](./futabainvite3.md) (Futaba) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwartwo1
+
+* Id: dormwartwo1
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->dormwartwo1
+
+## Official wiki page
+
+[A Walk Through Hell](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo1&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -494,7 +503,9 @@ label dormwartwo2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

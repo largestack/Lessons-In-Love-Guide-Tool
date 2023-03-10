@@ -1,26 +1,36 @@
-# Toys
-Futaba event
+# Toys (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotofutabafuntimelustevent&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [いないいない。。。ばあ！](./beachmas11.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: makotofutabafuntimelustevent
+
+* Id: makotofutabafuntimelustevent
 * Group: Futaba
 * Triggered by label: beachmas11
+* Chain sources: beachmas11
+* Chain sources path: beachmas11
+
+## Official wiki page
+
+[Toys](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotofutabafuntimelustevent&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -423,7 +433,9 @@ label makotofutabafuntimelustevent:
 ```
 
 ## Code that triggers this event
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...

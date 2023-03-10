@@ -1,28 +1,38 @@
-# Hot Water
-Makoto event
+# Hot Water (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotolust20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [We Were Angels](./secondbeach13.md)
 
 ## Event preconditions
-✅Makoto lust greater than or equal to 20
+
+* Makoto lust greater than or equal to 20
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: makotolust20
+
+* Id: makotolust20
 * Group: Makoto
 * Triggered by label: makotolust20intro
+* Chain sources: secondbeach13
+* Chain sources path: secondbeach13->secondbeach13
+
+## Official wiki page
+
+[Hot Water](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotolust20&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -69,7 +79,9 @@ label secondbeach14:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

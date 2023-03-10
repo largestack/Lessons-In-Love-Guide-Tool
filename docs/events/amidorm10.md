@@ -1,38 +1,47 @@
-# No One Can See Us
-Ami event
+# No One Can See Us (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 10
 
-✅Day of week is a weekend
+* Ami love greater than or equal to 10
 
-✅Event "[Main: O World](./day60.md)" is completed (event=day60)
+* Day of week is a weekend
 
-✅Event "[Ami: Home Away From Home](./amidorm5.md)" is completed (event=amidorm5)
+* Event [O World](./day60.md) (Main) is completed)
 
-✅Event "[Main: No Romeo](./day24.md)" is completed (event=day24)
+* Event [Home Away From Home](./amidorm5.md) (Ami) is completed)
 
-✅Event "[Ami: Something Darker](./amisroom10.md)" is completed (event=amisroom10)
+* Event [No Romeo](./day24.md) (Main) is completed)
+
+* Event [Something Darker](./amisroom10.md) (Ami) is completed)
 
 
 
 ## Next events
+
 * [Ami: Back Out in the Heat](./amidorm15.md)
 
 ## Event properties
-* ID: amidorm10
+
+* Id: amidorm10
 * Group: Ami
 * Triggered by label: amidorm
 * Triggered by branch label: amidorm
+* Triggered by path: amidorm->amidorm10
+
+## Official wiki page
+
+[No One Can See Us](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm10&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -507,7 +516,9 @@ label mayadorm5:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

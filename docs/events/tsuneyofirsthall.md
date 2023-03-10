@@ -1,29 +1,38 @@
-# The Life of a Blue Whale
-Tsuneyo event
+# The Life of a Blue Whale (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsuneyofirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: Lifting the Curse](./day154.md)" is completed (event=day154)
+
+* Event [Lifting the Curse](./day154.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Tsuneyo: Drug Use & Jump-Rope](./tsuneyodorm5.md)
 * [Kaori: The Best Ways to Rub a Cock](./kaoridate5.md)
 
 ## Event properties
-* ID: tsuneyofirsthall
+
+* Id: tsuneyofirsthall
 * Group: Tsuneyo
 * Triggered by label: dorm2wednesday
 * Triggered by branch label: dormwednesday
+* Triggered by path: dormwednesday->dorm2wednesday->tsuneyofirsthall
+
+## Official wiki page
+
+[The Life of a Blue Whale](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsuneyofirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -334,7 +343,9 @@ label mollydorm5:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

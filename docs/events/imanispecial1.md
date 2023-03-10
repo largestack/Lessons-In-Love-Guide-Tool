@@ -1,34 +1,43 @@
-# No Strings Attached
-Main event
+# No Strings Attached (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=imanispecial1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 535
 
-❌Event "[Wakana: Pseudonym](./wakanadate15.md)" is completed (event=wakanadate15)
+* Days since the start of the game greater than or equal to 535
 
-❌Day of week is Friday
+* Event [Pseudonym](./wakanadate15.md) (Wakana) is completed)
+
+* Day of week is Friday
 
 
 
 ## Next events
+
 * [Ayane: Chronokinetics](./ayanespecial40.md)
 * [Sana: Black Sandy Beaches](./bar55.md)
 * [Rin: Disaster Lesbian](./rindorm55.md)
 
 ## Event properties
-* ID: imanispecial1
+
+* Id: imanispecial1
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->imanispecial1
+
+## Official wiki page
+
+[No Strings Attached](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=imanispecial1&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -564,7 +573,9 @@ label bucketscene:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

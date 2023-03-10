@@ -1,26 +1,36 @@
-# The Devil & God Are Raging Inside Me
-Miku event
+# The Devil & God Are Raging Inside Me (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm50&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Someone Else's Skin](./mikuspecial50.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: mikudorm50
+
+* Id: mikudorm50
 * Group: Miku
 * Triggered by label: mikuspecial50
+* Chain sources: mikuspecial50
+* Chain sources path: mikuspecial50
+
+## Official wiki page
+
+[The Devil & God Are Raging Inside Me](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm50&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -73,7 +83,9 @@ label mikudorm50:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

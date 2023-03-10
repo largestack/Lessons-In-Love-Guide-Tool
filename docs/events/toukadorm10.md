@@ -1,32 +1,41 @@
-# House Call
-Touka event
+# House Call (Touka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukadorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Touka love greater than or equal to 10
 
-✅Day of week is not Thursday
+* Touka love greater than or equal to 10
 
-❌Event "[Main: Glued to the Sky](./christmastwo20.md)" is completed (event=christmastwo20)
+* Day of week is not Thursday
+
+* Event [Glued to the Sky](./christmastwo20.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Touka: A Commoner's Tour of Summer](./toukaspecial15.md)
 
 ## Event properties
-* ID: toukadorm10
+
+* Id: toukadorm10
 * Group: Touka
 * Triggered by label: toukadorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->toukadorm->toukadorm10
+
+## Official wiki page
+
+[House Call](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukadorm10&go=Go) for more details.
 
 ## Event code
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -426,7 +435,9 @@ label toukaspecial15:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

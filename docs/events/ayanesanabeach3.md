@@ -1,26 +1,36 @@
-# It Comes to Claim Us All
-Sana event
+# It Comes to Claim Us All (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanesanabeach3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
-Part of event chain [Ad Meliora](./ayanesanabeach2.md)
+Part of event chain [How the World Works](./ayanesanabeach1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: ayanesanabeach3
+
+* Id: ayanesanabeach3
 * Group: Sana
-* Triggered by label: ayanesanabeach2
+* Triggered by label: ayanesanabeach1
+* Chain sources: ayanesanabeach1
+* Chain sources path: ayanesanabeach1
+
+## Official wiki page
+
+[It Comes to Claim Us All](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanesanabeach3&go=Go) for more details.
 
 ## Event code
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -575,7 +585,9 @@ label ayanesanabeach4:
 ```
 
 ## Code that triggers this event
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Nice Weather We're Having
-Sana event
+# Nice Weather We're Having (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sanadorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sana love greater than or equal to 20
 
-✅Event "[Sana: Scouting Mission](./bar20.md)" is completed (event=bar20)
+* Sana love greater than or equal to 20
+
+* Event [Scouting Mission](./bar20.md) (Sana) is completed)
 
 
 
 ## Next events
+
 * [Sana: Life is a Tomato](./bar25.md)
 
 ## Event properties
-* ID: sanadorm20
+
+* Id: sanadorm20
 * Group: Sana
 * Triggered by label: sanadorm
 * Triggered by branch label: sanadorm
+* Triggered by path: sanadorm->sanadorm20
+
+## Official wiki page
+
+[Nice Weather We're Having](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sanadorm20&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -381,7 +390,9 @@ label ayanedorm20:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

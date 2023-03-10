@@ -1,30 +1,39 @@
-# Drowning
-Main event
+# Drowning (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 30
 
-✅Event "[Rin: The Flavor of Love](./cafesugar.md)" is completed (event=cafesugar)
+* Days since the start of the game greater than or equal to 30
+
+* Event [The Flavor of Love](./cafesugar.md) (Rin) is completed)
 
 
 
 ## Next events
+
 * [Rin: Window of the Waking Mind](./cafe15.md)
 
 ## Event properties
-* ID: day30
+
+* Id: day30
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day30
+
+## Official wiki page
+
+[Drowning](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day30&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -278,7 +287,9 @@ label day33:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

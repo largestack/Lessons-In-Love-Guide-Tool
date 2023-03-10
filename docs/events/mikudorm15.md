@@ -1,30 +1,39 @@
-# Moments Like This
-Miku event
+# Moments Like This (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 15
 
-✅Event "[Miku: You and Me and the Night](./mikudorm10.md)" is completed (event=mikudorm10)
+* Miku love greater than or equal to 15
+
+* Event [You and Me and the Night](./mikudorm10.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Miku: Thighs On-Demand](./soccer25.md)
 
 ## Event properties
-* ID: mikudorm15
+
+* Id: mikudorm15
 * Group: Miku
 * Triggered by label: mikudorm
 * Triggered by branch label: mikudorm
+* Triggered by path: mikudorm->mikudorm15
+
+## Official wiki page
+
+[Moments Like This](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mikudorm15&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -594,7 +603,9 @@ label mikudorm25:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

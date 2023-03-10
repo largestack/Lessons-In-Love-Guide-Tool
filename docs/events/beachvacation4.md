@@ -1,26 +1,36 @@
-# Extra French Fries
-Main event
+# Extra French Fries (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation4&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [My Heart is Full](./beachvacation3.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachvacation4
+
+* Id: beachvacation4
 * Group: Main
 * Triggered by label: makotoinnx
+* Chain sources: beachvacation3
+* Chain sources path: beachvacation3->beachvacation3
+
+## Official wiki page
+
+[Extra French Fries](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation4&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -442,7 +452,9 @@ label beachvacation5:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

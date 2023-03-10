@@ -1,32 +1,41 @@
-# Nothing is Real
-Maya event
+# Nothing is Real (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 20
 
-✅Event "[Main: See You in the Morning](./beachvacation16.md)" is completed (event=beachvacation16)
+* Maya love greater than or equal to 20
 
-✅Event "[Maya: Takoyaki](./mayadorm15.md)" is completed (event=mayadorm15)
+* Event [See You in the Morning](./beachvacation16.md) (Main) is completed)
+
+* Event [Takoyaki](./mayadorm15.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Maya: Close Your Eyes](./mayadorm20.md)
 
 ## Event properties
-* ID: shrine20
+
+* Id: shrine20
 * Group: Maya
 * Triggered by label: shrine
 * Triggered by branch label: shrine
+* Triggered by path: shrine->shrine20
+
+## Official wiki page
+
+[Nothing is Real](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine20&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -359,7 +368,9 @@ label shrine25:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

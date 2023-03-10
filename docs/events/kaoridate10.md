@@ -1,32 +1,41 @@
-# Objects and Appendages
-Kaori event
+# Objects and Appendages (Kaori)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kaori love greater than or equal to 10
 
-✅Event "[Kaori: The Best Ways to Rub a Cock](./kaoridate5.md)" is completed (event=kaoridate5)
+* Kaori love greater than or equal to 10
 
-✅kaorinumber equal to True (unknown variable)
+* Event [The Best Ways to Rub a Cock](./kaoridate5.md) (Kaori) is completed)
+
+* kaorinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kaoridate10
+
+* Id: kaoridate10
 * Group: Kaori
 * Triggered by label: callkaorimorning
 * Triggered by branch label: callkaorimorning
+* Triggered by path: callkaorimorning->kaoridate10
+
+## Official wiki page
+
+[Objects and Appendages](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate10&go=Go) for more details.
 
 ## Event code
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...
@@ -325,7 +334,9 @@ label kaoridate15:
 ```
 
 ## Code that triggers this event
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...

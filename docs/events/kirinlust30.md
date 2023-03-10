@@ -1,32 +1,42 @@
-# Falling Asleep Standing Up
-Kirin event
+# Falling Asleep Standing Up (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Tip Your Bartender](./dormwartwo18.md)
 
 ## Event preconditions
-✅Kirin lust greater than or equal to 30
 
-❌Miku lust greater than or equal to 10
+* Kirin lust greater than or equal to 30
 
-❌mikucostumewin equal to True (unknown variable)
+* Miku lust greater than or equal to 10
+
+* mikucostumewin equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kirinlust30
+
+* Id: kirinlust30
 * Group: Kirin
 * Triggered by label: kirinlust30intro
+* Chain sources: dormwartwo18
+* Chain sources path: dormwartwo18->dormwartwo18
+
+## Official wiki page
+
+[Falling Asleep Standing Up](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust30&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -541,7 +551,9 @@ label kirinlust30:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

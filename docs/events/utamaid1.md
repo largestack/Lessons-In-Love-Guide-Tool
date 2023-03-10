@@ -1,30 +1,39 @@
-# Abuse of Power
-Uta event
+# Abuse of Power (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Uta love greater than or equal to 0
 
-✅Event "[Main: Caterpillar](./day247.md)" is completed (event=day247)
+* Uta love greater than or equal to 0
+
+* Event [Caterpillar](./day247.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Uta: Love Me to Pieces](./utamaid5.md)
 
 ## Event properties
-* ID: utamaid1
+
+* Id: utamaid1
 * Group: Uta
 * Triggered by label: utamaid
 * Triggered by branch label: utamaid
+* Triggered by path: utamaid->utamaid1
+
+## Official wiki page
+
+[Abuse of Power](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid1&go=Go) for more details.
 
 ## Event code
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...
@@ -369,7 +378,9 @@ label utamaid5:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

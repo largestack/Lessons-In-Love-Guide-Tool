@@ -1,30 +1,39 @@
-# That One FMK Scene
-Noriko event
+# That One FMK Scene (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=convenience25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Noriko love greater than or equal to 25
 
-✅Event "[Noriko: Homes for the Homeless](./norikodorm20.md)" is completed (event=norikodorm20)
+* Noriko love greater than or equal to 25
+
+* Event [Homes for the Homeless](./norikodorm20.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Noriko: Loxosceles Reclusa](./norikodorm25.md)
 
 ## Event properties
-* ID: convenience25
+
+* Id: convenience25
 * Group: Noriko
 * Triggered by label: convenience
-* Triggered by branch label: afterschoolmenu
+* Triggered by branch label: saturdaynight
+* Triggered by path: afterschoolmenu->convenience->convenience25
+
+## Official wiki page
+
+[That One FMK Scene](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=convenience25&go=Go) for more details.
 
 ## Event code
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...
@@ -432,7 +441,9 @@ label convenience25:
 ```
 
 ## Code that triggers this event
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...

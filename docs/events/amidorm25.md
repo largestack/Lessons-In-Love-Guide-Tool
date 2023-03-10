@@ -1,32 +1,41 @@
-# Everlasting Love
-Ami event
+# Everlasting Love (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 25
 
-✅Event "[Ami: Divergence](./amidorm20.md)" is completed (event=amidorm20)
+* Ami love greater than or equal to 25
 
-✅Day of week is not Friday
+* Event [Divergence](./amidorm20.md) (Ami) is completed)
+
+* Day of week is not Friday
 
 
 
 ## Next events
+
 * [Main: As Loud as a Whisper Can Be](./day214.md)
 
 ## Event properties
-* ID: amidorm25
+
+* Id: amidorm25
 * Group: Ami
 * Triggered by label: amidorm
 * Triggered by branch label: amidorm
+* Triggered by path: amidorm->amidorm25
+
+## Official wiki page
+
+[Everlasting Love](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amidorm25&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -462,7 +471,9 @@ label mayadorm30:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

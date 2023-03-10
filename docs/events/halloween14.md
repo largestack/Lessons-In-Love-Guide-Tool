@@ -1,17 +1,18 @@
-# Kadrillionbilliontrillion
-Main event
+# Kadrillionbilliontrillion (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween14&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Pry With a Smile](./halloween13.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Main: As Loud as a Whisper Can Be](./day214.md)
 * [Ayane: Regularly Scheduled Programming](./dojo25.md)
 * [Makoto: Aftermath](./pornshop20.md)
@@ -20,12 +21,21 @@ No event conditions found, it is likely part of an event chain.
 * [Kaori: The Best Ways to Rub a Cock](./kaoridate5.md)
 
 ## Event properties
-* ID: halloween14
+
+* Id: halloween14
 * Group: Main
 * Triggered by label: halloween13
+* Chain sources: halloween13
+* Chain sources path: halloween13
+
+## Official wiki page
+
+[Kadrillionbilliontrillion](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween14&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -468,7 +478,9 @@ label harukalust10:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

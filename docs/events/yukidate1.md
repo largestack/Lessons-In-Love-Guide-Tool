@@ -1,35 +1,44 @@
-# Rule #1
-Yuki event
+# Rule #1 (Yuki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yukidate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yuki love greater than or equal to 0
 
-✅Event "[Yumi: Where the Sidewalk Ends](./streets30.md)" is completed (event=streets30)
+* Yuki love greater than or equal to 0
 
-✅Event "[Tsuneyo: Blackout](./ramen20.md)" is completed (event=ramen20)
+* Event [Where the Sidewalk Ends](./streets30.md) (Yumi) is completed)
 
-✅yukinumber equal to True (unknown variable)
+* Event [Blackout](./ramen20.md) (Tsuneyo) is completed)
+
+* yukinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Yumi: Walls Too Thick to Hear Through](./yumidorm30.md)
 * [Yuki: Better Off Alone](./yukidate5.md)
 
 ## Event properties
-* ID: yukidate1
+
+* Id: yukidate1
 * Group: Yuki
 * Triggered by label: callyukinight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callyukinight->yukidate1
+
+## Official wiki page
+
+[Rule #1](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yukidate1&go=Go) for more details.
 
 ## Event code
-File: \game\YukiEvents.rpy
+
+File: (install folder)\game\YukiEvents.rpy
+
 Code:
 ```python
 ...
@@ -440,7 +449,9 @@ label yukidate5:
 ```
 
 ## Code that triggers this event
-File: \game\YukiEvents.rpy
+
+File: (install folder)\game\YukiEvents.rpy
+
 Code:
 ```python
 ...

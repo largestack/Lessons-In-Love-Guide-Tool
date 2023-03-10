@@ -1,28 +1,38 @@
-# Wake Up Call
-Ami event
+# Wake Up Call (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amilust10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Summer and Winter](./beachvacation9.md)
 
 ## Event preconditions
-✅Ami lust greater than or equal to 10
+
+* Ami lust greater than or equal to 10
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amilust10
+
+* Id: amilust10
 * Group: Ami
 * Triggered by label: endofbeachvac9
+* Chain sources: beachvacation9
+* Chain sources path: beachvacation9->beachvacation9
+
+## Official wiki page
+
+[Wake Up Call](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amilust10&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -106,7 +116,9 @@ label beachvacation10:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

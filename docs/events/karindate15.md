@@ -1,34 +1,43 @@
-# Dying Alone With Ten Cats
-Karin event
+# Dying Alone With Ten Cats (Karin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Karin love greater than or equal to 15
 
-✅Event "[Main: Forty Degrees Below Zero](./day264.md)" is completed (event=day264)
+* Karin love greater than or equal to 15
 
-❌karinlied equal to True (unknown variable)
+* Event [Forty Degrees Below Zero](./day264.md) (Main) is completed)
 
-✅karinnumber equal to True (unknown variable)
+* karinlied equal to True (unknown variable)
+
+* karinnumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: karindate15
+
+* Id: karindate15
 * Group: Karin
 * Triggered by label: callkarinafternoon
 * Triggered by branch label: callkarinafternoon
+* Triggered by path: callkarinafternoon->karindate15
+
+## Official wiki page
+
+[Dying Alone With Ten Cats](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate15&go=Go) for more details.
 
 ## Event code
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...
@@ -393,7 +402,9 @@ label karinsoccer15:
 ```
 
 ## Code that triggers this event
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...

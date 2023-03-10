@@ -1,32 +1,41 @@
-# Coloring Book
-Nodoka event
+# Coloring Book (Nodoka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokalibrary5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Nodoka love greater than or equal to 5
 
-✅Event "[Nodoka: Cracks in the Armor](./nodokalibrary1.md)" is completed (event=nodokalibrary1)
+* Nodoka love greater than or equal to 5
 
-✅Day of week is Saturday
+* Event [Cracks in the Armor](./nodokalibrary1.md) (Nodoka) is completed)
+
+* Day of week is Saturday
 
 
 
 ## Next events
+
 * [Nodoka: I See Everything](./nodokadorm5.md)
 
 ## Event properties
-* ID: nodokalibrary5
+
+* Id: nodokalibrary5
 * Group: Nodoka
 * Triggered by label: nodokalibrary
 * Triggered by branch label: saturdayafternoon
+* Triggered by path: saturdayafternoon->nodokalibrary->nodokalibrary5
+
+## Official wiki page
+
+[Coloring Book](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokalibrary5&go=Go) for more details.
 
 ## Event code
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...
@@ -366,7 +375,9 @@ label nodokadorm15:
 ```
 
 ## Code that triggers this event
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...

@@ -4,6 +4,8 @@ Would you like help with understanding what the next step in your Lessons in Lov
 
 Lessons In Love Guide Tool looks at your most recent save game, and lets you know what events you can perform next and their requirements. End all the endless trial and error to find the next event to trigger!
 
+Also see [the guide tool website here](http://largestack.github.io/Lessons-In-Love-Guide-Tool/) for a list of events and code corresponding to game events. You can go here if you are stuck on an event to see the code.
+
 ## Game version supported
 This tool is expected to work regardless of game version. However, the v1.1 release of this tool will only include events that were added in v0.28.0 and before.
 

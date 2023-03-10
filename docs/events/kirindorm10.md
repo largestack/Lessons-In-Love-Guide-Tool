@@ -1,37 +1,46 @@
-# Love, Dorms, and Other Things
-Kirin event
+# Love, Dorms, and Other Things (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kirin love greater than or equal to 10
 
-✅Event "[Main: What Was](./day271.md)" is completed (event=day271)
+* Kirin love greater than or equal to 10
 
-✅Day of week is not Wednesday
+* Event [What Was](./day271.md) (Main) is completed)
 
-✅Event "[Uta: The VIP Treatment](./utadorm5.md)" is completed (event=utadorm5)
+* Day of week is not Wednesday
 
-✅Event "[Io: Unnamed Wooden Robots](./iodorm5.md)" is completed (event=iodorm5)
+* Event [The VIP Treatment](./utadorm5.md) (Uta) is completed)
+
+* Event [Unnamed Wooden Robots](./iodorm5.md) (Io) is completed)
 
 
 
 ## Next events
+
 * [Kirin: Flickering Spotlight](./kirinsoccer15.md)
 * [Noriko: Semi-Constructive Criticism](./norikodorm5.md)
 
 ## Event properties
-* ID: kirindorm10
+
+* Id: kirindorm10
 * Group: Kirin
 * Triggered by label: kirindorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->kirindorm->kirindorm10
+
+## Official wiki page
+
+[Love, Dorms, and Other Things](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirindorm10&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -422,7 +431,9 @@ label kirindorm15:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

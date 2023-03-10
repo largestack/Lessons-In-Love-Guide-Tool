@@ -1,26 +1,36 @@
-# Another Man's Treasure
-Io event
+# Another Man's Treasure (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse20part2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [One Man's Trash](./bathhouse20.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Uta: Veins and the Circulatory System](./utamaid20.md)
 
 ## Event properties
-* ID: bathhouse20part2
+
+* Id: bathhouse20part2
 * Group: Io
 * Triggered by label: bathhouse20
+* Chain sources: bathhouse20
+* Chain sources path: bathhouse20
+
+## Official wiki page
+
+[Another Man's Treasure](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse20part2&go=Go) for more details.
 
 ## Event code
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...
@@ -357,7 +367,9 @@ label ioarchery1:
 ```
 
 ## Code that triggers this event
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...

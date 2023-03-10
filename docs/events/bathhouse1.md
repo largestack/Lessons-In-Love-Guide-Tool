@@ -1,30 +1,39 @@
-# Nonetheless, I'm Here
-Io event
+# Nonetheless, I'm Here (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Io love greater than or equal to 0
 
-✅Event "[Main: Caterpillar](./day247.md)" is completed (event=day247)
+* Io love greater than or equal to 0
+
+* Event [Caterpillar](./day247.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Io: The Girl with the Dragon Tattoo](./bathhouse5.md)
 
 ## Event properties
-* ID: bathhouse1
+
+* Id: bathhouse1
 * Group: Io
 * Triggered by label: bathhouse
 * Triggered by branch label: bathhouse
+* Triggered by path: bathhouse->bathhouse1
+
+## Official wiki page
+
+[Nonetheless, I'm Here](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse1&go=Go) for more details.
 
 ## Event code
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...
@@ -320,7 +329,9 @@ label bathhouse5:
 ```
 
 ## Code that triggers this event
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,29 +1,37 @@
-# Everything is Connected
-Happy scenes event
+# Everything is Connected (Happy scenes)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=everythingisconnected&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-❌connecttrack equal to False (unknown variable)
 
-✅Event "[Miku: Nightvision](./soccer10.md)" is completed (event=soccer10)
+* connecttrack equal to False (unknown variable)
+
+* Event [Nightvision](./soccer10.md) (Miku) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: everythingisconnected
+
+* Id: everythingisconnected
 * Group: Happy scenes
 * Triggered by label: happyloop1
 
+## Official wiki page
+
+[Everything is Connected](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=everythingisconnected&go=Go) for more details.
+
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -503,7 +511,9 @@ label day98:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

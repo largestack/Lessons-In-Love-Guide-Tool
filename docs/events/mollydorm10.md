@@ -1,32 +1,41 @@
-# The Dark Entity
-Molly event
+# The Dark Entity (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 10
 
-✅Event "[Molly: Torrent of Power](./mollydorm5.md)" is completed (event=mollydorm5)
+* Molly love greater than or equal to 10
 
-✅Event "[Molly: Something Out of a Nukige](./mollycafe10.md)" is completed (event=mollycafe10)
+* Event [Torrent of Power](./mollydorm5.md) (Molly) is completed)
+
+* Event [Something Out of a Nukige](./mollycafe10.md) (Molly) is completed)
 
 
 
 ## Next events
+
 * [Main: What's Done is Done](./beachvacation1.md)
 
 ## Event properties
-* ID: mollydorm10
+
+* Id: mollydorm10
 * Group: Molly
 * Triggered by label: mollydorm
 * Triggered by branch label: mollydorm
+* Triggered by path: mollydorm->mollydorm10
+
+## Official wiki page
+
+[The Dark Entity](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm10&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -450,7 +459,9 @@ label tsuneyodorm5:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

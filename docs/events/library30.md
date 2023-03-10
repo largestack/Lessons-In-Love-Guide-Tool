@@ -1,34 +1,43 @@
-# Under the Table
-Futaba event
+# Under the Table (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=library30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 30
 
-✅Event "[Futaba: Two Hours](./futabadorm25.md)" is completed (event=futabadorm25)
+* Futaba love greater than or equal to 30
 
-✅Event "[Main: See You in the Morning](./beachvacation16.md)" is completed (event=beachvacation16)
+* Event [Two Hours](./futabadorm25.md) (Futaba) is completed)
 
-✅Event "[Futaba: A Book About Dragons](./library25.md)" is completed (event=library25)
+* Event [See You in the Morning](./beachvacation16.md) (Main) is completed)
+
+* Event [A Book About Dragons](./library25.md) (Futaba) is completed)
 
 
 
 ## Next events
+
 * [Futaba: A Tree Falls in the Forest](./futabadorm30.md)
 
 ## Event properties
-* ID: library30
+
+* Id: library30
 * Group: Futaba
 * Triggered by label: library
 * Triggered by branch label: library
+* Triggered by path: library->library30
+
+## Official wiki page
+
+[Under the Table](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=library30&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -408,7 +417,9 @@ label library35:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

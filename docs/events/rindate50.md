@@ -1,32 +1,41 @@
-# The Happiest Girl in the World
-Rin event
+# The Happiest Girl in the World (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindate50&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-❌rinbetrayed equal to False (unknown variable)
 
-✅Event "[Rin: Lifejacket](./rindorm50special.md)" is completed (event=rindorm50special)
+* rinbetrayed equal to False (unknown variable)
 
-✅rinnumber equal to True (unknown variable)
+* Event [Lifejacket](./rindorm50special.md) (Rin) is completed)
+
+* rinnumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Main: Girls in Spandex](./halloweentwo1.md)
 
 ## Event properties
-* ID: rindate50
+
+* Id: rindate50
 * Group: Rin
 * Triggered by label: callrinnight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callrinnight->rindate50
+
+## Official wiki page
+
+[The Happiest Girl in the World](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindate50&go=Go) for more details.
 
 ## Event code
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...
@@ -451,7 +460,9 @@ label rindorm55:
 ```
 
 ## Code that triggers this event
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...

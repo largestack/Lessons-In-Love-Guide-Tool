@@ -1,26 +1,36 @@
-# Guest of Honor
-Main event
+# Guest of Honor (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Value of Sharing](./halloween1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloween2
+
+* Id: halloween2
 * Group: Main
 * Triggered by label: halloween1
+* Chain sources: halloween1
+* Chain sources path: halloween1
+
+## Official wiki page
+
+[Guest of Honor](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween2&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -437,7 +447,9 @@ label halloween3:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

@@ -1,30 +1,39 @@
-# Locked In
-Otoha event
+# Locked In (Otoha)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohapark5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Otoha love greater than or equal to 0
 
-✅Event "[Otoha: Japanese Summer](./otohapark1.md)" is completed (event=otohapark1)
+* Otoha love greater than or equal to 0
+
+* Event [Japanese Summer](./otohapark1.md) (Otoha) is completed)
 
 
 
 ## Next events
+
 * [Otoha: Highly Pornographic](./otohadorm5.md)
 
 ## Event properties
-* ID: otohapark5
+
+* Id: otohapark5
 * Group: Otoha
 * Triggered by label: otohapark
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->otohapark->otohapark5
+
+## Official wiki page
+
+[Locked In](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohapark5&go=Go) for more details.
 
 ## Event code
-File: \game\OtohaEvents.rpy
+
+File: (install folder)\game\OtohaEvents.rpy
+
 Code:
 ```python
 ...
@@ -444,7 +453,9 @@ label otohapark10:
 ```
 
 ## Code that triggers this event
-File: \game\OtohaEvents.rpy
+
+File: (install folder)\game\OtohaEvents.rpy
+
 Code:
 ```python
 ...

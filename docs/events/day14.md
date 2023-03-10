@@ -1,28 +1,37 @@
-# Self-Esteem
-Main event
+# Self-Esteem (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day14&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 14
+
+* Days since the start of the game greater than or equal to 14
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: day14
+
+* Id: day14
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day14
+
+## Official wiki page
+
+[Self-Esteem](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day14&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -303,7 +312,9 @@ label day16:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

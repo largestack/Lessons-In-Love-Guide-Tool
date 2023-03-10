@@ -1,26 +1,35 @@
-# Trinity Pt. II: Hell is Empty
-Happy scenes event
+# Trinity Pt. II: Hell is Empty (Happy scenes)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=trinity2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: trinity2
+
+* Id: trinity2
 * Group: Happy scenes
 * Triggered by label: saturdaynight
 * Triggered by branch label: saturdaynight
+* Triggered by path: saturdaynight->trinity2
+
+## Official wiki page
+
+[Trinity Pt. II: Hell is Empty](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=trinity2&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -541,7 +550,9 @@ label halloween1:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

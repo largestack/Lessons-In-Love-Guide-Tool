@@ -1,26 +1,36 @@
-# The Other Half
-Kirin event
+# The Other Half (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust202&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Fear of Missing Out](./christmastwo9.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kirinlust202
+
+* Id: kirinlust202
 * Group: Kirin
 * Triggered by label: christmastwo9
+* Chain sources: christmastwo9
+* Chain sources path: christmastwo9
+
+## Official wiki page
+
+[The Other Half](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust202&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -488,7 +498,9 @@ label kirinlust30:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

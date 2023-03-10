@@ -1,28 +1,37 @@
-# A New Beginning
-Maya event
+# A New Beginning (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimeshrine&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 0
+
+* Maya love greater than or equal to 0
 
 
 
 ## Next events
+
 * [Maya: Mondays](./mayafirsthall.md)
 
 ## Event properties
-* ID: firsttimeshrine
+
+* Id: firsttimeshrine
 * Group: Maya
 * Triggered by label: shrine
 * Triggered by branch label: shrine
+* Triggered by path: shrine->firsttimeshrine
+
+## Official wiki page
+
+[A New Beginning](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimeshrine&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -389,7 +398,9 @@ label shrine5:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

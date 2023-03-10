@@ -1,32 +1,41 @@
-# The Complete Absence of Everything
-Sana event
+# The Complete Absence of Everything (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sanadorm45&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sana love greater than or equal to 45
 
-✅Event "[Main: Sayonara](./thirdreset3.md)" is completed (event=thirdreset3)
+* Sana love greater than or equal to 45
 
-✅Day of week is not Thursday
+* Event [Sayonara](./thirdreset3.md) (Main) is completed)
+
+* Day of week is not Thursday
 
 
 
 ## Next events
+
 * [Sana: Mine](./sanadorm50.md)
 
 ## Event properties
-* ID: sanadorm45
+
+* Id: sanadorm45
 * Group: Sana
 * Triggered by label: sanadorm
 * Triggered by branch label: sanadorm
+* Triggered by path: sanadorm->sanadorm45
+
+## Official wiki page
+
+[The Complete Absence of Everything](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sanadorm45&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -422,7 +431,9 @@ label sanadorm50:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

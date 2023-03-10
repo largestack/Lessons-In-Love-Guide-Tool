@@ -1,32 +1,41 @@
-# Couple's Discount
-Ami event
+# Couple's Discount (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=aminew1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 43
 
-✅Event "[Ami: Something Darker](./amisroom10.md)" is completed (event=amisroom10)
+* Days since the start of the game greater than or equal to 43
 
-✅Event "[Main: No Romeo](./day24.md)" is completed (event=day24)
+* Event [Something Darker](./amisroom10.md) (Ami) is completed)
+
+* Event [No Romeo](./day24.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Ami: Ode to a Marsh Warbler](./aminew2.md)
 
 ## Event properties
-* ID: aminew1
+
+* Id: aminew1
 * Group: Ami
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->aminew1
+
+## Official wiki page
+
+[Couple's Discount](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=aminew1&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -334,7 +343,9 @@ label aminew2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

@@ -1,31 +1,40 @@
-# I See You
-Yumi event
+# I See You (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=streets10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yumi love greater than or equal to 10
 
-✅Event "[Main: This Town Has Two Halves](./day44.md)" is completed (event=day44)
+* Yumi love greater than or equal to 10
+
+* Event [This Town Has Two Halves](./day44.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: Contractions](./day85.md)
 * [Yumi: Fuck The Police](./yumidorm5.md)
 
 ## Event properties
-* ID: streets10
+
+* Id: streets10
 * Group: Yumi
 * Triggered by label: streets
 * Triggered by branch label: streets
+* Triggered by path: streets->streets10
+
+## Official wiki page
+
+[I See You](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=streets10&go=Go) for more details.
 
 ## Event code
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...
@@ -332,7 +341,9 @@ label streets15:
 ```
 
 ## Code that triggers this event
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...

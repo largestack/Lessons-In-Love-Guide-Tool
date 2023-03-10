@@ -1,26 +1,36 @@
-# Pluto Was Never Really a Planet
-Main event
+# Pluto Was Never Really a Planet (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Lavender's Blue](./secondbeach14.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: secondbeach15
+
+* Id: secondbeach15
 * Group: Main
 * Triggered by label: secondbeach14
+* Chain sources: secondbeach14
+* Chain sources path: secondbeach14
+
+## Official wiki page
+
+[Pluto Was Never Really a Planet](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach15&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -508,7 +518,9 @@ label secondbeach16:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

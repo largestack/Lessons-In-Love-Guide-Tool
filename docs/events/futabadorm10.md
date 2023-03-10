@@ -1,28 +1,37 @@
-# Cutting Through Cocoons
-Futaba event
+# Cutting Through Cocoons (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 10
+
+* Futaba love greater than or equal to 10
 
 
 
 ## Next events
+
 * [Futaba: Self-Insert](./library15.md)
 
 ## Event properties
-* ID: futabadorm10
+
+* Id: futabadorm10
 * Group: Futaba
 * Triggered by label: futabadorm
 * Triggered by branch label: futabadorm
+* Triggered by path: futabadorm->futabadorm10
+
+## Official wiki page
+
+[Cutting Through Cocoons](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm10&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -225,7 +234,9 @@ label futabadorm15:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

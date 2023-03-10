@@ -1,32 +1,41 @@
-# 1999 PC Classic, Rollercoaster Tycoon
-Io event
+# 1999 PC Classic, Rollercoaster Tycoon (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iospecial30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-❌Event "[Uta: After the Rain](./utamaid25p2.md)" is completed (event=utamaid25p2)
 
-✅Day of week is Saturday
+* Event [After the Rain](./utamaid25p2.md) (Uta) is completed)
 
-❌Event "[Io: Heartbreak & Harmony](./iodorm25.md)" is completed (event=iodorm25)
+* Day of week is Saturday
+
+* Event [Heartbreak & Harmony](./iodorm25.md) (Io) is completed)
 
 
 
 ## Next events
+
 * [Tsukasa: National Tsukasa Day](./tsukasaspecial1.md)
 
 ## Event properties
-* ID: iospecial30
+
+* Id: iospecial30
 * Group: Io
 * Triggered by label: saturdaymorning
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->iospecial30
+
+## Official wiki page
+
+[1999 PC Classic, Rollercoaster Tycoon](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iospecial30&go=Go) for more details.
 
 ## Event code
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...
@@ -534,7 +543,9 @@ label iospecial30:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

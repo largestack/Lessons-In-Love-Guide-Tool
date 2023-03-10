@@ -1,30 +1,39 @@
-# Endless Torment
-Ayane event
+# Endless Torment (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dojo20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ayane love greater than or equal to 20
 
-✅Event "[Ayane: First Words](./ayanedorm15.md)" is completed (event=ayanedorm15)
+* Ayane love greater than or equal to 20
+
+* Event [First Words](./ayanedorm15.md) (Ayane) is completed)
 
 
 
 ## Next events
+
 * [Ayane: Still Young](./ayanedorm20.md)
 
 ## Event properties
-* ID: dojo20
+
+* Id: dojo20
 * Group: Ayane
 * Triggered by label: dojo
 * Triggered by branch label: dojo
+* Triggered by path: dojo->dojo20
+
+## Official wiki page
+
+[Endless Torment](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dojo20&go=Go) for more details.
 
 ## Event code
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...
@@ -276,7 +285,9 @@ label dojo25:
 ```
 
 ## Code that triggers this event
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...

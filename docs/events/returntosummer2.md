@@ -1,26 +1,35 @@
-# A Life of Prizes
-Main event
+# A Life of Prizes (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=returntosummer2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: returntosummer2
+
+* Id: returntosummer2
 * Group: Main
 * Triggered by label: returntosummer1
 * Triggered by branch label: returntosummer2
+* Triggered by path: returntosummer2
+
+## Official wiki page
+
+[A Life of Prizes](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=returntosummer2&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -1528,7 +1537,9 @@ label specialbonusamiscene:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

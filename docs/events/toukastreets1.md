@@ -1,30 +1,39 @@
-# Trial Period
-Touka event
+# Trial Period (Touka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukastreets1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Touka love greater than or equal to 0
 
-✅Event "[Main: Horses or the Whispers of the Dead](./day304.md)" is completed (event=day304)
+* Touka love greater than or equal to 0
+
+* Event [Horses or the Whispers of the Dead](./day304.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: toukastreets1
+
+* Id: toukastreets1
 * Group: Touka
 * Triggered by label: toukastreets
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->toukastreets->toukastreets1
+
+## Official wiki page
+
+[Trial Period](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukastreets1&go=Go) for more details.
 
 ## Event code
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -421,7 +430,9 @@ label toukastreets5:
 ```
 
 ## Code that triggers this event
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...

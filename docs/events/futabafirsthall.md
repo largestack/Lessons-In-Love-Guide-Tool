@@ -1,26 +1,35 @@
-# Unidentical Twins
-Futaba event
+# Unidentical Twins (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabafirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: futabafirsthall
+
+* Id: futabafirsthall
 * Group: Futaba
 * Triggered by label: dormtuesday
 * Triggered by branch label: dorms
+* Triggered by path: dorms->dormtuesday->futabafirsthall
+
+## Official wiki page
+
+[Unidentical Twins](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabafirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -205,7 +214,9 @@ label rinfirsthall:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

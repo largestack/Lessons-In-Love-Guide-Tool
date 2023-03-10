@@ -1,30 +1,39 @@
-# Cotton Candy
-Niki event
+# Cotton Candy (Niki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nikidate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Niki love greater than or equal to 0
 
-✅nikinumber equal to True (unknown variable)
+* Niki love greater than or equal to 0
+
+* nikinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Niki: Like it's Any Other Day](./nikidate5.md)
 
 ## Event properties
-* ID: nikidate1
+
+* Id: nikidate1
 * Group: Niki
 * Triggered by label: callnikimorning
 * Triggered by branch label: callmorning
+* Triggered by path: callmorning->callnikimorning->nikidate1
+
+## Official wiki page
+
+[Cotton Candy](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nikidate1&go=Go) for more details.
 
 ## Event code
-File: \game\NikiEvents.rpy
+
+File: (install folder)\game\NikiEvents.rpy
+
 Code:
 ```python
 ...
@@ -430,7 +439,9 @@ label nikidate5:
 ```
 
 ## Code that triggers this event
-File: \game\NikiEvents.rpy
+
+File: (install folder)\game\NikiEvents.rpy
+
 Code:
 ```python
 ...

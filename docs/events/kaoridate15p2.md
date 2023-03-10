@@ -1,26 +1,36 @@
-# Sad Girl Special
-Kaori event
+# Sad Girl Special (Kaori)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate15p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [To Die, To Sleep](./kaoridate15.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kaoridate15p2
+
+* Id: kaoridate15p2
 * Group: Kaori
 * Triggered by label: kaoridate15
+* Chain sources: kaoridate15
+* Chain sources path: kaoridate15
+
+## Official wiki page
+
+[Sad Girl Special](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate15p2&go=Go) for more details.
 
 ## Event code
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...
@@ -379,7 +389,9 @@ label kaoridate15p3:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

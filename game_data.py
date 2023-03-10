@@ -338,15 +338,19 @@ def load_game_data(game_folder):
       if chain_source_depth < branch_source_depth:
         events[event_name]["chain_sources"] = chain_source_name
         events[event_name]["chain_sources_depth"] = chain_source_depth
+        events[event_name]["chain_sources_path"] = chain_source_path
       else:
         events[event_name]["triggered_by_branch"] = branch_source_name
         events[event_name]["triggered_by_branch_depth"] = branch_source_depth
+        events[event_name]["triggered_by_branch_path"] = branch_source_path
     elif chain_source_depth is not None:
       events[event_name]["chain_sources"] = chain_source_name
       events[event_name]["chain_sources_depth"] = chain_source_depth
+      events[event_name]["chain_sources_path"] = chain_source_path
     elif branch_source_depth is not None:
       events[event_name]["triggered_by_branch"] = branch_source_name
       events[event_name]["triggered_by_branch_depth"] = branch_source_depth
+      events[event_name]["triggered_by_branch_path"] = branch_source_path
 
   # Parse Phone.rpy getContacts() to get the call and invite over pre-requisites.
   # Add these as requirements to the events.

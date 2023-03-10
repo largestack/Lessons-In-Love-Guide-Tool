@@ -1,33 +1,42 @@
-# NTR & Pregnancy
-Molly event
+# NTR & Pregnancy (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 0
 
-✅Event "[Main: Lifting the Curse](./day154.md)" is completed (event=day154)
+* Molly love greater than or equal to 0
+
+* Event [Lifting the Curse](./day154.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Molly: Remnants of Forgotten Memes](./mollycafe5.md)
 * [Molly: Torrent of Power](./mollydorm5.md)
 * [Maki: Beautiful Porn Salesman](./makidate1.md)
 * [Karin: If Only](./karindate10.md)
 
 ## Event properties
-* ID: mollycafe1
+
+* Id: mollycafe1
 * Group: Molly
 * Triggered by label: mollycafe
 * Triggered by branch label: mollycafe
+* Triggered by path: mollycafe->mollycafe1
+
+## Official wiki page
+
+[NTR & Pregnancy](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe1&go=Go) for more details.
 
 ## Event code
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...
@@ -318,7 +327,9 @@ label mollycafe5:
 ```
 
 ## Code that triggers this event
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...

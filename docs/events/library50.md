@@ -1,30 +1,39 @@
-# Bestial Vigor
-Futaba event
+# Bestial Vigor (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=library50&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 50
 
-❌Event "[Futaba: This Infected Wound](./futabadorm50.md)" is completed (event=futabadorm50)
+* Futaba love greater than or equal to 50
+
+* Event [This Infected Wound](./futabadorm50.md) (Futaba) is completed)
 
 
 
 ## Next events
+
 * [Futaba: Too Blind To See](./futabainvite3.md)
 
 ## Event properties
-* ID: library50
+
+* Id: library50
 * Group: Futaba
 * Triggered by label: library
 * Triggered by branch label: library
+* Triggered by path: library->library50
+
+## Official wiki page
+
+[Bestial Vigor](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=library50&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -336,7 +345,9 @@ label futabainvite3:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

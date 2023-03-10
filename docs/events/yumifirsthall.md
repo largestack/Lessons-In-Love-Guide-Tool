@@ -1,26 +1,35 @@
-# Micropenis
-Yumi event
+# Micropenis (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumifirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: yumifirsthall
+
+* Id: yumifirsthall
 * Group: Yumi
 * Triggered by label: dormmonday
-* Triggered by branch label: dorms
+* Triggered by branch label: dorm2monday
+* Triggered by path: dorms->dormmonday->yumifirsthall
+
+## Official wiki page
+
+[Micropenis](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumifirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -140,7 +149,9 @@ label mayafirsthall:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

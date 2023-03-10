@@ -1,34 +1,43 @@
-# Uptown Girl
-Sara event
+# Uptown Girl (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saradate10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sara love greater than or equal to 10
 
-✅Event "[Niki: Like it's Any Other Day](./nikidate5.md)" is completed (event=nikidate5)
+* Sara love greater than or equal to 10
 
-✅Event "[Sana: Waiting for Anything](./sanadorm35.md)" is completed (event=sanadorm35)
+* Event [Like it's Any Other Day](./nikidate5.md) (Niki) is completed)
 
-✅saranumber equal to True (unknown variable)
+* Event [Waiting for Anything](./sanadorm35.md) (Sana) is completed)
+
+* saranumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Otoha: Japanese Summer](./otohapark1.md)
 
 ## Event properties
-* ID: saradate10
+
+* Id: saradate10
 * Group: Sara
 * Triggered by label: callsaraafternoon
 * Triggered by branch label: callafternoon
+* Triggered by path: callafternoon->callsaraafternoon->saradate10
+
+## Official wiki page
+
+[Uptown Girl](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=saradate10&go=Go) for more details.
 
 ## Event code
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...
@@ -492,7 +501,9 @@ label sarabar20:
 ```
 
 ## Code that triggers this event
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...

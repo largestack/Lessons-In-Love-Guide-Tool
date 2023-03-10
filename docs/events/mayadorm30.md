@@ -1,33 +1,42 @@
-# What it Means to Be Destroyed
-Maya event
+# What it Means to Be Destroyed (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 30
 
-✅Event "[Maya: FLAVOR BEAM!](./mayadorm25.md)" is completed (event=mayadorm25)
+* Maya love greater than or equal to 30
 
-✅Event "[Noriko: Beginnings. Endings. Things in Between.](./norikoinvite2.md)" is completed (event=norikoinvite2)
+* Event [FLAVOR BEAM!](./mayadorm25.md) (Maya) is completed)
+
+* Event [Beginnings. Endings. Things in Between.](./norikoinvite2.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Maya: Now More Than Ever](./shrine30.md)
 * [Maya: A Place That Can Only Exist in Our Minds](./mayadorm35.md)
 
 ## Event properties
-* ID: mayadorm30
+
+* Id: mayadorm30
 * Group: Maya
 * Triggered by label: mayadorm
 * Triggered by branch label: mayadorm
+* Triggered by path: mayadorm->mayadorm30
+
+## Official wiki page
+
+[What it Means to Be Destroyed](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm30&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -417,7 +426,9 @@ label mayadorm35:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

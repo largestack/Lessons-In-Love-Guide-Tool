@@ -1,30 +1,39 @@
-# Broken Flowers
-Futaba event
+# Broken Flowers (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabanew1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 15
 
-✅Event "[Futaba: Self-Insert](./library15.md)" is completed (event=library15)
+* Futaba love greater than or equal to 15
+
+* Event [Self-Insert](./library15.md) (Futaba) is completed)
 
 
 
 ## Next events
+
 * [Futaba: Great Burdock Leaves](./futabanew2.md)
 
 ## Event properties
-* ID: futabanew1
+
+* Id: futabanew1
 * Group: Futaba
 * Triggered by label: futabadorm
 * Triggered by branch label: futabadorm
+* Triggered by path: futabadorm->futabanew1
+
+## Official wiki page
+
+[Broken Flowers](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabanew1&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -299,7 +308,9 @@ label futabanew2:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

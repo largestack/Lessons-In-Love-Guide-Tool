@@ -1,26 +1,36 @@
-# Snow-Covered Footprints
-Main event
+# Snow-Covered Footprints (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmas1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Changing of Seasons](./hoorayanotherreset.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: christmas1
+
+* Id: christmas1
 * Group: Main
 * Triggered by label: hoorayanotherreset
+* Chain sources: hoorayanotherreset
+* Chain sources path: hoorayanotherreset
+
+## Official wiki page
+
+[Snow-Covered Footprints](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmas1&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -451,7 +461,9 @@ label christmas2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

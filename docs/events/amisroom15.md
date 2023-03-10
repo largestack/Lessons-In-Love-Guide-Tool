@@ -1,30 +1,39 @@
-# Important Things
-Ami event
+# Important Things (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amisroom15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ami love greater than or equal to 15
 
-✅Event "[Ami: Back Out in the Heat](./amidorm15.md)" is completed (event=amidorm15)
+* Ami love greater than or equal to 15
+
+* Event [Back Out in the Heat](./amidorm15.md) (Ami) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amisroom15
+
+* Id: amisroom15
 * Group: Ami
 * Triggered by label: amisroom
 * Triggered by branch label: amisroom
+* Triggered by path: amisroom->amisroom15
+
+## Official wiki page
+
+[Important Things](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amisroom15&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -511,7 +520,9 @@ label amisroom20:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

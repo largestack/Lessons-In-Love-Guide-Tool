@@ -1,30 +1,39 @@
-# Young At Heart
-Osako event
+# Young At Heart (Osako)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=osakodate15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Osako love greater than or equal to 15
 
-❌Event "[Wakana: Don't Hold Back](./wakanaspecial15.md)" is completed (event=wakanaspecial15)
+* Osako love greater than or equal to 15
+
+* Event [Don't Hold Back](./wakanaspecial15.md) (Wakana) is completed)
 
 
 
 ## Next events
+
 * [Osako: House of the Unholy](./osakodate20.md)
 
 ## Event properties
-* ID: osakodate15
+
+* Id: osakodate15
 * Group: Osako
 * Triggered by label: utamaid
 * Triggered by branch label: utamaid
+* Triggered by path: utamaid->osakodate15
+
+## Official wiki page
+
+[Young At Heart](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=osakodate15&go=Go) for more details.
 
 ## Event code
-File: \game\OsakoEvents.rpy
+
+File: (install folder)\game\OsakoEvents.rpy
+
 Code:
 ```python
 ...
@@ -325,7 +334,9 @@ label osakodate20:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

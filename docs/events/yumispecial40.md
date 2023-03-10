@@ -1,26 +1,36 @@
-# Reconciliation
-Yumi event
+# Reconciliation (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumispecial40&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [A Thing of the Past](./yukidate10p2.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: yumispecial40
+
+* Id: yumispecial40
 * Group: Yumi
 * Triggered by label: yukidate10p2
+* Chain sources: yukidate10p2
+* Chain sources path: yukidate10p2
+
+## Official wiki page
+
+[Reconciliation](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumispecial40&go=Go) for more details.
 
 ## Event code
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...
@@ -308,7 +318,9 @@ label yumispecial40p2:
 ```
 
 ## Code that triggers this event
-File: \game\YukiEvents.rpy
+
+File: (install folder)\game\YukiEvents.rpy
+
 Code:
 ```python
 ...

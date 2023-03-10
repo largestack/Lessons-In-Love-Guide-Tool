@@ -1,31 +1,40 @@
-# Schadenfreude
-Chika event
+# Schadenfreude (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikadorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chika love greater than or equal to 20
 
-✅Event "[Chika: A Dog that Doesn't Do Math](./mall15.md)" is completed (event=mall15)
+* Chika love greater than or equal to 20
+
+* Event [A Dog that Doesn't Do Math](./mall15.md) (Chika) is completed)
 
 
 
 ## Next events
+
 * [Chika: True Power: Unleashed](./mall20.md)
 * [Chika: Detention](./day139.md)
 
 ## Event properties
-* ID: chikadorm20
+
+* Id: chikadorm20
 * Group: Chika
 * Triggered by label: chikadorm
 * Triggered by branch label: chikadorm
+* Triggered by path: chikadorm->chikadorm20
+
+## Official wiki page
+
+[Schadenfreude](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikadorm20&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -385,7 +394,9 @@ label yumidorm20:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

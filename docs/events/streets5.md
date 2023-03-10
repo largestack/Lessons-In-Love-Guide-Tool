@@ -1,28 +1,37 @@
-# Three Second Smile
-Yumi event
+# Three Second Smile (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=streets5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yumi love greater than or equal to 5
+
+* Yumi love greater than or equal to 5
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: streets5
+
+* Id: streets5
 * Group: Yumi
 * Triggered by label: streets
 * Triggered by branch label: streets
+* Triggered by path: streets->streets5
+
+## Official wiki page
+
+[Three Second Smile](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=streets5&go=Go) for more details.
 
 ## Event code
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...
@@ -324,7 +333,9 @@ label streets10:
 ```
 
 ## Code that triggers this event
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...

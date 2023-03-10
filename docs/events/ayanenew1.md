@@ -1,36 +1,45 @@
-# Imprinting
-Ayane event
+# Imprinting (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanenew1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ayane love greater than or equal to 10
 
-✅Event "[Rin: The Flavor of Love](./cafesugar.md)" is completed (event=cafesugar)
+* Ayane love greater than or equal to 10
 
-✅Event "[Ayane: Names of Our Children](./dojo10.md)" is completed (event=dojo10)
+* Event [The Flavor of Love](./cafesugar.md) (Rin) is completed)
 
-✅Event "[Ayane: Home Sweet Home](./ayanedorm5.md)" is completed (event=ayanedorm5)
+* Event [Names of Our Children](./dojo10.md) (Ayane) is completed)
+
+* Event [Home Sweet Home](./ayanedorm5.md) (Ayane) is completed)
 
 
 
 ## Next events
+
 * [Main: Recall](./day96.md)
 * [Ayane: Far From Fantasy](./ayanenew2.md)
 * [Rin: Nothing Was Missing, Except Me](./cafe20.md)
 
 ## Event properties
-* ID: ayanenew1
+
+* Id: ayanenew1
 * Group: Ayane
 * Triggered by label: callayanemorning
 * Triggered by branch label: callmorning
+* Triggered by path: callmorning->callayanemorning->ayanenew1
+
+## Official wiki page
+
+[Imprinting](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanenew1&go=Go) for more details.
 
 ## Event code
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...
@@ -310,7 +319,9 @@ label ayanenew2:
 ```
 
 ## Code that triggers this event
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...

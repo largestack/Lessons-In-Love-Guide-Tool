@@ -1,32 +1,41 @@
-# FLAVOR BEAM!
-Maya event
+# FLAVOR BEAM! (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 25
 
-✅Event "[Maya: Watermelons and Violin](./shrine25.md)" is completed (event=shrine25)
+* Maya love greater than or equal to 25
+
+* Event [Watermelons and Violin](./shrine25.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Main: The Value of Sharing](./halloween1.md)
 * [Ami: Cute Girls and Stuff](./amisroom20.md)
 * [Maya: What it Means to Be Destroyed](./mayadorm30.md)
 
 ## Event properties
-* ID: mayadorm25
+
+* Id: mayadorm25
 * Group: Maya
 * Triggered by label: mayadorm
 * Triggered by branch label: mayadorm
+* Triggered by path: mayadorm->mayadorm25
+
+## Official wiki page
+
+[FLAVOR BEAM!](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm25&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -408,7 +417,9 @@ label amidorm20:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

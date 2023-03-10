@@ -1,26 +1,36 @@
-# The Legacy of Thaum Pt. IV
-Main event
+# The Legacy of Thaum Pt. IV (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachmas13&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [No One Can Hear Us](./amilust35.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachmas13
+
+* Id: beachmas13
 * Group: Main
-* Triggered by label: amilust35skip
+* Triggered by label: amilust35
+* Chain sources: amilust35
+* Chain sources path: amilust35
+
+## Official wiki page
+
+[The Legacy of Thaum Pt. IV](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachmas13&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -315,7 +325,9 @@ label beachmas14:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

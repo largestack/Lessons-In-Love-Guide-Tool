@@ -1,26 +1,36 @@
-# World of Lines
-Main event
+# World of Lines (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo16&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Cracking of the Egg](./dormwartwo15.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwartwo16
+
+* Id: dormwartwo16
 * Group: Main
 * Triggered by label: dormwartwo15
+* Chain sources: dormwartwo15
+* Chain sources path: dormwartwo15
+
+## Official wiki page
+
+[World of Lines](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo16&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -422,7 +432,9 @@ label dormwartwo17:
 ```
 
 ## Code that triggers this event
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...

@@ -1,35 +1,44 @@
-# A Place That Can Only Exist in Our Minds
-Maya event
+# A Place That Can Only Exist in Our Minds (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 35
 
-✅Event "[Maya: What it Means to Be Destroyed](./mayadorm30.md)" is completed (event=mayadorm30)
+* Maya love greater than or equal to 35
 
-✅Day of week is a weekend
+* Event [What it Means to Be Destroyed](./mayadorm30.md) (Maya) is completed)
 
-✅Event "[Niki: Like it's Any Other Day](./nikidate5.md)" is completed (event=nikidate5)
+* Day of week is a weekend
+
+* Event [Like it's Any Other Day](./nikidate5.md) (Niki) is completed)
 
 
 
 ## Next events
+
 * [Maya: Stop Looking For Answers](./shrine35.md)
 * [Makoto: Condoms in the Sand](./makotowinterbeach1.md)
 
 ## Event properties
-* ID: mayadorm35
+
+* Id: mayadorm35
 * Group: Maya
 * Triggered by label: mayadorm
 * Triggered by branch label: mayadorm
+* Triggered by path: mayadorm->mayadorm35
+
+## Official wiki page
+
+[A Place That Can Only Exist in Our Minds](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm35&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -528,7 +537,9 @@ label amidorm40:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

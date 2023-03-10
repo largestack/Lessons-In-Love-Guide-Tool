@@ -1,30 +1,39 @@
-# Frogger
-Makoto event
+# Frogger (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotonew1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 55
 
-✅Event "[Makoto: Rising of the Tide](./pornshop10.md)" is completed (event=pornshop10)
+* Days since the start of the game greater than or equal to 55
+
+* Event [Rising of the Tide](./pornshop10.md) (Makoto) is completed)
 
 
 
 ## Next events
+
 * [Makoto: Sowing the Seeds](./makotonew2.md)
 
 ## Event properties
-* ID: makotonew1
+
+* Id: makotonew1
 * Group: Makoto
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->makotonew1
+
+## Official wiki page
+
+[Frogger](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotonew1&go=Go) for more details.
 
 ## Event code
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...
@@ -395,7 +404,9 @@ label makotonew2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

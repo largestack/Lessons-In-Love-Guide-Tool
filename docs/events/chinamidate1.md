@@ -1,30 +1,39 @@
-# 5,000 Year-Old Wizard
-Chinami event
+# 5,000 Year-Old Wizard (Chinami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chinami love greater than or equal to 0
 
-✅chinaminumber equal to True (unknown variable)
+* Chinami love greater than or equal to 0
+
+* chinaminumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Chinami: Chinami-Corp](./chinamidate5.md)
 
 ## Event properties
-* ID: chinamidate1
+
+* Id: chinamidate1
 * Group: Chinami
 * Triggered by label: callchinamimorning
 * Triggered by branch label: callchinamimorning
+* Triggered by path: callchinamimorning->chinamidate1
+
+## Official wiki page
+
+[5,000 Year-Old Wizard](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate1&go=Go) for more details.
 
 ## Event code
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...
@@ -378,7 +387,9 @@ label chinamidate5:
 ```
 
 ## Code that triggers this event
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,30 +1,39 @@
-# Homes for the Homeless
-Noriko event
+# Homes for the Homeless (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikodorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Noriko love greater than or equal to 20
 
-✅Event "[Noriko: Fair & Square](./norikospecial20.md)" is completed (event=norikospecial20)
+* Noriko love greater than or equal to 20
+
+* Event [Fair & Square](./norikospecial20.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Noriko: That One FMK Scene](./convenience25.md)
 
 ## Event properties
-* ID: norikodorm20
+
+* Id: norikodorm20
 * Group: Noriko
 * Triggered by label: norikodorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->norikodorm->norikodorm20
+
+## Official wiki page
+
+[Homes for the Homeless](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikodorm20&go=Go) for more details.
 
 ## Event code
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...
@@ -491,7 +500,9 @@ label convenience25:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

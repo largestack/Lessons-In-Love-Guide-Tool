@@ -1,30 +1,39 @@
-# Skulls
-Rin event
+# Skulls (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rinfirstvisit&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 5
 
-✅Event "[Rin: The Flavor of Love](./cafesugar.md)" is completed (event=cafesugar)
+* Rin love greater than or equal to 5
+
+* Event [The Flavor of Love](./cafesugar.md) (Rin) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: rinfirstvisit
+
+* Id: rinfirstvisit
 * Group: Rin
 * Triggered by label: rindorm
 * Triggered by branch label: rindorm
+* Triggered by path: rindorm->rinfirstvisit
+
+## Official wiki page
+
+[Skulls](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rinfirstvisit&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -355,7 +364,9 @@ label futabadorm10:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,34 +1,43 @@
-# A Brief Moment in Time
-Touka event
+# A Brief Moment in Time (Touka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukastreets5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Touka love greater than or equal to 5
 
-✅Event "[Tsuneyo: Blackout](./ramen20.md)" is completed (event=ramen20)
+* Touka love greater than or equal to 5
 
-✅Event "[Noriko: Mouthjob](./convenience5.md)" is completed (event=convenience5)
+* Event [Blackout](./ramen20.md) (Tsuneyo) is completed)
 
-✅Event "[Touka: Fish Out of Water](./toukadorm1.md)" is completed (event=toukadorm1)
+* Event [Mouthjob](./convenience5.md) (Noriko) is completed)
+
+* Event [Fish Out of Water](./toukadorm1.md) (Touka) is completed)
 
 
 
 ## Next events
+
 * [Touka: Loser](./toukadorm5.md)
 
 ## Event properties
-* ID: toukastreets5
+
+* Id: toukastreets5
 * Group: Touka
 * Triggered by label: toukastreets
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->toukastreets->toukastreets5
+
+## Official wiki page
+
+[A Brief Moment in Time](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukastreets5&go=Go) for more details.
 
 ## Event code
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -427,7 +436,9 @@ label toukadorm10:
 ```
 
 ## Code that triggers this event
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,33 +1,42 @@
-# Secrets Worth Keeping
-Maya event
+# Secrets Worth Keeping (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 5
 
-✅Day of week is not Friday
+* Maya love greater than or equal to 5
 
-✅Event "[Ami: Home Away From Home](./amidorm5.md)" is completed (event=amidorm5)
+* Day of week is not Friday
+
+* Event [Home Away From Home](./amidorm5.md) (Ami) is completed)
 
 
 
 ## Next events
+
 * [Ami: Back Out in the Heat](./amidorm15.md)
 * [Maya: Rewind/Repeat/Refuse](./mayadorm10.md)
 
 ## Event properties
-* ID: mayadorm5
+
+* Id: mayadorm5
 * Group: Maya
 * Triggered by label: mayadorm
 * Triggered by branch label: mayadorm
+* Triggered by path: mayadorm->mayadorm5
+
+## Official wiki page
+
+[Secrets Worth Keeping](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayadorm5&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -429,7 +438,9 @@ label mayadorm10:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

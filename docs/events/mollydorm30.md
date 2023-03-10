@@ -1,34 +1,43 @@
-# Walkthrough
-Molly event
+# Walkthrough (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 30
 
-✅Event "[Rin: Lifejacket](./rindorm50special.md)" is completed (event=rindorm50special)
+* Molly love greater than or equal to 30
 
-✅Day of week (Mon-Sun) is after Tuesday
+* Event [Lifejacket](./rindorm50special.md) (Rin) is completed)
 
-❌Day of week is a weekday
+* Day of week (Mon-Sun) is after Tuesday
+
+* Day of week is a weekday
 
 
 
 ## Next events
+
 * [Main: Girls in Spandex](./halloweentwo1.md)
 
 ## Event properties
-* ID: mollydorm30
+
+* Id: mollydorm30
 * Group: Molly
 * Triggered by label: mollydorm
 * Triggered by branch label: mollydorm
+* Triggered by path: mollydorm->mollydorm30
+
+## Official wiki page
+
+[Walkthrough](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollydorm30&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -235,7 +244,9 @@ label utafirsthall:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

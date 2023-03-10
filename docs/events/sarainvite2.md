@@ -1,30 +1,39 @@
-# A Mostly Empty Home
-Sara event
+# A Mostly Empty Home (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarainvite2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Sara: Third Wheel](./sarainvite1.md)" is completed (event=sarainvite1)
 
-✅Event "[Sara: A Woman's Heart](./saradate1.md)" is completed (event=saradate1)
+* Event [Third Wheel](./sarainvite1.md) (Sara) is completed)
+
+* Event [A Woman's Heart](./saradate1.md) (Sara) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: sarainvite2
+
+* Id: sarainvite2
 * Group: Sara
 * Triggered by label: sarainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->sarainvite->sarainvite2
+
+## Official wiki page
+
+[A Mostly Empty Home](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarainvite2&go=Go) for more details.
 
 ## Event code
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...
@@ -521,7 +530,9 @@ label saradate10:
 ```
 
 ## Code that triggers this event
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...

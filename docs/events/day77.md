@@ -1,29 +1,38 @@
-# Slope Intercept Form
-Main event
+# Slope Intercept Form (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day77&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 77
+
+* Days since the start of the game greater than or equal to 77
 
 
 
 ## Next events
+
 * [Makoto: Declaration of War](./makotoinvite1.md)
 * [Makoto: Studious Teen Virgin](./makotoinvite2.md)
 
 ## Event properties
-* ID: day77
+
+* Id: day77
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day77
+
+## Official wiki page
+
+[Slope Intercept Form](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day77&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -316,7 +325,9 @@ label day79:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

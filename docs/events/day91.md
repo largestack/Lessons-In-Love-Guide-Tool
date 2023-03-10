@@ -1,32 +1,41 @@
-# Stronger I Become
-Main event
+# Stronger I Become (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day91&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 91
 
-✅Event "[Main: One to Seven](./day63.md)" is completed (event=day63)
+* Days since the start of the game greater than or equal to 91
 
-✅Event "[Main: Girl-Talk](./day65.md)" is completed (event=day65)
+* Event [One to Seven](./day63.md) (Main) is completed)
+
+* Event [Girl-Talk](./day65.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: Girl Talk Pt. II](./day120.md)
 
 ## Event properties
-* ID: day91
+
+* Id: day91
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day91
+
+## Official wiki page
+
+[Stronger I Become](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day91&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -350,7 +359,9 @@ label day96:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

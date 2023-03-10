@@ -1,37 +1,46 @@
-# Nothing Was Missing, Except Me
-Rin event
+# Nothing Was Missing, Except Me (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=cafe20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 20
 
-✅Event "[Ayane: Imprinting](./ayanenew1.md)" is completed (event=ayanenew1)
+* Rin love greater than or equal to 20
 
-✅Event "[Rin: Window of the Waking Mind](./cafe15.md)" is completed (event=cafe15)
+* Event [Imprinting](./ayanenew1.md) (Ayane) is completed)
 
-✅Event "[Main: Missing](./day50.md)" is completed (event=day50)
+* Event [Window of the Waking Mind](./cafe15.md) (Rin) is completed)
+
+* Event [Missing](./day50.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: Girl-Talk](./day65.md)
 * [Main: A Proper Introduction](./day150.md)
 * [Yumi: Worse Comes to Worst](./yumidorm15.md)
 * [Rin: Delirium](./rindorm20.md)
 
 ## Event properties
-* ID: cafe20
+
+* Id: cafe20
 * Group: Rin
 * Triggered by label: cafe
 * Triggered by branch label: cafe
+* Triggered by path: cafe->cafe20
+
+## Official wiki page
+
+[Nothing Was Missing, Except Me](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=cafe20&go=Go) for more details.
 
 ## Event code
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...
@@ -410,7 +419,9 @@ label cafe25:
 ```
 
 ## Code that triggers this event
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...

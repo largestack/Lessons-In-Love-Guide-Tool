@@ -1,30 +1,39 @@
-# Caught in the Vortex
-Yumi event
+# Caught in the Vortex (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumidorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yumi love greater than or equal to 25
 
-✅Event "[Yumi: A Place Like This](./streets25.md)" is completed (event=streets25)
+* Yumi love greater than or equal to 25
+
+* Event [A Place Like This](./streets25.md) (Yumi) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: yumidorm25
+
+* Id: yumidorm25
 * Group: Yumi
 * Triggered by label: yumidorm
 * Triggered by branch label: yumidorm
+* Triggered by path: yumidorm->yumidorm25
+
+## Official wiki page
+
+[Caught in the Vortex](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yumidorm25&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -349,7 +358,9 @@ label yumidorm30:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

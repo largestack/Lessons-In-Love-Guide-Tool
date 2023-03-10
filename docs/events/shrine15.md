@@ -1,33 +1,42 @@
-# You and Me
-Maya event
+# You and Me (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 15
 
-✅Event "[Maya: Past/Present/Future](./shrine10.md)" is completed (event=shrine10)
+* Maya love greater than or equal to 15
 
-✅Event "[Maya: Rewind/Repeat/Refuse](./mayadorm10.md)" is completed (event=mayadorm10)
+* Event [Past/Present/Future](./shrine10.md) (Maya) is completed)
+
+* Event [Rewind/Repeat/Refuse](./mayadorm10.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Main: Recall](./day96.md)
 * [Maya: Takoyaki](./mayadorm15.md)
 
 ## Event properties
-* ID: shrine15
+
+* Id: shrine15
 * Group: Maya
 * Triggered by label: shrine
 * Triggered by branch label: shrine
+* Triggered by path: shrine->shrine15
+
+## Official wiki page
+
+[You and Me](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine15&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -384,7 +393,9 @@ label shrine20:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,31 +1,40 @@
-# Unsleeping Aegis
-Tsuneyo event
+# Unsleeping Aegis (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsuneyodorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 25
 
-✅Event "[Main: All is Bright. All is Beautiful.](./secondbeach18.md)" is completed (event=secondbeach18)
+* Tsuneyo love greater than or equal to 25
+
+* Event [All is Bright. All is Beautiful.](./secondbeach18.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Molly: Resurrection Sickness](./mollycafe25.md)
 * [Tsuneyo: Things Like Stairs](./ramen30.md)
 
 ## Event properties
-* ID: tsuneyodorm25
+
+* Id: tsuneyodorm25
 * Group: Tsuneyo
 * Triggered by label: tsuneyodorm
 * Triggered by branch label: tsuneyodorm
+* Triggered by path: tsuneyodorm->tsuneyodorm25
+
+## Official wiki page
+
+[Unsleeping Aegis](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsuneyodorm25&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -353,7 +362,9 @@ label mollydorm25:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# Aftermath
-Makoto event
+# Aftermath (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=pornshop20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Makoto love greater than or equal to 20
 
-✅Event "[Main: Kadrillionbilliontrillion](./halloween14.md)" is completed (event=halloween14)
+* Makoto love greater than or equal to 20
 
-✅Event "[Makoto: Fishing For Love](./pornshop15.md)" is completed (event=pornshop15)
+* Event [Kadrillionbilliontrillion](./halloween14.md) (Main) is completed)
+
+* Event [Fishing For Love](./pornshop15.md) (Makoto) is completed)
 
 
 
 ## Next events
+
 * [Makoto: Residual Sadness](./makotodorm20.md)
 
 ## Event properties
-* ID: pornshop20
+
+* Id: pornshop20
 * Group: Makoto
 * Triggered by label: pornshop
 * Triggered by branch label: pornshop
+* Triggered by path: pornshop->pornshop20
+
+## Official wiki page
+
+[Aftermath](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=pornshop20&go=Go) for more details.
 
 ## Event code
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...
@@ -151,7 +160,9 @@ label pornshop25:
 ```
 
 ## Code that triggers this event
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...

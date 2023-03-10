@@ -1,31 +1,40 @@
-# Rin's Secret
-Rin event
+# Rin's Secret (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 10
 
-✅Event "[Rin: Haruka](./cafe10.md)" is completed (event=cafe10)
+* Rin love greater than or equal to 10
+
+* Event [Haruka](./cafe10.md) (Rin) is completed)
 
 
 
 ## Next events
+
 * [Rin: Window of the Waking Mind](./cafe15.md)
 * [Rin: Boundaries](./rindorm15.md)
 
 ## Event properties
-* ID: rindorm10
+
+* Id: rindorm10
 * Group: Rin
 * Triggered by label: rindorm
 * Triggered by branch label: rindorm
+* Triggered by path: rindorm->rindorm10
+
+## Official wiki page
+
+[Rin's Secret](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm10&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -290,7 +299,9 @@ label rindorm15:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

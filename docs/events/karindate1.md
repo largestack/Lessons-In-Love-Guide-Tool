@@ -1,30 +1,39 @@
-# Further and Further
-Karin event
+# Further and Further (Karin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Karin love greater than or equal to 0
 
-✅karinnumber equal to True (unknown variable)
+* Karin love greater than or equal to 0
+
+* karinnumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: karindate1
+
+* Id: karindate1
 * Group: Karin
 * Triggered by label: callkarinafternoon
 * Triggered by branch label: callkarinafternoon
+* Triggered by path: callkarinafternoon->karindate1
+
+## Official wiki page
+
+[Further and Further](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=karindate1&go=Go) for more details.
 
 ## Event code
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...
@@ -369,7 +378,9 @@ label karindate5:
 ```
 
 ## Code that triggers this event
-File: \game\KarinEvents.rpy
+
+File: (install folder)\game\KarinEvents.rpy
+
 Code:
 ```python
 ...

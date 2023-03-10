@@ -1,34 +1,43 @@
-# Thank You For Your Business
-Maki event
+# Thank You For Your Business (Maki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makidate15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maki love greater than or equal to 15
 
-✅Event "[Maki: Three Afloat On One Raft](./makiday351.md)" is completed (event=makiday351)
+* Maki love greater than or equal to 15
 
-❌Event "[Haruka: Bad Kitty](./harukalust10.md)" is completed (event=harukalust10)
+* Event [Three Afloat On One Raft](./makiday351.md) (Maki) is completed)
 
-❌makibj equal to True (unknown variable)
+* Event [Bad Kitty](./harukalust10.md) (Haruka) is completed)
+
+* makibj equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: makidate15
+
+* Id: makidate15
 * Group: Maki
 * Triggered by label: pornshopmaki
 * Triggered by branch label: pornshopmaki
+* Triggered by path: pornshopmaki->makidate15
+
+## Official wiki page
+
+[Thank You For Your Business](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makidate15&go=Go) for more details.
 
 ## Event code
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...
@@ -156,7 +165,9 @@ label makiinvite1:
 ```
 
 ## Code that triggers this event
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...

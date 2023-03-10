@@ -1,26 +1,36 @@
-# Fuck Christmas
-Main event
+# Fuck Christmas (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmas3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Patent-Pending](./christmas2.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: christmas3
+
+* Id: christmas3
 * Group: Main
 * Triggered by label: christmas2x
+* Chain sources: christmas2
+* Chain sources path: christmas2->christmas2
+
+## Official wiki page
+
+[Fuck Christmas](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmas3&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -515,7 +525,9 @@ label christmas4:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# Studious Teen Virgin
-Makoto event
+# Studious Teen Virgin (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotoinvite2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Makoto: Declaration of War](./makotoinvite1.md)" is completed (event=makotoinvite1)
 
-✅Event "[Makoto: Quid Pro Quo](./makotolust5.md)" is completed (event=makotolust5)
+* Event [Declaration of War](./makotoinvite1.md) (Makoto) is completed)
 
-✅Event "[Main: Slope Intercept Form](./day77.md)" is completed (event=day77)
+* Event [Quid Pro Quo](./makotolust5.md) (Makoto) is completed)
+
+* Event [Slope Intercept Form](./day77.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: makotoinvite2
+
+* Id: makotoinvite2
 * Group: Makoto
 * Triggered by label: makotoinvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->makotoinvite->makotoinvite2
+
+## Official wiki page
+
+[Studious Teen Virgin](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotoinvite2&go=Go) for more details.
 
 ## Event code
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...
@@ -234,7 +243,9 @@ label pornshop20:
 ```
 
 ## Code that triggers this event
-File: \game\MakotoEvents.rpy
+
+File: (install folder)\game\MakotoEvents.rpy
+
 Code:
 ```python
 ...

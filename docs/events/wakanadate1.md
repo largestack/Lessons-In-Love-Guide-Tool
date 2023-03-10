@@ -1,28 +1,37 @@
-# To the River
-Wakana event
+# To the River (Wakana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanadate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅wakananumber equal to True (unknown variable)
+
+* wakananumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Wakana: Soup, or Another Year With You](./wakanadate5.md)
 
 ## Event properties
-* ID: wakanadate1
+
+* Id: wakanadate1
 * Group: Wakana
 * Triggered by label: callwakanamorning
 * Triggered by branch label: callmorning
+* Triggered by path: callmorning->callwakanamorning->wakanadate1
+
+## Official wiki page
+
+[To the River](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanadate1&go=Go) for more details.
 
 ## Event code
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -335,7 +344,9 @@ label wakanadate5:
 ```
 
 ## Code that triggers this event
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...

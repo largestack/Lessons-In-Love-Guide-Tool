@@ -1,32 +1,41 @@
-# Technicolored Happiness Explosion
-Rin event
+# Technicolored Happiness Explosion (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm50&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 50
 
-✅Event "[Rin: The Paragon of Not Worrying About Stuff](./cafe50.md)" is completed (event=cafe50)
+* Rin love greater than or equal to 50
 
-✅Day of week is not Monday
+* Event [The Paragon of Not Worrying About Stuff](./cafe50.md) (Rin) is completed)
+
+* Day of week is not Monday
 
 
 
 ## Next events
+
 * [Molly: Resurrection Sickness](./mollycafe25.md)
 
 ## Event properties
-* ID: rindorm50
+
+* Id: rindorm50
 * Group: Rin
 * Triggered by label: rindorm
 * Triggered by branch label: rindorm
+* Triggered by path: rindorm->rindorm50
+
+## Official wiki page
+
+[Technicolored Happiness Explosion](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm50&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -418,7 +427,9 @@ label rindorm50special:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

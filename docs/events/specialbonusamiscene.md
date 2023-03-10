@@ -1,28 +1,38 @@
-# Lamb Legs
-Happy scenes event
+# Lamb Legs (Happy scenes)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=specialbonusamiscene&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [A Life of Prizes](./returntosummer2.md)
 
 ## Event preconditions
-❌secretlottery equal to "157842" (unknown variable)
+
+* secretlottery equal to "157842" (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: specialbonusamiscene
+
+* Id: specialbonusamiscene
 * Group: Happy scenes
 * Triggered by label: resetfourrectangle
+* Chain sources: returntosummer2
+* Chain sources path: returntosummer2->resetfourrectangle
+
+## Official wiki page
+
+[Lamb Legs](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=specialbonusamiscene&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -409,7 +419,9 @@ label returntosummer3:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

@@ -1,27 +1,37 @@
-# Less Like the Vulture
-Ayane event
+# Less Like the Vulture (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Forever Yours](./ayanenew3.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Ayane: First Words](./ayanedorm15.md)
 * [Ayane: Still Young](./ayanedorm20.md)
 
 ## Event properties
-* ID: ayanedorm10
+
+* Id: ayanedorm10
 * Group: Ayane
 * Triggered by label: ayanenew3
+* Chain sources: ayanenew3
+* Chain sources path: ayanenew3
+
+## Official wiki page
+
+[Less Like the Vulture](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm10&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -102,7 +112,9 @@ label sanadorm15:
 ```
 
 ## Code that triggers this event
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...

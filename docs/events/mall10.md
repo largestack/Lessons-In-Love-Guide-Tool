@@ -1,28 +1,37 @@
-# Behind The Curtain
-Chika event
+# Behind The Curtain (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mall10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chika love greater than or equal to 10
+
+* Chika love greater than or equal to 10
 
 
 
 ## Next events
+
 * [Chika: Side Event](./chikadorm10.md)
 
 ## Event properties
-* ID: mall10
+
+* Id: mall10
 * Group: Chika
 * Triggered by label: mall
 * Triggered by branch label: mall
+* Triggered by path: mall->mall10
+
+## Official wiki page
+
+[Behind The Curtain](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mall10&go=Go) for more details.
 
 ## Event code
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...
@@ -463,7 +472,9 @@ label mall15:
 ```
 
 ## Code that triggers this event
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...

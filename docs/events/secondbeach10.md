@@ -1,26 +1,36 @@
-# Torrential Downpour. Child of Man.
-Main event
+# Torrential Downpour. Child of Man. (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Alderaan](./secondbeach9.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: secondbeach10
+
+* Id: secondbeach10
 * Group: Main
 * Triggered by label: secondbeach9
+* Chain sources: secondbeach9
+* Chain sources path: secondbeach9
+
+## Official wiki page
+
+[Torrential Downpour. Child of Man.](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach10&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -665,7 +675,9 @@ label chikalust20:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

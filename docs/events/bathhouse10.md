@@ -1,30 +1,39 @@
-# Turn On The Lights
-Io event
+# Turn On The Lights (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Io love greater than or equal to 10
 
-✅Event "[Main: War's End](./dormwar17.md)" is completed (event=dormwar17)
+* Io love greater than or equal to 10
+
+* Event [War's End](./dormwar17.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Io: Amongst Other Things](./iodorm15.md)
 
 ## Event properties
-* ID: bathhouse10
+
+* Id: bathhouse10
 * Group: Io
 * Triggered by label: bathhouse
 * Triggered by branch label: bathhouse
+* Triggered by path: bathhouse->bathhouse10
+
+## Official wiki page
+
+[Turn On The Lights](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse10&go=Go) for more details.
 
 ## Event code
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...
@@ -493,7 +502,9 @@ label bathhouse20:
 ```
 
 ## Code that triggers this event
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...

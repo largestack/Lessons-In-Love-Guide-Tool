@@ -1,31 +1,40 @@
-# Unnamed Wooden Robots
-Io event
+# Unnamed Wooden Robots (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iodorm5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Io love greater than or equal to 5
 
-✅Event "[Io: The Girl with the Dragon Tattoo](./bathhouse5.md)" is completed (event=bathhouse5)
+* Io love greater than or equal to 5
+
+* Event [The Girl with the Dragon Tattoo](./bathhouse5.md) (Io) is completed)
 
 
 
 ## Next events
+
 * [Kirin: Love, Dorms, and Other Things](./kirindorm10.md)
 * [Io: Paperthin](./iodorm10.md)
 
 ## Event properties
-* ID: iodorm5
+
+* Id: iodorm5
 * Group: Io
 * Triggered by label: iodorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->iodorm->iodorm5
+
+## Official wiki page
+
+[Unnamed Wooden Robots](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iodorm5&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -406,7 +415,9 @@ label iodorm10:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

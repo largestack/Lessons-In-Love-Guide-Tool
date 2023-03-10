@@ -1,30 +1,39 @@
-# Full Blossom
-Kirin event
+# Full Blossom (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kirin lust greater than or equal to 5
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Kirin lust greater than or equal to 5
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Kirin: All That is Contaminated](./kirindate25.md)
 
 ## Event properties
-* ID: kirinlust5
+
+* Id: kirinlust5
 * Group: Kirin
 * Triggered by label: soccerfieldkirin
 * Triggered by branch label: soccerfieldkirin
+* Triggered by path: soccerfieldkirin->kirinlust5
+
+## Official wiki page
+
+[Full Blossom](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinlust5&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -215,7 +224,9 @@ label kirininvite1:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,36 +1,45 @@
-# Mouthjob
-Noriko event
+# Mouthjob (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=convenience5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Noriko love greater than or equal to 5
 
-✅Event "[Noriko: Semi-Constructive Criticism](./norikodorm5.md)" is completed (event=norikodorm5)
+* Noriko love greater than or equal to 5
 
-✅Event "[Molly: Unpaid Promotion](./mollydorm15.md)" is completed (event=mollydorm15)
+* Event [Semi-Constructive Criticism](./norikodorm5.md) (Noriko) is completed)
 
-✅Event "[Noriko: Nakayarakawayama](./convenience1.md)" is completed (event=convenience1)
+* Event [Unpaid Promotion](./mollydorm15.md) (Molly) is completed)
+
+* Event [Nakayarakawayama](./convenience1.md) (Noriko) is completed)
 
 
 
 ## Next events
+
 * [Main: Annabel Lee](./day280.md)
 * [Noriko: Kind Of, Yes. Kind Of, No.](./norikodorm10.md)
 * [Touka: A Brief Moment in Time](./toukastreets5.md)
 
 ## Event properties
-* ID: convenience5
+
+* Id: convenience5
 * Group: Noriko
 * Triggered by label: convenience
-* Triggered by branch label: afterschoolmenu
+* Triggered by branch label: saturdaynight
+* Triggered by path: afterschoolmenu->convenience->convenience5
+
+## Official wiki page
+
+[Mouthjob](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=convenience5&go=Go) for more details.
 
 ## Event code
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...
@@ -521,7 +530,9 @@ label norikoinvite1:
 ```
 
 ## Code that triggers this event
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...

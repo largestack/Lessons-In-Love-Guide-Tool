@@ -1,26 +1,36 @@
-# At Least It's Not Christmas
-Main event
+# At Least It's Not Christmas (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween9&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Mechanical Bull](./halloween8.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloween9
+
+* Id: halloween9
 * Group: Main
 * Triggered by label: mikumount
+* Chain sources: halloween8
+* Chain sources path: halloween8->halloween8->mikumountx
+
+## Official wiki page
+
+[At Least It's Not Christmas](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloween9&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -627,7 +637,9 @@ label halloween10:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

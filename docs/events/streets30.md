@@ -1,32 +1,41 @@
-# Where the Sidewalk Ends
-Yumi event
+# Where the Sidewalk Ends (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=streets30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yumi love greater than or equal to 30
 
-✅onseninvite equal to True (unknown variable)
+* Yumi love greater than or equal to 30
+
+* onseninvite equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Chika: Little Miracles](./chikaonsen1.md)
 * [Yumi: Walls Too Thick to Hear Through](./yumidorm30.md)
 * [Yuki: Rule #1](./yukidate1.md)
 
 ## Event properties
-* ID: streets30
+
+* Id: streets30
 * Group: Yumi
 * Triggered by label: streets
 * Triggered by branch label: streets
+* Triggered by path: streets->streets30
+
+## Official wiki page
+
+[Where the Sidewalk Ends](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=streets30&go=Go) for more details.
 
 ## Event code
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...
@@ -421,7 +430,9 @@ label yumicallnight35:
 ```
 
 ## Code that triggers this event
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...

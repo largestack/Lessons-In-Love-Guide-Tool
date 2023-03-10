@@ -1,32 +1,41 @@
-# Hormones Running Wild
-Miku event
+# Hormones Running Wild (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 15
 
-✅Event "[Main: Parasite](./day83.md)" is completed (event=day83)
+* Miku love greater than or equal to 15
 
-✅Event "[Miku: You and Me and the Night](./mikudorm10.md)" is completed (event=mikudorm10)
+* Event [Parasite](./day83.md) (Main) is completed)
+
+* Event [You and Me and the Night](./mikudorm10.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Miku: Coach](./soccer20.md)
 
 ## Event properties
-* ID: soccer15
+
+* Id: soccer15
 * Group: Miku
 * Triggered by label: soccerfield
 * Triggered by branch label: soccerfield
+* Triggered by path: soccerfield->soccer15
+
+## Official wiki page
+
+[Hormones Running Wild](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer15&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -331,7 +340,9 @@ label soccer20:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

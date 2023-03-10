@@ -1,28 +1,38 @@
-# Everything Ephemeral
-Main event
+# Everything Ephemeral (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach7&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
-Part of event chain [Taking the Reins](./kirinlust20intro.md)
+Part of event chain [Taking the Reins](./kirinlust20.md)
 
 ## Event preconditions
-❌Kirin lust less than 20
+
+* Kirin lust less than 20
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: secondbeach7
+
+* Id: secondbeach7
 * Group: Main
-* Triggered by label: kirinnodokax
+* Triggered by label: kirinlust20
+* Chain sources: kirinlust20
+* Chain sources path: kirinlust20
+
+## Official wiki page
+
+[Everything Ephemeral](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach7&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -402,7 +412,9 @@ label secondbeach8:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

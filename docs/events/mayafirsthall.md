@@ -1,28 +1,37 @@
-# Mondays
-Maya event
+# Mondays (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayafirsthall&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Maya: A New Beginning](./firsttimeshrine.md)" is completed (event=firsttimeshrine)
+
+* Event [A New Beginning](./firsttimeshrine.md) (Maya) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: mayafirsthall
+
+* Id: mayafirsthall
 * Group: Maya
 * Triggered by label: dormmonday
-* Triggered by branch label: dorms
+* Triggered by branch label: dorm2monday
+* Triggered by path: dorms->dormmonday->mayafirsthall
+
+## Official wiki page
+
+[Mondays](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mayafirsthall&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -193,7 +202,9 @@ label mikufirsthall:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

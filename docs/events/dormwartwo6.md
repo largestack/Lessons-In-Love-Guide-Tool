@@ -1,26 +1,36 @@
-# She Is
-Main event
+# She Is (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo6&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Hiding in Plain Sight](./dormwartwo5.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwartwo6
+
+* Id: dormwartwo6
 * Group: Main
 * Triggered by label: dormwartwo5
+* Chain sources: dormwartwo5
+* Chain sources path: dormwartwo5
+
+## Official wiki page
+
+[She Is](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo6&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -411,7 +421,9 @@ label dormwartwo7:
 ```
 
 ## Code that triggers this event
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...

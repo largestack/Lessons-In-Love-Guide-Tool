@@ -1,32 +1,41 @@
-# A Dog that Doesn't Do Math
-Chika event
+# A Dog that Doesn't Do Math (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mall15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chika love greater than or equal to 15
 
-✅Event "[Chika: A Castle for Everyone](./chikadorm15.md)" is completed (event=chikadorm15)
+* Chika love greater than or equal to 15
 
-✅Event "[Main: Scientific Research](./day79.md)" is completed (event=day79)
+* Event [A Castle for Everyone](./chikadorm15.md) (Chika) is completed)
+
+* Event [Scientific Research](./day79.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Chika: Schadenfreude](./chikadorm20.md)
 
 ## Event properties
-* ID: mall15
+
+* Id: mall15
 * Group: Chika
 * Triggered by label: mall
 * Triggered by branch label: mall
+* Triggered by path: mall->mall15
+
+## Official wiki page
+
+[A Dog that Doesn't Do Math](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mall15&go=Go) for more details.
 
 ## Event code
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...
@@ -395,7 +404,9 @@ label mall20:
 ```
 
 ## Code that triggers this event
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...

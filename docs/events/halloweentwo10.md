@@ -1,26 +1,36 @@
-# Escape Rope
-Main event
+# Escape Rope (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [In Circles](./halloweentwo9.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloweentwo10
+
+* Id: halloweentwo10
 * Group: Main
 * Triggered by label: halloweentwo9
+* Chain sources: halloweentwo9
+* Chain sources path: halloweentwo9
+
+## Official wiki page
+
+[Escape Rope](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo10&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -514,7 +524,9 @@ label halloweentwo11:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

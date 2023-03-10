@@ -1,34 +1,43 @@
-# She's Always a Woman
-Sara event
+# She's Always a Woman (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarabar20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sara love greater than or equal to 20
 
-✅sarasex equal to True (unknown variable)
+* Sara love greater than or equal to 20
 
-✅Event "[Main: What Was](./day271.md)" is completed (event=day271)
+* sarasex equal to True (unknown variable)
 
-✅Event "[Sana: The Inside of a Triangle](./sanadorm40.md)" is completed (event=sanadorm40)
+* Event [What Was](./day271.md) (Main) is completed)
+
+* Event [The Inside of a Triangle](./sanadorm40.md) (Sana) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: sarabar20
+
+* Id: sarabar20
 * Group: Sara
 * Triggered by label: sarasbar
 * Triggered by branch label: sarasbar
+* Triggered by path: sarasbar->sarabar20
+
+## Official wiki page
+
+[She's Always a Woman](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarabar20&go=Go) for more details.
 
 ## Event code
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...
@@ -517,7 +526,9 @@ label sarabar25:
 ```
 
 ## Code that triggers this event
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...

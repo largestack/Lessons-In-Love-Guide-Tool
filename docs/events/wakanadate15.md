@@ -1,32 +1,41 @@
-# Pseudonym
-Wakana event
+# Pseudonym (Wakana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanadate15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Wakana love greater than or equal to 15
 
-❌Event "[Main: The Road to Recovery](./yumiyukispecial1.md)" is completed (event=yumiyukispecial1)
+* Wakana love greater than or equal to 15
 
-✅wakananumber equal to True (unknown variable)
+* Event [The Road to Recovery](./yumiyukispecial1.md) (Main) is completed)
+
+* wakananumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Main: No Strings Attached](./imanispecial1.md)
 
 ## Event properties
-* ID: wakanadate15
+
+* Id: wakanadate15
 * Group: Wakana
 * Triggered by label: callwakanamorning
 * Triggered by branch label: callmorning
+* Triggered by path: callmorning->callwakanamorning->wakanadate15
+
+## Official wiki page
+
+[Pseudonym](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=wakanadate15&go=Go) for more details.
 
 ## Event code
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -385,7 +394,9 @@ label wakanaspecial15:
 ```
 
 ## Code that triggers this event
-File: \game\WakanaEvents.rpy
+
+File: (install folder)\game\WakanaEvents.rpy
+
 Code:
 ```python
 ...

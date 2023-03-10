@@ -1,32 +1,41 @@
-# Sore Thumb
-Yasu event
+# Sore Thumb (Yasu)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yasuspecial15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 500
 
-❌Event "[Main: Life is Changing](./chapthree8.md)" is completed (event=chapthree8)
+* Days since the start of the game greater than or equal to 500
 
-❌Event "[Yasu: Down The Rabbit Hole](./church15.md)" is completed (event=church15)
+* Event [Life is Changing](./chapthree8.md) (Main) is completed)
+
+* Event [Down The Rabbit Hole](./church15.md) (Yasu) is completed)
 
 
 
 ## Next events
+
 * [Yasu: Mother Duck](./church20.md)
 
 ## Event properties
-* ID: yasuspecial15
+
+* Id: yasuspecial15
 * Group: Yasu
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->yasuspecial15
+
+## Official wiki page
+
+[Sore Thumb](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yasuspecial15&go=Go) for more details.
 
 ## Event code
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...
@@ -339,7 +348,9 @@ label church20:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

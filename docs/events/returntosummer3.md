@@ -1,26 +1,36 @@
-# Utinam Ne Illum Numquam Conspexissem
-Main event
+# Utinam Ne Illum Numquam Conspexissem (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=returntosummer3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [A Life of Prizes](./returntosummer2.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: returntosummer3
+
+* Id: returntosummer3
 * Group: Main
 * Triggered by label: returntosummer2
+* Chain sources: returntosummer2
+* Chain sources path: returntosummer2
+
+## Official wiki page
+
+[Utinam Ne Illum Numquam Conspexissem](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=returntosummer3&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -743,7 +753,9 @@ label chap4intro:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

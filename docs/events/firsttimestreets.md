@@ -1,28 +1,37 @@
-# Five Million Dollars
-Yumi event
+# Five Million Dollars (Yumi)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimestreets&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yumi love greater than or equal to 0
+
+* Yumi love greater than or equal to 0
 
 
 
 ## Next events
+
 * [Main: Not Even Me](./day21.md)
 
 ## Event properties
-* ID: firsttimestreets
+
+* Id: firsttimestreets
 * Group: Yumi
 * Triggered by label: streets
 * Triggered by branch label: streets
+* Triggered by path: streets->firsttimestreets
+
+## Official wiki page
+
+[Five Million Dollars](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimestreets&go=Go) for more details.
 
 ## Event code
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...
@@ -342,7 +351,9 @@ label streets5:
 ```
 
 ## Code that triggers this event
-File: \game\YumiEvents.rpy
+
+File: (install folder)\game\YumiEvents.rpy
+
 Code:
 ```python
 ...

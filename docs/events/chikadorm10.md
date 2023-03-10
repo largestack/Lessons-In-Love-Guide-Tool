@@ -1,32 +1,41 @@
-# Side Event
-Chika event
+# Side Event (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikadorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chika love greater than or equal to 10
 
-✅Event "[Chika: Behind The Curtain](./mall10.md)" is completed (event=mall10)
+* Chika love greater than or equal to 10
 
-✅Event "[Chika: Something About Biting](./chikadorm5.md)" is completed (event=chikadorm5)
+* Event [Behind The Curtain](./mall10.md) (Chika) is completed)
+
+* Event [Something About Biting](./chikadorm5.md) (Chika) is completed)
 
 
 
 ## Next events
+
 * [Chika: A Castle for Everyone](./chikadorm15.md)
 
 ## Event properties
-* ID: chikadorm10
+
+* Id: chikadorm10
 * Group: Chika
 * Triggered by label: chikadorm
 * Triggered by branch label: chikadorm
+* Triggered by path: chikadorm->chikadorm10
+
+## Official wiki page
+
+[Side Event](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikadorm10&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -534,7 +543,9 @@ label chikadorm15:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

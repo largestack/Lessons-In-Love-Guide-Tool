@@ -1,28 +1,37 @@
-# Too Much, All at Once
-Kirin event
+# Too Much, All at Once (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirininvite1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Kirin: No Extortion Necessary](./kirininvite2.md)
 
 ## Event properties
-* ID: kirininvite1
+
+* Id: kirininvite1
 * Group: Kirin
 * Triggered by label: kirininvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->kirininvite->kirininvite1
+
+## Official wiki page
+
+[Too Much, All at Once](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirininvite1&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -409,7 +418,9 @@ label kirininvite2:
 ```
 
 ## Code that triggers this event
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...

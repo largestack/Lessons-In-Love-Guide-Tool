@@ -1,30 +1,39 @@
-# Overload
-Futaba event
+# Overload (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 35
 
-✅Event "[Futaba: No, You](./library35.md)" is completed (event=library35)
+* Futaba love greater than or equal to 35
+
+* Event [No, You](./library35.md) (Futaba) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: futabadorm35
+
+* Id: futabadorm35
 * Group: Futaba
 * Triggered by label: futabadorm
 * Triggered by branch label: futabadorm
+* Triggered by path: futabadorm->futabadorm35
+
+## Official wiki page
+
+[Overload](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm35&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -136,7 +145,9 @@ label rindorm40:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

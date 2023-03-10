@@ -1,28 +1,37 @@
-# Saved by the Bell
-Main event
+# Saved by the Bell (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day40&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 40
+
+* Days since the start of the game greater than or equal to 40
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: day40
+
+* Id: day40
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day40
+
+## Official wiki page
+
+[Saved by the Bell](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day40&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -258,7 +267,9 @@ label day44:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

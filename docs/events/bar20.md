@@ -1,35 +1,44 @@
-# Scouting Mission
-Sana event
+# Scouting Mission (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bar20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sana love greater than or equal to 20
 
-✅Event "[Main: Girl-Talk](./day65.md)" is completed (event=day65)
+* Sana love greater than or equal to 20
 
-✅Event "[Sana: Carry Me Home](./bar15.md)" is completed (event=bar15)
+* Event [Girl-Talk](./day65.md) (Main) is completed)
 
-✅Event "[Ami: The Queen of Spiders](./amisroom5.md)" is completed (event=amisroom5)
+* Event [Carry Me Home](./bar15.md) (Sana) is completed)
+
+* Event [The Queen of Spiders](./amisroom5.md) (Ami) is completed)
 
 
 
 ## Next events
+
 * [Main: Human Trafficking](./day114.md)
 * [Sana: Nice Weather We're Having](./sanadorm20.md)
 
 ## Event properties
-* ID: bar20
+
+* Id: bar20
 * Group: Sana
 * Triggered by label: sanasbar
 * Triggered by branch label: sanasbar
+* Triggered by path: sanasbar->bar20
+
+## Official wiki page
+
+[Scouting Mission](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bar20&go=Go) for more details.
 
 ## Event code
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -415,7 +424,9 @@ label bar25:
 ```
 
 ## Code that triggers this event
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,26 +1,36 @@
-# Take Me Anywhere
-Main event
+# Take Me Anywhere (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo4&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Immernachtreich](./halloweentwo3.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: halloweentwo4
+
+* Id: halloweentwo4
 * Group: Main
 * Triggered by label: halloweentwo3
+* Chain sources: halloweentwo3
+* Chain sources path: halloweentwo3
+
+## Official wiki page
+
+[Take Me Anywhere](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=halloweentwo4&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -516,7 +526,9 @@ label halloweentwo5:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

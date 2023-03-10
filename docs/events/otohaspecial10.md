@@ -1,26 +1,36 @@
-# Two-Octave Pitch Glide
-Otoha event
+# Two-Octave Pitch Glide (Otoha)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohaspecial10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Pull the Plug](./otohapark10.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: otohaspecial10
+
+* Id: otohaspecial10
 * Group: Otoha
 * Triggered by label: otohapark10
+* Chain sources: otohapark10
+* Chain sources path: otohapark10
+
+## Official wiki page
+
+[Two-Octave Pitch Glide](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=otohaspecial10&go=Go) for more details.
 
 ## Event code
-File: \game\OtohaEvents.rpy
+
+File: (install folder)\game\OtohaEvents.rpy
+
 Code:
 ```python
 ...
@@ -356,7 +366,9 @@ label otohadorm10:
 ```
 
 ## Code that triggers this event
-File: \game\OtohaEvents.rpy
+
+File: (install folder)\game\OtohaEvents.rpy
+
 Code:
 ```python
 ...

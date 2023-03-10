@@ -1,34 +1,43 @@
-# Baby Steps
-Maki event
+# Baby Steps (Maki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makiinv3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-❌Event "[Makoto: A Beautiful Mind](./sadgirls8.md)" is completed (event=sadgirls8)
 
-❌Day of week is Sunday
+* Event [A Beautiful Mind](./sadgirls8.md) (Makoto) is completed)
 
-✅Event "[Main: Metal in Microwaves](./halloweentwo13.md)" is completed (event=halloweentwo13)
+* Day of week is Sunday
+
+* Event [Metal in Microwaves](./halloweentwo13.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Futaba: This Infected Wound](./futabadorm50.md)
 * [Karin: Emerald Eyes](./karindate25.md)
 * [Io: Cupid's Arrow](./ioarchery1.md)
 
 ## Event properties
-* ID: makiinv3
+
+* Id: makiinv3
 * Group: Maki
 * Triggered by label: makiinvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->makiinvite->makiinv3
+
+## Official wiki page
+
+[Baby Steps](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makiinv3&go=Go) for more details.
 
 ## Event code
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...
@@ -281,7 +290,9 @@ label makiinv3:
 ```
 
 ## Code that triggers this event
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...

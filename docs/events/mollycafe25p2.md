@@ -1,26 +1,36 @@
-# Tír na nÓg
-Molly event
+# Tír na nÓg (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe25p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Resurrection Sickness](./mollycafe25.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: mollycafe25p2
+
+* Id: mollycafe25p2
 * Group: Molly
 * Triggered by label: mollycafe25
+* Chain sources: mollycafe25
+* Chain sources path: mollycafe25
+
+## Official wiki page
+
+[Tír na nÓg](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe25p2&go=Go) for more details.
 
 ## Event code
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...
@@ -328,7 +338,9 @@ label mollycafe25p2:
 ```
 
 ## Code that triggers this event
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...

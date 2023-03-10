@@ -1,28 +1,38 @@
-# Changing of Seasons
-Main event
+# Changing of Seasons (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=hoorayanotherreset&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
-Part of event chain [Baby Finches](./babyfinches.md)
+Part of event chain [There is Nothing](./day220.md)
 
 ## Event preconditions
-❌passcode equal to "Boobies123" (unknown variable)
+
+* passcode equal to "Boobies123" (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: hoorayanotherreset
+
+* Id: hoorayanotherreset
 * Group: Main
 * Triggered by label: enteryourpass
+* Chain sources: day220
+* Chain sources path: day220->babyfinches->coolrectanglemachine
+
+## Official wiki page
+
+[Changing of Seasons](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=hoorayanotherreset&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -641,7 +651,9 @@ label babyfinches:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

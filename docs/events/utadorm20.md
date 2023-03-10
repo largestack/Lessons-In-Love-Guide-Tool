@@ -1,27 +1,37 @@
-# Blood Everywhere
-Uta event
+# Blood Everywhere (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utadorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Veins and the Circulatory System](./utamaid20.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Main: Food Groups](./day351.md)
 * [Main: Good Morning](./secondbeach1.md)
 
 ## Event properties
-* ID: utadorm20
+
+* Id: utadorm20
 * Group: Uta
 * Triggered by label: utamaid20
+* Chain sources: utamaid20
+* Chain sources path: utamaid20
+
+## Official wiki page
+
+[Blood Everywhere](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utadorm20&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -422,7 +432,9 @@ label iodorm5:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

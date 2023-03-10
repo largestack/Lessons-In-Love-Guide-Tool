@@ -1,32 +1,41 @@
-# Ten Steps Forward
-Rin event
+# Ten Steps Forward (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Rin love greater than or equal to 35
 
-✅Event "[Rin: Two Steps Back](./rindorm30.md)" is completed (event=rindorm30)
+* Rin love greater than or equal to 35
+
+* Event [Two Steps Back](./rindorm30.md) (Rin) is completed)
 
 
 
 ## Next events
+
 * [Futaba: No, You](./library35.md)
 * [Rin: I Died With You](./cafe35.md)
 * [Haruka: Performance Review](./harukadate10.md)
 
 ## Event properties
-* ID: rindorm35
+
+* Id: rindorm35
 * Group: Rin
 * Triggered by label: rindorm
 * Triggered by branch label: rindorm
+* Triggered by path: rindorm->rindorm35
+
+## Official wiki page
+
+[Ten Steps Forward](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm35&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -482,7 +491,9 @@ label futabadorm30:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

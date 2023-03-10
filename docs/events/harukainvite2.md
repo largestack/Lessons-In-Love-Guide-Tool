@@ -1,32 +1,41 @@
-# Roses
-Haruka event
+# Roses (Haruka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukainvite2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Haruka: Shades of Green](./harukainvite1.md)" is completed (event=harukainvite1)
 
-❌harukaskipped equal to False (unknown variable)
+* Event [Shades of Green](./harukainvite1.md) (Haruka) is completed)
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* harukaskipped equal to False (unknown variable)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: harukainvite2
+
+* Id: harukainvite2
 * Group: Haruka
 * Triggered by label: harukainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->harukainvite->harukainvite2
+
+## Official wiki page
+
+[Roses](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=harukainvite2&go=Go) for more details.
 
 ## Event code
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -468,7 +477,9 @@ label harukadate20:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

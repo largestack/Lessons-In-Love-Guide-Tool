@@ -1,28 +1,38 @@
-# Lifejacket
-Rin event
+# Lifejacket (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm50special&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Transmogrification](./mollydorm25.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Rin: The Happiest Girl in the World](./rindate50.md)
 * [Molly: Walkthrough](./mollydorm30.md)
 * [Main: Girls in Spandex](./halloweentwo1.md)
 
 ## Event properties
-* ID: rindorm50special
+
+* Id: rindorm50special
 * Group: Rin
 * Triggered by label: mollydorm25
+* Chain sources: mollydorm25
+* Chain sources path: mollydorm25
+
+## Official wiki page
+
+[Lifejacket](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm50special&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -660,7 +670,9 @@ label amidorm5:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

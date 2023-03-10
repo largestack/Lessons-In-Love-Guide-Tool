@@ -1,26 +1,36 @@
-# Matador
-Nodoka event
+# Matador (Nodoka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokaspecial15p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [So Far Below](./nodokaspecial15p1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: nodokaspecial15p2
+
+* Id: nodokaspecial15p2
 * Group: Nodoka
 * Triggered by label: nodokaspecial15p1
+* Chain sources: nodokaspecial15p1
+* Chain sources path: nodokaspecial15p1
+
+## Official wiki page
+
+[Matador](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=nodokaspecial15p2&go=Go) for more details.
 
 ## Event code
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...
@@ -614,7 +624,9 @@ label nodokaspecial15p3:
 ```
 
 ## Code that triggers this event
-File: \game\NodokaEvents.rpy
+
+File: (install folder)\game\NodokaEvents.rpy
+
 Code:
 ```python
 ...

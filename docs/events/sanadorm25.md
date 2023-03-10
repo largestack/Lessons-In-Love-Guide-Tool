@@ -1,32 +1,41 @@
-# The Girl in the Black Dress
-Sana event
+# The Girl in the Black Dress (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sanadorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sana love greater than or equal to 25
 
-✅Event "[Sana: Life is a Tomato](./bar25.md)" is completed (event=bar25)
+* Sana love greater than or equal to 25
 
-✅Event "[Main: See You in the Morning](./beachvacation16.md)" is completed (event=beachvacation16)
+* Event [Life is a Tomato](./bar25.md) (Sana) is completed)
+
+* Event [See You in the Morning](./beachvacation16.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Sana: Self-Medication](./bar30.md)
 
 ## Event properties
-* ID: sanadorm25
+
+* Id: sanadorm25
 * Group: Sana
 * Triggered by label: sanadorm
 * Triggered by branch label: sanadorm
+* Triggered by path: sanadorm->sanadorm25
+
+## Official wiki page
+
+[The Girl in the Black Dress](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sanadorm25&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -469,7 +478,9 @@ label sanadorm30:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

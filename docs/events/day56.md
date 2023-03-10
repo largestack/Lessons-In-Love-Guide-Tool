@@ -1,30 +1,39 @@
-# Normal Office Visit
-Main event
+# Normal Office Visit (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day56&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 56
 
-✅Event "[Maya: Different Worlds](./shrine5.md)" is completed (event=shrine5)
+* Days since the start of the game greater than or equal to 56
+
+* Event [Different Worlds](./shrine5.md) (Maya) is completed)
 
 
 
 ## Next events
+
 * [Ami: Ode to a Marsh Warbler](./aminew2.md)
 
 ## Event properties
-* ID: day56
+
+* Id: day56
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day56
+
+## Official wiki page
+
+[Normal Office Visit](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day56&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -361,7 +370,9 @@ label day60:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

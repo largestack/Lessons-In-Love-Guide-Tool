@@ -1,34 +1,43 @@
-# Hall of Mirrors
-Futaba event
+# Hall of Mirrors (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm45&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Futaba love greater than or equal to 45
 
-✅Day of week is not Wednesday
+* Futaba love greater than or equal to 45
 
-❌Day of week is a weekday
+* Day of week is not Wednesday
 
-✅Event "[Futaba: Without Running Away](./library40part2.md)" is completed (event=library40part2)
+* Day of week is a weekday
+
+* Event [Without Running Away](./library40part2.md) (Futaba) is completed)
 
 
 
 ## Next events
+
 * [Sana: Sweet Vermouth](./bar45.md)
 
 ## Event properties
-* ID: futabadorm45
+
+* Id: futabadorm45
 * Group: Futaba
 * Triggered by label: futabadorm
 * Triggered by branch label: futabadorm
+* Triggered by path: futabadorm->futabadorm45
+
+## Official wiki page
+
+[Hall of Mirrors](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm45&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -407,7 +416,9 @@ label rindorm50:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

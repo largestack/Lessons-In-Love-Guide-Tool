@@ -1,30 +1,39 @@
-# Walking on Air
-Ami event
+# Walking on Air (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day98&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 98
 
-✅Ami lust greater than or equal to 5
+* Days since the start of the game greater than or equal to 98
+
+* Ami lust greater than or equal to 5
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: day98
+
+* Id: day98
 * Group: Ami
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day98
+
+## Official wiki page
+
+[Walking on Air](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day98&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -232,7 +241,9 @@ label day86:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

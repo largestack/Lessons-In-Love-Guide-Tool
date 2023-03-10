@@ -1,31 +1,40 @@
-# Contractions
-Main event
+# Contractions (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day85&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 85
 
-✅Event "[Yumi: I See You](./streets10.md)" is completed (event=streets10)
+* Days since the start of the game greater than or equal to 85
+
+* Event [I See You](./streets10.md) (Yumi) is completed)
 
 
 
 ## Next events
+
 * [Main: A Different View](./day121.md)
 * [Main: Rumors](./day138.md)
 
 ## Event properties
-* ID: day85
+
+* Id: day85
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->day85
+
+## Official wiki page
+
+[Contractions](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=day85&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -327,7 +336,9 @@ label day89:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

@@ -1,33 +1,42 @@
-# Black Sandy Beaches
-Sana event
+# Black Sandy Beaches (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bar55&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sana love greater than or equal to 55
 
-❌Event "[Main: No Strings Attached](./imanispecial1.md)" is completed (event=imanispecial1)
+* Sana love greater than or equal to 55
 
-❌Day of week (Mon-Sun) is before Friday
+* Event [No Strings Attached](./imanispecial1.md) (Main) is completed)
+
+* Day of week (Mon-Sun) is before Friday
 
 
 
 ## Next events
+
 * [Ayane: How the World Works](./ayanesanabeach1.md)
 * [Main: Metronome In Love](./rikaspecial1.md)
 
 ## Event properties
-* ID: bar55
+
+* Id: bar55
 * Group: Sana
 * Triggered by label: sanasbar
 * Triggered by branch label: sanasbar
+* Triggered by path: sanasbar->bar55
+
+## Official wiki page
+
+[Black Sandy Beaches](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bar55&go=Go) for more details.
 
 ## Event code
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -388,7 +397,9 @@ label ayanesanabeach2:
 ```
 
 ## Code that triggers this event
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...

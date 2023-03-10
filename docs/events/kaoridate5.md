@@ -1,38 +1,47 @@
-# The Best Ways to Rub a Cock
-Kaori event
+# The Best Ways to Rub a Cock (Kaori)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kaori love greater than or equal to 5
 
-✅Event "[Main: Kadrillionbilliontrillion](./halloween14.md)" is completed (event=halloween14)
+* Kaori love greater than or equal to 5
 
-✅Event "[Ayane: Regularly Scheduled Programming](./dojo25.md)" is completed (event=dojo25)
+* Event [Kadrillionbilliontrillion](./halloween14.md) (Main) is completed)
 
-✅Event "[Tsuneyo: The Life of a Blue Whale](./tsuneyofirsthall.md)" is completed (event=tsuneyofirsthall)
+* Event [Regularly Scheduled Programming](./dojo25.md) (Ayane) is completed)
 
-✅Event "[Kaori: How to Date a Human](./kaoridate1.md)" is completed (event=kaoridate1)
+* Event [The Life of a Blue Whale](./tsuneyofirsthall.md) (Tsuneyo) is completed)
 
-✅kaorinumber equal to True (unknown variable)
+* Event [How to Date a Human](./kaoridate1.md) (Kaori) is completed)
+
+* kaorinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Kaori: Objects and Appendages](./kaoridate10.md)
 
 ## Event properties
-* ID: kaoridate5
+
+* Id: kaoridate5
 * Group: Kaori
 * Triggered by label: callkaoriafternoon
 * Triggered by branch label: callafternoon
+* Triggered by path: callafternoon->callkaoriafternoon->kaoridate5
+
+## Official wiki page
+
+[The Best Ways to Rub a Cock](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate5&go=Go) for more details.
 
 ## Event code
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...
@@ -337,7 +346,9 @@ label kaoridate10:
 ```
 
 ## Code that triggers this event
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,26 +1,36 @@
-# Jeeves Tsukioka XIII
-Tsukasa event
+# Jeeves Tsukioka XIII (Tsukasa)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsukasaspecial1p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [National Tsukasa Day](./tsukasaspecial1.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Chinami: Death Trap](./chinamidate25.md)
 
 ## Event properties
-* ID: tsukasaspecial1p2
+
+* Id: tsukasaspecial1p2
 * Group: Tsukasa
 * Triggered by label: tsukasaspecial1
+* Chain sources: tsukasaspecial1
+* Chain sources path: tsukasaspecial1
+
+## Official wiki page
+
+[Jeeves Tsukioka XIII](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsukasaspecial1p2&go=Go) for more details.
 
 ## Event code
-File: \game\TsukasaEvents.rpy
+
+File: (install folder)\game\TsukasaEvents.rpy
+
 Code:
 ```python
 ...
@@ -281,7 +291,9 @@ label tsukasaspecial1p2:
 ```
 
 ## Code that triggers this event
-File: \game\TsukasaEvents.rpy
+
+File: (install folder)\game\TsukasaEvents.rpy
+
 Code:
 ```python
 ...

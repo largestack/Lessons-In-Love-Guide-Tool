@@ -1,30 +1,39 @@
-# Best Friends Forever
-Ami event
+# Best Friends Forever (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amiinvite3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Maya: Stop Looking For Answers](./shrine35.md)" is completed (event=shrine35)
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Event [Stop Looking For Answers](./shrine35.md) (Maya) is completed)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Main: The Price of Experience](./day344.md)
 
 ## Event properties
-* ID: amiinvite3
+
+* Id: amiinvite3
 * Group: Ami
 * Triggered by label: amiinvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->amiinvite->amiinvite3
+
+## Official wiki page
+
+[Best Friends Forever](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amiinvite3&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -430,7 +439,9 @@ label amimaid30:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

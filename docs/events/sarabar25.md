@@ -1,30 +1,39 @@
-# Tell Me When
-Sara event
+# Tell Me When (Sara)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarabar25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sara love greater than or equal to 25
 
-✅Event "[Yuki: A Thing of the Past](./yukidate10p2.md)" is completed (event=yukidate10p2)
+* Sara love greater than or equal to 25
+
+* Event [A Thing of the Past](./yukidate10p2.md) (Yuki) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: sarabar25
+
+* Id: sarabar25
 * Group: Sara
 * Triggered by label: sarasbar
 * Triggered by branch label: sarasbar
+* Triggered by path: sarasbar->sarabar25
+
+## Official wiki page
+
+[Tell Me When](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=sarabar25&go=Go) for more details.
 
 ## Event code
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...
@@ -492,7 +501,9 @@ label sarabar25p2:
 ```
 
 ## Code that triggers this event
-File: \game\SaraEvents.rpy
+
+File: (install folder)\game\SaraEvents.rpy
+
 Code:
 ```python
 ...

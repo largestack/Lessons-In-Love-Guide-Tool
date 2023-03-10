@@ -1,30 +1,40 @@
-# Legs of a Dying Spider
-Futaba event
+# Legs of a Dying Spider (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Clam's Tongue](./futabanew3.md)
 
 ## Event preconditions
-✅Futaba love greater than or equal to 15
 
-✅Event "[Futaba: Clam's Tongue](./futabanew3.md)" is completed (event=futabanew3)
+* Futaba love greater than or equal to 15
+
+* Event [Clam's Tongue](./futabanew3.md) (Futaba) is completed)
 
 
 
 ## Next events
+
 * [Main: What's Done is Done](./beachvacation1.md)
 
 ## Event properties
-* ID: futabadorm15
+
+* Id: futabadorm15
 * Group: Futaba
 * Triggered by label: futabanew3
+* Chain sources: futabanew3
+* Chain sources path: futabanew3
+
+## Official wiki page
+
+[Legs of a Dying Spider](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabadorm15&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -324,7 +334,9 @@ label rindorm10:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

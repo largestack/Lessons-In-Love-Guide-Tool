@@ -1,32 +1,41 @@
-# Veins and the Circulatory System
-Uta event
+# Veins and the Circulatory System (Uta)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Uta love greater than or equal to 20
 
-✅Event "[Io: Another Man's Treasure](./bathhouse20part2.md)" is completed (event=bathhouse20part2)
+* Uta love greater than or equal to 20
 
-✅Event "[Uta: Facetime With My Mom](./utadorm15.md)" is completed (event=utadorm15)
+* Event [Another Man's Treasure](./bathhouse20part2.md) (Io) is completed)
+
+* Event [Facetime With My Mom](./utadorm15.md) (Uta) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: utamaid20
+
+* Id: utamaid20
 * Group: Uta
 * Triggered by label: utamaid
 * Triggered by branch label: utamaid
+* Triggered by path: utamaid->utamaid20
+
+## Official wiki page
+
+[Veins and the Circulatory System](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=utamaid20&go=Go) for more details.
 
 ## Event code
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...
@@ -516,7 +525,9 @@ label utaarchery1:
 ```
 
 ## Code that triggers this event
-File: \game\UtaEvents.rpy
+
+File: (install folder)\game\UtaEvents.rpy
+
 Code:
 ```python
 ...

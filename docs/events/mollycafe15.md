@@ -1,30 +1,39 @@
-# Onward to Valhalla
-Molly event
+# Onward to Valhalla (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 15
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Molly love greater than or equal to 15
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Molly: The Legacy of Thaum Pt. II](./mollycafe20.md)
 
 ## Event properties
-* ID: mollycafe15
+
+* Id: mollycafe15
 * Group: Molly
 * Triggered by label: mollycafe
 * Triggered by branch label: mollycafe
+* Triggered by path: mollycafe->mollycafe15
+
+## Official wiki page
+
+[Onward to Valhalla](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe15&go=Go) for more details.
 
 ## Event code
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...
@@ -349,7 +358,9 @@ label mollycafe20:
 ```
 
 ## Code that triggers this event
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...

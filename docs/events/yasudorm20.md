@@ -1,33 +1,42 @@
-# Glossolalia
-Yasu event
+# Glossolalia (Yasu)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yasudorm20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Yasu love greater than or equal to 20
 
-❌Event "[Yasu: Mother Duck](./church20.md)" is completed (event=church20)
+* Yasu love greater than or equal to 20
 
-✅Day of week is not Tuesday
+* Event [Mother Duck](./church20.md) (Yasu) is completed)
+
+* Day of week is not Tuesday
 
 
 
 ## Next events
+
 * [Nodoka: Beyond the Reach of God](./nodokadorm15.md)
 * [Nodoka: So Far Below](./nodokaspecial15p1.md)
 
 ## Event properties
-* ID: yasudorm20
+
+* Id: yasudorm20
 * Group: Yasu
 * Triggered by label: yasudorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->yasudorm->yasudorm20
+
+## Official wiki page
+
+[Glossolalia](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=yasudorm20&go=Go) for more details.
 
 ## Event code
-File: \game\YasuEvents.rpy
+
+File: (install folder)\game\YasuEvents.rpy
+
 Code:
 ```python
 ...
@@ -372,7 +381,9 @@ label yasuspecial20:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

@@ -1,26 +1,36 @@
-# The Way it Scatters
-Main event
+# The Way it Scatters (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Secret Weapon](./harukalust25.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwartwo10
+
+* Id: dormwartwo10
 * Group: Main
-* Triggered by label: harukalust25intro
+* Triggered by label: harukalust25
+* Chain sources: harukalust25
+* Chain sources path: harukalust25
+
+## Official wiki page
+
+[The Way it Scatters](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwartwo10&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -495,7 +505,9 @@ label dormwartwo11:
 ```
 
 ## Code that triggers this event
-File: \game\HarukaEvents.rpy
+
+File: (install folder)\game\HarukaEvents.rpy
+
 Code:
 ```python
 ...

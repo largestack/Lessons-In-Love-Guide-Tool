@@ -1,26 +1,36 @@
-# Summer and Winter
-Main event
+# Summer and Winter (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation9&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Legacy of Thaum Pt. I](./beachvacation8.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachvacation9
+
+* Id: beachvacation9
 * Group: Main
 * Triggered by label: beachvacation8
+* Chain sources: beachvacation8
+* Chain sources path: beachvacation8
+
+## Official wiki page
+
+[Summer and Winter](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation9&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -578,7 +588,9 @@ label amilust10:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

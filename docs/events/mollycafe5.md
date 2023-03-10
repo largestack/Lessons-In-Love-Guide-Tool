@@ -1,30 +1,39 @@
-# Remnants of Forgotten Memes
-Molly event
+# Remnants of Forgotten Memes (Molly)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Molly love greater than or equal to 5
 
-✅Event "[Molly: NTR & Pregnancy](./mollycafe1.md)" is completed (event=mollycafe1)
+* Molly love greater than or equal to 5
+
+* Event [NTR & Pregnancy](./mollycafe1.md) (Molly) is completed)
 
 
 
 ## Next events
+
 * [Molly: Something Out of a Nukige](./mollycafe10.md)
 
 ## Event properties
-* ID: mollycafe5
+
+* Id: mollycafe5
 * Group: Molly
 * Triggered by label: mollycafe
 * Triggered by branch label: mollycafe
+* Triggered by path: mollycafe->mollycafe5
+
+## Official wiki page
+
+[Remnants of Forgotten Memes](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mollycafe5&go=Go) for more details.
 
 ## Event code
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...
@@ -345,7 +354,9 @@ label mollycafe10:
 ```
 
 ## Code that triggers this event
-File: \game\MollyEvents.rpy
+
+File: (install folder)\game\MollyEvents.rpy
+
 Code:
 ```python
 ...

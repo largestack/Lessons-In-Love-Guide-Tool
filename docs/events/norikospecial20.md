@@ -1,32 +1,41 @@
-# Fair & Square
-Noriko event
+# Fair & Square (Noriko)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikospecial20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 400
 
-❌Day of week is Monday
+* Days since the start of the game greater than or equal to 400
 
-✅Event "[Main: Metal in Microwaves](./halloweentwo13.md)" is completed (event=halloweentwo13)
+* Day of week is Monday
+
+* Event [Metal in Microwaves](./halloweentwo13.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Noriko: Homes for the Homeless](./norikodorm20.md)
 
 ## Event properties
-* ID: norikospecial20
+
+* Id: norikospecial20
 * Group: Noriko
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->norikospecial20
+
+## Official wiki page
+
+[Fair & Square](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=norikospecial20&go=Go) for more details.
 
 ## Event code
-File: \game\NorikoEvents.rpy
+
+File: (install folder)\game\NorikoEvents.rpy
+
 Code:
 ```python
 ...
@@ -534,7 +543,9 @@ label norikodorm20:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

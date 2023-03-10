@@ -1,33 +1,42 @@
-# Paperthin
-Io event
+# Paperthin (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iodorm10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Io love greater than or equal to 10
 
-✅Event "[Io: Unnamed Wooden Robots](./iodorm5.md)" is completed (event=iodorm5)
+* Io love greater than or equal to 10
 
-✅Event "[Io: Viva la Revolución](./iofirsthall.md)" is completed (event=iofirsthall)
+* Event [Unnamed Wooden Robots](./iodorm5.md) (Io) is completed)
+
+* Event [Viva la Revolución](./iofirsthall.md) (Io) is completed)
 
 
 
 ## Next events
+
 * [Main: Annabel Lee](./day280.md)
 * [Main: Operation: Firestarter](./day318.md)
 
 ## Event properties
-* ID: iodorm10
+
+* Id: iodorm10
 * Group: Io
 * Triggered by label: iodorm
 * Triggered by branch label: doorknock2
+* Triggered by path: doorknock2->iodorm->iodorm10
+
+## Official wiki page
+
+[Paperthin](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=iodorm10&go=Go) for more details.
 
 ## Event code
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...
@@ -417,7 +426,9 @@ label iodorm15:
 ```
 
 ## Code that triggers this event
-File: \game\Dorm2Events.rpy
+
+File: (install folder)\game\Dorm2Events.rpy
+
 Code:
 ```python
 ...

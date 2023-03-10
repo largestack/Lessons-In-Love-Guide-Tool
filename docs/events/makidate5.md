@@ -1,34 +1,43 @@
-# Maki Miyamura's Mom-Mode Mission
-Maki event
+# Maki Miyamura's Mom-Mode Mission (Maki)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makidate5&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maki love greater than or equal to 5
 
-✅Event "[Makoto: Bluejay](./makotodorm25.md)" is completed (event=makotodorm25)
+* Maki love greater than or equal to 5
 
-✅Event "[Maki: Beautiful Porn Salesman](./makidate1.md)" is completed (event=makidate1)
+* Event [Bluejay](./makotodorm25.md) (Makoto) is completed)
 
-✅Event "[Sana: Life is a Tomato](./bar25.md)" is completed (event=bar25)
+* Event [Beautiful Porn Salesman](./makidate1.md) (Maki) is completed)
+
+* Event [Life is a Tomato](./bar25.md) (Sana) is completed)
 
 
 
 ## Next events
+
 * [Main: As Loud as a Whisper Can Be](./day214.md)
 
 ## Event properties
-* ID: makidate5
+
+* Id: makidate5
 * Group: Maki
 * Triggered by label: pornshopmaki
 * Triggered by branch label: pornshopmaki
+* Triggered by path: pornshopmaki->makidate5
+
+## Official wiki page
+
+[Maki Miyamura's Mom-Mode Mission](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makidate5&go=Go) for more details.
 
 ## Event code
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...
@@ -358,7 +367,9 @@ label makidate10:
 ```
 
 ## Code that triggers this event
-File: \game\MakiEvents.rpy
+
+File: (install folder)\game\MakiEvents.rpy
+
 Code:
 ```python
 ...

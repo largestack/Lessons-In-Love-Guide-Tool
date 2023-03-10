@@ -1,26 +1,36 @@
-# Dyed Orange, Drenched in Sun
-Kirin event
+# Dyed Orange, Drenched in Sun (Kirin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinspecial25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [That One FMK Scene](./convenience25.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kirinspecial25
+
+* Id: kirinspecial25
 * Group: Kirin
-* Triggered by label: convenience25
+* Triggered by label: fmkx
+* Chain sources: convenience25
+* Chain sources path: convenience25
+
+## Official wiki page
+
+[Dyed Orange, Drenched in Sun](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kirinspecial25&go=Go) for more details.
 
 ## Event code
-File: \game\KirinEvents.rpy
+
+File: (install folder)\game\KirinEvents.rpy
+
 Code:
 ```python
 ...
@@ -594,7 +604,9 @@ label kirindorm25:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

@@ -1,26 +1,36 @@
-# Red-ish Light District
-Touka event
+# Red-ish Light District (Touka)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukaspecial15p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [A Commoner's Tour of Summer](./toukaspecial15.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: toukaspecial15p2
+
+* Id: toukaspecial15p2
 * Group: Touka
 * Triggered by label: toukaspecial15
+* Chain sources: toukaspecial15
+* Chain sources path: toukaspecial15
+
+## Official wiki page
+
+[Red-ish Light District](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=toukaspecial15p2&go=Go) for more details.
 
 ## Event code
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...
@@ -573,7 +583,9 @@ label toukaspecial15p3:
 ```
 
 ## Code that triggers this event
-File: \game\ToukaEvents.rpy
+
+File: (install folder)\game\ToukaEvents.rpy
+
 Code:
 ```python
 ...

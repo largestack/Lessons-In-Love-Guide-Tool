@@ -1,32 +1,41 @@
-# Somewhere I Belong
-Imani event
+# Somewhere I Belong (Imani)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=imanidate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Imani love greater than 0
 
-❌Event "[Wakana: Don't Hold Back](./wakanaspecial15.md)" is completed (event=wakanaspecial15)
+* Imani love greater than 0
 
-❌imaninumber equal to True (unknown variable)
+* Event [Don't Hold Back](./wakanaspecial15.md) (Wakana) is completed)
+
+* imaninumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Imani: A Hairline Fracture](./imanidate5.md)
 
 ## Event properties
-* ID: imanidate1
+
+* Id: imanidate1
 * Group: Imani
 * Triggered by label: callimaninight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callimaninight->imanidate1
+
+## Official wiki page
+
+[Somewhere I Belong](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=imanidate1&go=Go) for more details.
 
 ## Event code
-File: \game\ImaniEvents.rpy
+
+File: (install folder)\game\ImaniEvents.rpy
+
 Code:
 ```python
 ...
@@ -340,7 +349,9 @@ label imanidate5:
 ```
 
 ## Code that triggers this event
-File: \game\ImaniEvents.rpy
+
+File: (install folder)\game\ImaniEvents.rpy
+
 Code:
 ```python
 ...

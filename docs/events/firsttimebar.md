@@ -1,28 +1,37 @@
-# Family Business
-Sana event
+# Family Business (Sana)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimebar&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Sana love greater than or equal to 0
+
+* Sana love greater than or equal to 0
 
 
 
 ## Next events
+
 * [Sana: Nothing to Do](./sanafirsthall.md)
 
 ## Event properties
-* ID: firsttimebar
+
+* Id: firsttimebar
 * Group: Sana
 * Triggered by label: sanasbar
 * Triggered by branch label: sanasbar
+* Triggered by path: sanasbar->firsttimebar
+
+## Official wiki page
+
+[Family Business](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimebar&go=Go) for more details.
 
 ## Event code
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...
@@ -392,7 +401,9 @@ label bar5:
 ```
 
 ## Code that triggers this event
-File: \game\SanaEvents.rpy
+
+File: (install folder)\game\SanaEvents.rpy
+
 Code:
 ```python
 ...

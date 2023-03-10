@@ -1,31 +1,40 @@
-# Too Blind To See
-Futaba event
+# Too Blind To See (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabainvite3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-❌Event "[Futaba: Bestial Vigor](./library50.md)" is completed (event=library50)
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* Event [Bestial Vigor](./library50.md) (Futaba) is completed)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Rin: Disaster Lesbian](./rindorm55.md)
 * [Main: A Walk Through Hell](./dormwartwo1.md)
 
 ## Event properties
-* ID: futabainvite3
+
+* Id: futabainvite3
 * Group: Futaba
 * Triggered by label: futabainvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->futabainvite->futabainvite3
+
+## Official wiki page
+
+[Too Blind To See](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabainvite3&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -645,7 +654,9 @@ label makotofutabafuntimelustevent:
 ```
 
 ## Code that triggers this event
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...

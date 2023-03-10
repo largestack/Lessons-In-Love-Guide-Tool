@@ -1,28 +1,38 @@
-# The Gap in the Curtain
-Chika event
+# The Gap in the Curtain (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mall40p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Self Care](./mall40.md)
 
 ## Event preconditions
-❌bonus equal to True (unknown variable)
+
+* bonus equal to True (unknown variable)
 
 
 
 ## Next events
+
 * [Chika: The Gap in the Door](./chikadate45.md)
 
 ## Event properties
-* ID: mall40p2
+
+* Id: mall40p2
 * Group: Chika
 * Triggered by label: mall40x
+* Chain sources: mall40
+* Chain sources path: mall40
+
+## Official wiki page
+
+[The Gap in the Curtain](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=mall40p2&go=Go) for more details.
 
 ## Event code
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...
@@ -456,7 +466,9 @@ label chikadate45:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

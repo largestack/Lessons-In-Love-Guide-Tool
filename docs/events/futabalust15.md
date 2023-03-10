@@ -1,30 +1,40 @@
-# C'est La Vie
-Futaba event
+# C'est La Vie (Futaba)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabalust15&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Why Now?](./dormwar9.md)
 
 ## Event preconditions
-✅Futaba lust greater than or equal to 15
 
-✅Event "[Nodoka: I See Everything](./nodokadorm5.md)" is completed (event=nodokadorm5)
+* Futaba lust greater than or equal to 15
+
+* Event [I See Everything](./nodokadorm5.md) (Nodoka) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: futabalust15
+
+* Id: futabalust15
 * Group: Futaba
 * Triggered by label: dormwar9
+* Chain sources: dormwar9
+* Chain sources path: dormwar9
+
+## Official wiki page
+
+[C'est La Vie](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=futabalust15&go=Go) for more details.
 
 ## Event code
-File: \game\FutabaEvents.rpy
+
+File: (install folder)\game\FutabaEvents.rpy
+
 Code:
 ```python
 ...
@@ -118,7 +128,9 @@ label library40:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

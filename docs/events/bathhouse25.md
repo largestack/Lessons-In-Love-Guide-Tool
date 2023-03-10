@@ -1,30 +1,39 @@
-# Work Less, Not Hard
-Io event
+# Work Less, Not Hard (Io)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Io love greater than or equal to 25
 
-❌Event "[Io: Cupid's Arrow](./ioarchery1.md)" is completed (event=ioarchery1)
+* Io love greater than or equal to 25
+
+* Event [Cupid's Arrow](./ioarchery1.md) (Io) is completed)
 
 
 
 ## Next events
+
 * [Io: Heartbreak & Harmony](./iodorm25.md)
 
 ## Event properties
-* ID: bathhouse25
+
+* Id: bathhouse25
 * Group: Io
 * Triggered by label: bathhouse
 * Triggered by branch label: bathhouse
+* Triggered by path: bathhouse->bathhouse25
+
+## Official wiki page
+
+[Work Less, Not Hard](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=bathhouse25&go=Go) for more details.
 
 ## Event code
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...
@@ -415,7 +424,9 @@ label iodorm25:
 ```
 
 ## Code that triggers this event
-File: \game\IoEvents.rpy
+
+File: (install folder)\game\IoEvents.rpy
+
 Code:
 ```python
 ...

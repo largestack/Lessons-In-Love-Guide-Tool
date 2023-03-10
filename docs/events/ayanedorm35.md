@@ -1,32 +1,41 @@
-# Crash of Thunder
-Ayane event
+# Crash of Thunder (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm35&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Ayane love greater than or equal to 35
 
-✅Event "[Ayane: Under the World Tree](./dojo35.md)" is completed (event=dojo35)
+* Ayane love greater than or equal to 35
 
-✅Day of week is not Friday
+* Event [Under the World Tree](./dojo35.md) (Ayane) is completed)
+
+* Day of week is not Friday
 
 
 
 ## Next events
+
 * [Main: Mana Transfer](./day340.md)
 
 ## Event properties
-* ID: ayanedorm35
+
+* Id: ayanedorm35
 * Group: Ayane
 * Triggered by label: ayanedorm
 * Triggered by branch label: ayanedorm
+* Triggered by path: ayanedorm->ayanedorm35
+
+## Official wiki page
+
+[Crash of Thunder](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanedorm35&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -543,7 +552,9 @@ label sanadorm45:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,32 +1,41 @@
-# Thighs On-Demand
-Miku event
+# Thighs On-Demand (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 25
 
-✅Event "[Miku: Moments Like This](./mikudorm15.md)" is completed (event=mikudorm15)
+* Miku love greater than or equal to 25
 
-✅Event "[Main: Kadrillionbilliontrillion](./halloween14.md)" is completed (event=halloween14)
+* Event [Moments Like This](./mikudorm15.md) (Miku) is completed)
+
+* Event [Kadrillionbilliontrillion](./halloween14.md) (Main) is completed)
 
 
 
 ## Next events
+
 * [Miku: Scaredy Cat](./mikudorm25.md)
 
 ## Event properties
-* ID: soccer25
+
+* Id: soccer25
 * Group: Miku
 * Triggered by label: soccerfield
 * Triggered by branch label: soccerfield
+* Triggered by path: soccerfield->soccer25
+
+## Official wiki page
+
+[Thighs On-Demand](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=soccer25&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -407,7 +416,9 @@ label soccer30:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

@@ -1,28 +1,38 @@
-# Prisoner
-Ayane event
+# Prisoner (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanelust10&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Reverse Cowgirl](./beachvacation12.md)
 
 ## Event preconditions
-✅Ayane lust greater than or equal to 10
+
+* Ayane lust greater than or equal to 10
 
 
 
 ## Next events
+
 * [Ayane: What a Wonderful World](./ayanelust15.md)
 
 ## Event properties
-* ID: ayanelust10
+
+* Id: ayanelust10
 * Group: Ayane
 * Triggered by label: beachvacation12
+* Chain sources: beachvacation12
+* Chain sources path: beachvacation12
+
+## Official wiki page
+
+[Prisoner](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanelust10&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -136,7 +146,9 @@ label beachvacation13:
 ```
 
 ## Code that triggers this event
-File: \game\scripts\subscribestar\inappropriatecontent.rpy
+
+File: (install folder)\game\scripts\subscribestar\inappropriatecontent.rpy
+
 Code:
 ```python
 ...

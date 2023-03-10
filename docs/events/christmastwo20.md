@@ -1,17 +1,18 @@
-# Glued to the Sky
-Main event
+# Glued to the Sky (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [The Color White](./christmastwo19.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Maya: Somewhere Inside of a Dream](./mayafestival1.md)
 * [Miku: Acute Love Triangle](./mikudorm45.md)
 * [Miku: Someone Else's Skin](./mikuspecial50.md)
@@ -19,12 +20,21 @@ No event conditions found, it is likely part of an event chain.
 * [Touka: House Call](./toukadorm10.md)
 
 ## Event properties
-* ID: christmastwo20
+
+* Id: christmastwo20
 * Group: Main
 * Triggered by label: christmastwo19
+* Chain sources: christmastwo19
+* Chain sources path: christmastwo19
+
+## Official wiki page
+
+[Glued to the Sky](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=christmastwo20&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -375,7 +385,9 @@ label returntosummer1:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

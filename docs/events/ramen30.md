@@ -1,32 +1,41 @@
-# Things Like Stairs
-Tsuneyo event
+# Things Like Stairs (Tsuneyo)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsuneyo love greater than or equal to 30
 
-✅Event "[Tsuneyo: Green Onions and Contraceptives](./ramen25p2.md)" is completed (event=ramen25p2)
+* Tsuneyo love greater than or equal to 30
 
-✅Event "[Tsuneyo: Unsleeping Aegis](./tsuneyodorm25.md)" is completed (event=tsuneyodorm25)
+* Event [Green Onions and Contraceptives](./ramen25p2.md) (Tsuneyo) is completed)
+
+* Event [Unsleeping Aegis](./tsuneyodorm25.md) (Tsuneyo) is completed)
 
 
 
 ## Next events
+
 * [Main: Girls in Spandex](./halloweentwo1.md)
 
 ## Event properties
-* ID: ramen30
+
+* Id: ramen30
 * Group: Tsuneyo
 * Triggered by label: ramenshop
 * Triggered by branch label: ramenshop
+* Triggered by path: ramenshop->ramen30
+
+## Official wiki page
+
+[Things Like Stairs](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ramen30&go=Go) for more details.
 
 ## Event code
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...
@@ -492,7 +501,9 @@ label restoframen30:
 ```
 
 ## Code that triggers this event
-File: \game\TsuneyoEvents.rpy
+
+File: (install folder)\game\TsuneyoEvents.rpy
+
 Code:
 ```python
 ...

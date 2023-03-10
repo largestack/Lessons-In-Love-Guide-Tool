@@ -1,26 +1,36 @@
-# Three Words
-Chika event
+# Three Words (Chika)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikaonsen3&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Bleed](./chikaonsen2.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: chikaonsen3
+
+* Id: chikaonsen3
 * Group: Chika
 * Triggered by label: chikaonsen2
+* Chain sources: chikaonsen2
+* Chain sources path: chikaonsen2
+
+## Official wiki page
+
+[Three Words](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chikaonsen3&go=Go) for more details.
 
 ## Event code
-File: \game\ChikaEvents.rpy
+
+File: (install folder)\game\ChikaEvents.rpy
+
 Code:
 ```python
 ...
@@ -90,7 +100,9 @@ label chikaonsen4:
 ```
 
 ## Code that triggers this event
-File: None
+
+File: (install folder)None
+
 Code:
 ```python
 None

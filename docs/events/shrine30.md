@@ -1,32 +1,41 @@
-# Now More Than Ever
-Maya event
+# Now More Than Ever (Maya)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine30&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Maya love greater than or equal to 30
 
-✅Event "[Maya: What it Means to Be Destroyed](./mayadorm30.md)" is completed (event=mayadorm30)
+* Maya love greater than or equal to 30
 
-✅ami_virgin equal to False (unknown variable)
+* Event [What it Means to Be Destroyed](./mayadorm30.md) (Maya) is completed)
+
+* ami_virgin equal to False (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: shrine30
+
+* Id: shrine30
 * Group: Maya
 * Triggered by label: shrine
 * Triggered by branch label: shrine
+* Triggered by path: shrine->shrine30
+
+## Official wiki page
+
+[Now More Than Ever](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=shrine30&go=Go) for more details.
 
 ## Event code
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...
@@ -371,7 +380,9 @@ label shrine35:
 ```
 
 ## Code that triggers this event
-File: \game\MayaEvents.rpy
+
+File: (install folder)\game\MayaEvents.rpy
+
 Code:
 ```python
 ...

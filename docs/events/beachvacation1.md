@@ -1,50 +1,59 @@
-# What's Done is Done
-Main event
+# What's Done is Done (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 174
 
-✅Event "[Main: Lifting the Curse](./day154.md)" is completed (event=day154)
+* Days since the start of the game greater than or equal to 174
 
-✅Event "[Ami: Back Out in the Heat](./amidorm15.md)" is completed (event=amidorm15)
+* Event [Lifting the Curse](./day154.md) (Main) is completed)
 
-✅Event "[Futaba: Legs of a Dying Spider](./futabadorm15.md)" is completed (event=futabadorm15)
+* Event [Back Out in the Heat](./amidorm15.md) (Ami) is completed)
 
-✅Event "[Main: Scientific Research](./day79.md)" is completed (event=day79)
+* Event [Legs of a Dying Spider](./futabadorm15.md) (Futaba) is completed)
 
-✅Event "[Makoto: Egg Tooth](./makotonew3.md)" is completed (event=makotonew3)
+* Event [Scientific Research](./day79.md) (Main) is completed)
 
-✅Event "[Kirin: Partners in Crime](./kirindate1.md)" is completed (event=kirindate1)
+* Event [Egg Tooth](./makotonew3.md) (Makoto) is completed)
 
-✅Event "[Tsuneyo: Snake Venom](./ramen1.md)" is completed (event=ramen1)
+* Event [Partners in Crime](./kirindate1.md) (Kirin) is completed)
 
-✅Event "[Molly: The Dark Entity](./mollydorm10.md)" is completed (event=mollydorm10)
+* Event [Snake Venom](./ramen1.md) (Tsuneyo) is completed)
 
-✅Event "[Rin: Sock Fetish](./rindorm25.md)" is completed (event=rindorm25)
+* Event [The Dark Entity](./mollydorm10.md) (Molly) is completed)
 
-✅Event "[Sana: Supermom](./bar10.md)" is completed (event=bar10)
+* Event [Sock Fetish](./rindorm25.md) (Rin) is completed)
 
-✅Day of week is Saturday
+* Event [Supermom](./bar10.md) (Sana) is completed)
+
+* Day of week is Saturday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: beachvacation1
+
+* Id: beachvacation1
 * Group: Main
 * Triggered by label: saturdaymorning
 * Triggered by branch label: saturdaymorning
+* Triggered by path: saturdaymorning->beachvacation1
+
+## Official wiki page
+
+[What's Done is Done](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=beachvacation1&go=Go) for more details.
 
 ## Event code
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
@@ -227,7 +236,9 @@ label beachvacation2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

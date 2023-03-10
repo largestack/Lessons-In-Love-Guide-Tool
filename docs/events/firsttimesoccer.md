@@ -1,30 +1,39 @@
-# Daytime Stalking Pass
-Miku event
+# Daytime Stalking Pass (Miku)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimesoccer&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Miku love greater than or equal to 0
 
-❌firsttimesoccerfield equal to False (unknown variable)
+* Miku love greater than or equal to 0
+
+* firsttimesoccerfield equal to False (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: firsttimesoccer
+
+* Id: firsttimesoccer
 * Group: Miku
 * Triggered by label: soccerfield
 * Triggered by branch label: soccerfield
+* Triggered by path: soccerfield->firsttimesoccer
+
+## Official wiki page
+
+[Daytime Stalking Pass](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=firsttimesoccer&go=Go) for more details.
 
 ## Event code
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...
@@ -331,7 +340,9 @@ label soccer5:
 ```
 
 ## Code that triggers this event
-File: \game\MikuEvents.rpy
+
+File: (install folder)\game\MikuEvents.rpy
+
 Code:
 ```python
 ...

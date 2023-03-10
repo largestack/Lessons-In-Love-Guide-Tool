@@ -1,32 +1,41 @@
-# Såsom i en Spegel
-Kaori event
+# Såsom i en Spegel (Kaori)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate20&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Kaori love greater than or equal to 20
 
-❌Event "[Maya: Everlasting Mercy](./mayafestival4.md)" is completed (event=mayafestival4)
+* Kaori love greater than or equal to 20
 
-✅kaorinumber equal to True (unknown variable)
+* Event [Everlasting Mercy](./mayafestival4.md) (Maya) is completed)
+
+* kaorinumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: kaoridate20
+
+* Id: kaoridate20
 * Group: Kaori
 * Triggered by label: callkaorinight
 * Triggered by branch label: callnight
+* Triggered by path: callnight->callkaorinight->kaoridate20
+
+## Official wiki page
+
+[Såsom i en Spegel](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=kaoridate20&go=Go) for more details.
 
 ## Event code
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...
@@ -410,7 +419,9 @@ label kaoridate25:
 ```
 
 ## Code that triggers this event
-File: \game\KaoriEvents.rpy
+
+File: (install folder)\game\KaoriEvents.rpy
+
 Code:
 ```python
 ...

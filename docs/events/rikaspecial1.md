@@ -1,34 +1,43 @@
-# Metronome In Love
-Main event
+# Metronome In Love (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rikaspecial1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 541
 
-❌Event "[Rin: Hot Boy Summer](./rindorm55p2.md)" is completed (event=rindorm55p2)
+* Days since the start of the game greater than or equal to 541
 
-❌Event "[Sana: Black Sandy Beaches](./bar55.md)" is completed (event=bar55)
+* Event [Hot Boy Summer](./rindorm55p2.md) (Rin) is completed)
 
-❌Day of week is Wednesday
+* Event [Black Sandy Beaches](./bar55.md) (Sana) is completed)
+
+* Day of week is Wednesday
 
 
 
 ## Next events
+
 * [Main: Grief Seed](./day543.md)
 
 ## Event properties
-* ID: rikaspecial1
+
+* Id: rikaspecial1
 * Group: Main
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->rikaspecial1
+
+## Official wiki page
+
+[Metronome In Love](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rikaspecial1&go=Go) for more details.
 
 ## Event code
-File: \game\chap3.rpy
+
+File: (install folder)\game\chap3.rpy
+
 Code:
 ```python
 ...
@@ -379,7 +388,9 @@ label day543:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

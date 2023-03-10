@@ -1,32 +1,41 @@
-# Everbloom
-Tsubasa event
+# Everbloom (Tsubasa)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsubasadate1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Tsubasa love greater than or equal to 0
 
-❌Event "[Touka: Something Less Lonely](./toukaspecial15p3.md)" is completed (event=toukaspecial15p3)
+* Tsubasa love greater than or equal to 0
 
-❌tsubasanumber equal to True (unknown variable)
+* Event [Something Less Lonely](./toukaspecial15p3.md) (Touka) is completed)
+
+* tsubasanumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: tsubasadate1
+
+* Id: tsubasadate1
 * Group: Tsubasa
 * Triggered by label: calltsubasamorning
 * Triggered by branch label: callmorning
+* Triggered by path: callmorning->calltsubasamorning->tsubasadate1
+
+## Official wiki page
+
+[Everbloom](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsubasadate1&go=Go) for more details.
 
 ## Event code
-File: \game\TsubasaEvents.rpy
+
+File: (install folder)\game\TsubasaEvents.rpy
+
 Code:
 ```python
 ...
@@ -343,7 +352,9 @@ label tsubasadate1p2:
 ```
 
 ## Code that triggers this event
-File: \game\TsubasaEvents.rpy
+
+File: (install folder)\game\TsubasaEvents.rpy
+
 Code:
 ```python
 ...

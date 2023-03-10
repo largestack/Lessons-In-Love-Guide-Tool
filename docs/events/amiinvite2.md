@@ -1,32 +1,41 @@
-# Rising to the Challenge
-Ami event
+# Rising to the Challenge (Ami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amiinvite2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Event "[Ami: Living](./amiinvite1.md)" is completed (event=amiinvite1)
 
-✅amiinvite2miss equal to False (unknown variable)
+* Event [Living](./amiinvite1.md) (Ami) is completed)
 
-✅Event "[Main: Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md)" is completed (event=christmas7)
+* amiinvite2miss equal to False (unknown variable)
+
+* Event [Fireworks, Chicken, and the Innate Fear of Death](./christmas7.md) (Main) is completed)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: amiinvite2
+
+* Id: amiinvite2
 * Group: Ami
 * Triggered by label: amiinvite
 * Triggered by branch label: inviteover
+* Triggered by path: inviteover->amiinvite->amiinvite2
+
+## Official wiki page
+
+[Rising to the Challenge](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=amiinvite2&go=Go) for more details.
 
 ## Event code
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...
@@ -100,7 +109,9 @@ label amiinvite3:
 ```
 
 ## Code that triggers this event
-File: \game\AmiEvents.rpy
+
+File: (install folder)\game\AmiEvents.rpy
+
 Code:
 ```python
 ...

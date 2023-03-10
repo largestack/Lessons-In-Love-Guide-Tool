@@ -1,32 +1,41 @@
-# Death Trap
-Chinami event
+# Death Trap (Chinami)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Chinami love greater than or equal to 25
 
-❌Event "[Tsukasa: Jeeves Tsukioka XIII](./tsukasaspecial1p2.md)" is completed (event=tsukasaspecial1p2)
+* Chinami love greater than or equal to 25
 
-✅chinaminumber equal to True (unknown variable)
+* Event [Jeeves Tsukioka XIII](./tsukasaspecial1p2.md) (Tsukasa) is completed)
+
+* chinaminumber equal to True (unknown variable)
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: chinamidate25
+
+* Id: chinamidate25
 * Group: Chinami
 * Triggered by label: callchinamimorning
 * Triggered by branch label: callchinamimorning
+* Triggered by path: callchinamimorning->chinamidate25
+
+## Official wiki page
+
+[Death Trap](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=chinamidate25&go=Go) for more details.
 
 ## Event code
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...
@@ -309,7 +318,9 @@ label chinamidate30:
 ```
 
 ## Code that triggers this event
-File: \game\ChinamiEvents.rpy
+
+File: (install folder)\game\ChinamiEvents.rpy
+
 Code:
 ```python
 ...

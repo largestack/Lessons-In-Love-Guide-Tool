@@ -1,37 +1,46 @@
-# Bluejay
-Makoto event
+# Bluejay (Makoto)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotodorm25&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Makoto love greater than or equal to 25
 
-✅Event "[Makoto: Teacher's Pet](./makotofirsthall.md)" is completed (event=makotofirsthall)
+* Makoto love greater than or equal to 25
 
-✅Event "[Makoto: Service Charge](./pornshop25.md)" is completed (event=pornshop25)
+* Event [Teacher's Pet](./makotofirsthall.md) (Makoto) is completed)
 
-✅trinity3track equal to True (unknown variable)
+* Event [Service Charge](./pornshop25.md) (Makoto) is completed)
 
-✅Event "[Miku: One. Two. Three.](./mikudorm30.md)" is completed (event=mikudorm30)
+* trinity3track equal to True (unknown variable)
+
+* Event [One. Two. Three.](./mikudorm30.md) (Miku) is completed)
 
 
 
 ## Next events
+
 * [Main: As Loud as a Whisper Can Be](./day214.md)
 * [Maki: Maki Miyamura's Mom-Mode Mission](./makidate5.md)
 
 ## Event properties
-* ID: makotodorm25
+
+* Id: makotodorm25
 * Group: Makoto
 * Triggered by label: makotodorm
 * Triggered by branch label: makotodorm
+* Triggered by path: makotodorm->makotodorm25
+
+## Official wiki page
+
+[Bluejay](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=makotodorm25&go=Go) for more details.
 
 ## Event code
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...
@@ -642,7 +651,9 @@ label mikudorm35:
 ```
 
 ## Code that triggers this event
-File: \game\DormEvents.rpy
+
+File: (install folder)\game\DormEvents.rpy
+
 Code:
 ```python
 ...

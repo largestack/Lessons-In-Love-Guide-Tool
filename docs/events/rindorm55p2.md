@@ -1,26 +1,36 @@
-# Hot Boy Summer
-Rin event
+# Hot Boy Summer (Rin)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm55p2&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Disaster Lesbian](./rindorm55.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 * [Main: Metronome In Love](./rikaspecial1.md)
 
 ## Event properties
-* ID: rindorm55p2
+
+* Id: rindorm55p2
 * Group: Rin
 * Triggered by label: rindorm55
+* Chain sources: rindorm55
+* Chain sources path: rindorm55
+
+## Official wiki page
+
+[Hot Boy Summer](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=rindorm55p2&go=Go) for more details.
 
 ## Event code
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...
@@ -346,7 +356,9 @@ label rinspecial55:
 ```
 
 ## Code that triggers this event
-File: \game\RinEvents.rpy
+
+File: (install folder)\game\RinEvents.rpy
+
 Code:
 ```python
 ...

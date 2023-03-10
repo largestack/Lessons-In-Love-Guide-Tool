@@ -1,26 +1,36 @@
-# Chaperone
-Main event
+# Chaperone (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwar8&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Ruthless Rhyme Rhomp! Rap Rampage!](./dormwar7.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: dormwar8
+
+* Id: dormwar8
 * Group: Main
 * Triggered by label: dormwar7
+* Chain sources: dormwar7
+* Chain sources path: dormwar7
+
+## Official wiki page
+
+[Chaperone](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=dormwar8&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -575,7 +585,9 @@ label dormwar9:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

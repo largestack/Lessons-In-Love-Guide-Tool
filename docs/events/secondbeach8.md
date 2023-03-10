@@ -1,26 +1,36 @@
-# The Legacy of Thaum Pt. III: Changeling
-Main event
+# The Legacy of Thaum Pt. III: Changeling (Main)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach8&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 Part of event chain [Everything Ephemeral](./secondbeach7.md)
 
 ## Event preconditions
+
 No event conditions found, it is likely part of an event chain.
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: secondbeach8
+
+* Id: secondbeach8
 * Group: Main
 * Triggered by label: secondbeach7
+* Chain sources: secondbeach7
+* Chain sources path: secondbeach7
+
+## Official wiki page
+
+[The Legacy of Thaum Pt. III: Changeling](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=secondbeach8&go=Go) for more details.
 
 ## Event code
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...
@@ -628,7 +638,9 @@ label secondbeach9:
 ```
 
 ## Code that triggers this event
-File: \game\ch2script.rpy
+
+File: (install folder)\game\ch2script.rpy
+
 Code:
 ```python
 ...

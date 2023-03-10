@@ -1,34 +1,43 @@
-# Furlough
-Ayane event
+# Furlough (Ayane)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanekirintalk&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 550
 
-✅Event "[Ayane: What a Wonderful World](./ayanelust15.md)" is completed (event=ayanelust15)
+* Days since the start of the game greater than or equal to 550
 
-❌Event "[Ayane: Chiburi](./ayanespecial50.md)" is completed (event=ayanespecial50)
+* Event [What a Wonderful World](./ayanelust15.md) (Ayane) is completed)
 
-❌Day of week is Thursday
+* Event [Chiburi](./ayanespecial50.md) (Ayane) is completed)
+
+* Day of week is Thursday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: ayanekirintalk
+
+* Id: ayanekirintalk
 * Group: Ayane
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->ayanekirintalk
+
+## Official wiki page
+
+[Furlough](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=ayanekirintalk&go=Go) for more details.
 
 ## Event code
-File: \game\AyaneEvents.rpy
+
+File: (install folder)\game\AyaneEvents.rpy
+
 Code:
 ```python
 ...
@@ -329,7 +338,9 @@ label ayanekirintalk:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...

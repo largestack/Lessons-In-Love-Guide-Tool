@@ -1,34 +1,43 @@
-# National Tsukasa Day
-Tsukasa event
+# National Tsukasa Day (Tsukasa)
 
 [Back to event list](./../)
 
-[Official event wiki page](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsukasaspecial1&go=Go)
+This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
 
 ## Event preconditions
-✅Days since the start of the game greater than or equal to 530
 
-❌Event "[Io: 1999 PC Classic, Rollercoaster Tycoon](./iospecial30.md)" is completed (event=iospecial30)
+* Days since the start of the game greater than or equal to 530
 
-❌Event "[Karin: Emerald Eyes](./karindate25.md)" is completed (event=karindate25)
+* Event [1999 PC Classic, Rollercoaster Tycoon](./iospecial30.md) (Io) is completed)
 
-❌Day of week is Monday
+* Event [Emerald Eyes](./karindate25.md) (Karin) is completed)
+
+* Day of week is Monday
 
 
 
 ## Next events
+
 None
 
 ## Event properties
-* ID: tsukasaspecial1
+
+* Id: tsukasaspecial1
 * Group: Tsukasa
 * Triggered by label: weekdaymorning
 * Triggered by branch label: weekdaymorning
+* Triggered by path: weekdaymorning->tsukasaspecial1
+
+## Official wiki page
+
+[National Tsukasa Day](https://lessonsinlove.wiki/index.php?title=Special%3ASearch&search=tsukasaspecial1&go=Go) for more details.
 
 ## Event code
-File: \game\TsukasaEvents.rpy
+
+File: (install folder)\game\TsukasaEvents.rpy
+
 Code:
 ```python
 ...
@@ -367,7 +376,9 @@ label tsukasaspecial1p2:
 ```
 
 ## Code that triggers this event
-File: \game\script.rpy
+
+File: (install folder)\game\script.rpy
+
 Code:
 ```python
 ...
