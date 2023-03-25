@@ -19,7 +19,7 @@ None
 
 * Id: christmas6
 * Group: Main
-* Triggered by label: chikalust10intro
+* Triggered by label: chikalust10x
 * Chain sources: chikalust10
 * Chain sources path: chikalust10
 

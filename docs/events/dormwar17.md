@@ -23,7 +23,7 @@ No event conditions found, it is likely part of an event chain.
 
 * Id: dormwar17
 * Group: Main
-* Triggered by label: chikalust15skip
+* Triggered by label: chikalust15
 * Chain sources: chikalust15
 * Chain sources path: chikalust15
 

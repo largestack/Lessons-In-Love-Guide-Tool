@@ -21,7 +21,7 @@ No event conditions found, it is likely part of an event chain.
 
 * Id: makotowinterbeach4
 * Group: Makoto
-* Triggered by label: mikuwinterbeach1
+* Triggered by label: mikubeachdryx
 * Chain sources: mikuwinterbeach1
 * Chain sources path: mikuwinterbeach1
 

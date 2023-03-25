@@ -22,7 +22,7 @@ This is generated automatically through code analysis and may include mistakes. 
 * Group: Io
 * Triggered by label: iohall
 * Triggered by branch label: doorknock2
-* Triggered by path: doorknock2->iohall->iofirsthall
+* Triggered by path: dorm2tuesday->iohall->iofirsthall
 
 ## Official wiki page
 

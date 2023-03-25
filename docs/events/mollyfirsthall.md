@@ -201,7 +201,10 @@ Code:
 ```python
 ...
 label dorm2monday:
-    if chapthreeactive == True:
+    if otohaspecial15p2 == True:
+        scene summerdorm2monsecond
+        with dissolve
+    elif chapthreeactive == True and otohaspecial15p2 == False:
         scene summerdorm2mon
         with dissolve
     elif mollysad == True and chapthreeactive == False:

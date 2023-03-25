@@ -19,7 +19,7 @@ None
 
 * Id: halloweentwo12
 * Group: Main
-* Triggered by label: lavendersgreenx
+* Triggered by label: halloweentwo11
 * Chain sources: halloweentwo11
 * Chain sources path: halloweentwo11
 

@@ -23,7 +23,7 @@ Part of event chain [Clam's Tongue](./futabanew3.md)
 
 * Id: futabadorm15
 * Group: Futaba
-* Triggered by label: futabanew3
+* Triggered by label: futabadorm
 * Chain sources: futabanew3
 * Chain sources path: futabanew3
 

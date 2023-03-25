@@ -497,6 +497,8 @@ label restoframen30:
         jump endofweekday
     else:
         jump endofsat
+
+label tsuneyoslumber1:
 ...
 ```
 

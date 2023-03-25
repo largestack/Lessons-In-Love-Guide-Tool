@@ -19,7 +19,7 @@ None
 
 * Id: halloween8
 * Group: Main
-* Triggered by label: saralust10x
+* Triggered by label: saralust10skip
 * Chain sources: saralust10
 * Chain sources path: saralust10
 

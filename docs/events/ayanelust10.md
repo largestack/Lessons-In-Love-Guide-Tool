@@ -21,7 +21,7 @@ Part of event chain [Reverse Cowgirl](./beachvacation12.md)
 
 * Id: ayanelust10
 * Group: Ayane
-* Triggered by label: beachvacation12
+* Triggered by label: cowboyx
 * Chain sources: beachvacation12
 * Chain sources path: beachvacation12
 

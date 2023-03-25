@@ -19,7 +19,7 @@ None
 
 * Id: beachvacation6
 * Group: Main
-* Triggered by label: kirinbeachhjx
+* Triggered by label: beachvacation5
 * Chain sources: beachvacation5
 * Chain sources path: beachvacation5
 

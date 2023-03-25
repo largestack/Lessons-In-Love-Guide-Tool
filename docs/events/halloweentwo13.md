@@ -24,7 +24,7 @@ Part of event chain [Gallows Edge](./halloweentwo12.md)
 
 * Id: halloweentwo13
 * Group: Main
-* Triggered by label: whatwedox
+* Triggered by label: halloweentwo12
 * Chain sources: halloweentwo12
 * Chain sources path: halloweentwo12
 

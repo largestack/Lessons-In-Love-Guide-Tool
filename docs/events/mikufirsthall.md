@@ -20,7 +20,7 @@ None
 * Group: Miku
 * Triggered by label: dormtuesday
 * Triggered by branch label: dorms
-* Triggered by path: dorms->dormtuesday->mikufirsthall
+* Triggered by path: dorm2tuesday->dormtuesday->mikufirsthall
 
 ## Official wiki page
 

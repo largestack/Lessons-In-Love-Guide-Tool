@@ -23,8 +23,8 @@ This is generated automatically through code analysis and may include mistakes. 
 * Id: convenience25
 * Group: Noriko
 * Triggered by label: convenience
-* Triggered by branch label: saturdaynight
-* Triggered by path: afterschoolmenu->convenience->convenience25
+* Triggered by branch label: afterschoolmenu
+* Triggered by path: saturdaynight->convenience->convenience25
 
 ## Official wiki page
 

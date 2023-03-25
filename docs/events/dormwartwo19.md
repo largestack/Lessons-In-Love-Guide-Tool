@@ -19,7 +19,7 @@ None
 
 * Id: dormwartwo19
 * Group: Main
-* Triggered by label: kirinlust30
+* Triggered by label: kirinlust30intro
 * Chain sources: kirinlust30
 * Chain sources path: kirinlust30
 

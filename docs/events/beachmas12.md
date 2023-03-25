@@ -5,7 +5,7 @@
 This is generated automatically through code analysis and may include mistakes. For the interactive version of this tool, which looks at your latest savegame to hint the next see the [walkthrough tool here](https://github.com/largestack/Lessons-In-Love-Guide-Tool/blob/main/README.md).
 
 
-Part of event chain [いないいない。。。ばあ！](./beachmas11.md)
+Part of event chain [Toys](./makotofutabafuntimelustevent.md)
 
 ## Event preconditions
 
@@ -19,9 +19,9 @@ None
 
 * Id: beachmas12
 * Group: Main
-* Triggered by label: beachmas11
-* Chain sources: beachmas11
-* Chain sources path: beachmas11
+* Triggered by label: makotofutabafuntimelustevent
+* Chain sources: makotofutabafuntimelustevent
+* Chain sources path: makotofutabafuntimelustevent
 
 ## Official wiki page
 

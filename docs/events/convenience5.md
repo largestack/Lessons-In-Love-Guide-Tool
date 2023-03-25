@@ -29,8 +29,8 @@ This is generated automatically through code analysis and may include mistakes. 
 * Id: convenience5
 * Group: Noriko
 * Triggered by label: convenience
-* Triggered by branch label: saturdaynight
-* Triggered by path: afterschoolmenu->convenience->convenience5
+* Triggered by branch label: afterschoolmenu
+* Triggered by path: saturdaynight->convenience->convenience5
 
 ## Official wiki page
 

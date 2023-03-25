@@ -594,6 +594,8 @@ label otohadorm10p2:
         jump endofweekday
     else:
         jump endofsat
+
+label otohaspecial15p1:
 ...
 ```
 

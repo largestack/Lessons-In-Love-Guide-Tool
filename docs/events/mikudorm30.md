@@ -29,7 +29,7 @@ Part of event chain [One. Two. Three.](./mikudorm30.md)
 
 * Id: mikudorm30
 * Group: Miku
-* Triggered by label: mikudorm
+* Triggered by label: mikudorm30
 * Chain sources: mikudorm30
 * Chain sources path: mikudorm30
 

@@ -21,7 +21,7 @@ Part of event chain [Self Care](./mall40.md)
 
 * Id: mall40p2
 * Group: Chika
-* Triggered by label: mall40x
+* Triggered by label: mall40
 * Chain sources: mall40
 * Chain sources path: mall40
 

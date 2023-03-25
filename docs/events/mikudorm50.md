@@ -79,6 +79,8 @@ label mikudorm50:
             jump endofweekday
         else:
             jump endofsat
+
+label mikuinvite1:
 ...
 ```
 

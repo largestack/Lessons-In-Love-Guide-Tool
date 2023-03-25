@@ -318,7 +318,7 @@ Characters:
 | [The Bending of Italics](./events/beachmas9.md) | Part of event chain [A Thousand Truths](./events/beachmas8.md) |  |
 | [Treasured](./events/beachmas10.md) | Part of event chain [The Bending of Italics](./events/beachmas9.md) |  |
 | [いないいない。。。ばあ！](./events/beachmas11.md) | Part of event chain [Treasured](./events/beachmas10.md) |  |
-| [Robin Hood](./events/beachmas12.md) | Part of event chain [いないいない。。。ばあ！](./events/beachmas11.md) |  |
+| [Robin Hood](./events/beachmas12.md) | Part of event chain [Toys](./events/makotofutabafuntimelustevent.md) |  |
 | [The Legacy of Thaum Pt. IV](./events/beachmas13.md) | Part of event chain [No One Can Hear Us](./events/amilust35.md) |  |
 | [On The Fence](./events/beachmas14.md) | Part of event chain [The Legacy of Thaum Pt. IV](./events/beachmas13.md) |  |
 | [To the Future With a Smile](./events/beachmas15.md) | Part of event chain [On The Fence](./events/beachmas14.md) |  |
@@ -327,6 +327,11 @@ Characters:
 | [Smells of Summer](./events/beachmas18.md) | Part of event chain [Moon-Touched](./events/beachmas17.md) |  |
 | [I Will Deliver You to the Fireflies](./events/beachmas19.md) | Part of event chain [Smells of Summer](./events/beachmas18.md) |  |
 | [Shelter](./events/beachmas20.md) | Part of event chain [I Will Deliver You to the Fireflies](./events/beachmas19.md) |  |
+| [To Catch Me If I Fall](./events/slumberreset1.md) | Part of event chain [Shelter](./events/beachmas20.md) |  |
+| [Approximation](./events/slumberreset2.md) | Part of event chain [To Catch Me If I Fall](./events/slumberreset1.md) |  |
+| [December 28, 2020](./events/slumberreset3.md) | Part of event chain [Approximation](./events/slumberreset2.md) |  |
+| [Untitled](./events/slumberreset4.md) | Part of event chain [December 28, 2020](./events/slumberreset3.md) |  |
+| [A Thousand Years](./events/slumberreset5.md) | Part of event chain [Mother's Milk](./events/mothersmilk.md) | [What it Takes to Move Forward](./nikilovesyou1.md) (Niki)<br> |
 
 ## Happy scenes
 
@@ -347,6 +352,7 @@ Characters:
 | [Good Boy](./events/goodboy.md) |  |  |
 | [Lamb Legs](./events/specialbonusamiscene.md) | secretlottery equal to "157842" (unknown variable)<br><br>Part of event chain [A Life of Prizes](./events/returntosummer2.md) |  |
 | [Second Sun](./events/bucketscene.md) |  |  |
+| [Mother's Milk](./events/mothersmilk.md) | not gsbonus.lower in ["cute puppy"] equal to True (unknown variable)<br><br>Part of event chain [Untitled](./events/slumberreset4.md) |  |
 
 ## Ami
 
@@ -688,6 +694,8 @@ Characters:
 | [Chrysalis](./events/mikudorm45p2.md) | Part of event chain [Acute Love Triangle](./events/mikudorm45.md) | [Someone Else's Skin](./mikuspecial50.md) (Miku)<br> |
 | [Someone Else's Skin](./events/mikuspecial50.md) | Miku love greater than or equal to 50<br>Event [Glued to the Sky](./christmastwo20.md) (Main) is completed)<br>Event [Chrysalis](./mikudorm45p2.md) (Miku) is completed)<br>mikunumber equal to True (unknown variable)<br><br> |  |
 | [The Devil & God Are Raging Inside Me](./events/mikudorm50.md) | Part of event chain [Someone Else's Skin](./events/mikuspecial50.md) |  |
+| [Breakaway](./events/mikuinvite1.md) |  | [Fair is Fair](./mikuinvite2.md) (Miku)<br> |
+| [Fair is Fair](./events/mikuinvite2.md) | Event [Breakaway](./mikuinvite1.md) (Miku) is completed)<br><br> |  |
 
 ## Molly
 
@@ -718,6 +726,9 @@ Characters:
 | [Hotel Rooms](./events/nikidate15.md) | Niki love greater than or equal to 15<br>Event [Thousands, If Not Millions](./nikidate10.md) (Niki) is completed)<br>Day of week is Saturday<br>nikinumber equal to True (unknown variable)<br><br> | [Girls in Spandex](./halloweentwo1.md) (Main)<br> |
 | [Sisters](./events/nikiinvite1.md) | Event [Loxosceles Reclusa](./norikodorm25.md) (Noriko) is completed)<br><br> | [Dear You](./nikiinvite2.md) (Niki)<br> |
 | [Dear You](./events/nikiinvite2.md) | Event [Sisters](./nikiinvite1.md) (Niki) is completed)<br>Event [Loxosceles Reclusa](./norikodorm25.md) (Noriko) is completed)<br><br> | [Three Amigos](./christmastwo1.md) (Main)<br> |
+| [What it Takes to Move Forward](./events/nikilovesyou1.md) | Niki love greater than or equal to 20<br>Event [A Thousand Years](./slumberreset5.md) (Main) is completed)<br>Day of week is Saturday<br>Event [How To Make Love Stay](./nikilovesyou3.md) (Niki) must not be completed)<br>nikinumber equal to True (unknown variable)<br><br> |  |
+| [The End of the Tour](./events/nikilovesyou2.md) | Part of event chain [What it Takes to Move Forward](./events/nikilovesyou1.md) |  |
+| [How To Make Love Stay](./events/nikilovesyou3.md) | Part of event chain [The End of the Tour](./events/nikilovesyou2.md) | [What it Takes to Move Forward](./nikilovesyou1.md) (Niki)<br>[King Midas](./otohaspecial15p1.md) (Otoha)<br> |
 
 ## Nodoka
 
@@ -772,6 +783,9 @@ Characters:
 | [Two-Octave Pitch Glide](./events/otohaspecial10.md) | Part of event chain [Pull the Plug](./events/otohapark10.md) |  |
 | [Breathing in Unison](./events/otohadorm10.md) | Part of event chain [Two-Octave Pitch Glide](./events/otohaspecial10.md) |  |
 | [Vanilla Bean](./events/otohadorm10p2.md) | Part of event chain [Breathing in Unison](./events/otohadorm10.md) |  |
+| [King Midas](./events/otohaspecial15p1.md) | Otoha love greater than or equal to 15<br>Event [How To Make Love Stay](./nikilovesyou3.md) (Niki) is completed)<br>Day of week is Sunday<br>Event [White People](./otohaspecial15p2.md) (Otoha) must not be completed)<br><br> |  |
+| [White People](./events/otohaspecial15p2.md) | Part of event chain [King Midas](./events/otohaspecial15p1.md) | [King Midas](./otohaspecial15p1.md) (Otoha)<br>[Breaking Character](./otohadate20.md) (Otoha)<br> |
+| [Breaking Character](./events/otohadate20.md) | Otoha love greater than or equal to 20<br>Event [White People](./otohaspecial15p2.md) (Otoha) is completed)<br><br> |  |
 
 ## Rin
 
@@ -898,6 +912,9 @@ Characters:
 | [Green Onions and Contraceptives](./events/ramen25p2.md) | Part of event chain [Like Noodles in the Wind](./events/ramen25.md) | [Things Like Stairs](./ramen30.md) (Tsuneyo)<br> |
 | [Unsleeping Aegis](./events/tsuneyodorm25.md) | Tsuneyo love greater than or equal to 25<br>Event [All is Bright. All is Beautiful.](./secondbeach18.md) (Main) is completed)<br><br> | [Resurrection Sickness](./mollycafe25.md) (Molly)<br>[Things Like Stairs](./ramen30.md) (Tsuneyo)<br> |
 | [Things Like Stairs](./events/ramen30.md) | Tsuneyo love greater than or equal to 30<br>Event [Green Onions and Contraceptives](./ramen25p2.md) (Tsuneyo) is completed)<br>Event [Unsleeping Aegis](./tsuneyodorm25.md) (Tsuneyo) is completed)<br><br> | [Girls in Spandex](./halloweentwo1.md) (Main)<br> |
+| [With Her](./events/tsuneyoslumber1.md) | Part of event chain [Approximation](./events/slumberreset2.md) |  |
+| [Stripped Away](./events/tsuneyoslumber2.md) | Part of event chain [With Her](./events/tsuneyoslumber1.md) |  |
+| [Sudden Light](./events/tsuneyoslumber3.md) | Part of event chain [Stripped Away](./events/tsuneyoslumber2.md) |  |
 
 ## Uta
 
@@ -974,5 +991,8 @@ Characters:
 | [Neon Heart](./events/yumispecial40p2.md) | Part of event chain [Reconciliation](./events/yumispecial40.md) | [Unsung Heroes](./streets40.md) (Yumi)<br> |
 | [Unsung Heroes](./events/streets40.md) | Yumi love greater than or equal to 40<br>Event [Neon Heart](./yumispecial40p2.md) (Yumi) is completed)<br><br> | [See You Around](./yumispecial45.md) (Yumi)<br> |
 | [See You Around](./events/yumispecial45.md) | Days since the start of the game greater than or equal to 417<br>Event [Unsung Heroes](./streets40.md) (Yumi) is completed)<br>Day of week is Friday<br><br> | [Three Amigos](./christmastwo1.md) (Main)<br> |
+| [Two Months of Nothing](./events/yumislumber1.md) | Part of event chain [Approximation](./events/slumberreset2.md) |  |
+| [Loggerhead](./events/yumislumber2.md) | Part of event chain [Two Months of Nothing](./events/yumislumber1.md) |  |
+| [A Day in the Life](./events/yumislumber3.md) | Part of event chain [Loggerhead](./events/yumislumber2.md) |  |
 
 

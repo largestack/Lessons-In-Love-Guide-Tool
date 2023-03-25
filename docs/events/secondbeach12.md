@@ -21,7 +21,7 @@ None
 * Group: Main
 * Triggered by label: secondbeach11floor2
 * Chain sources: chikalust20
-* Chain sources path: chikalust20->chikalust20
+* Chain sources path: chikalust20->chikalust20x
 
 ## Official wiki page
 
