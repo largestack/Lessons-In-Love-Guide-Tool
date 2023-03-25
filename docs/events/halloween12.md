@@ -19,7 +19,7 @@ None
 
 * Id: halloween12
 * Group: Main
-* Triggered by label: makotovirginx
+* Triggered by label: halloween11
 * Chain sources: halloween11
 * Chain sources path: halloween11
 

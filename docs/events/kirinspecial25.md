@@ -19,7 +19,7 @@ None
 
 * Id: kirinspecial25
 * Group: Kirin
-* Triggered by label: fmkx
+* Triggered by label: convenience25
 * Chain sources: convenience25
 * Chain sources path: convenience25
 

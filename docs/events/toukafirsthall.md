@@ -22,7 +22,7 @@ This is generated automatically through code analysis and may include mistakes. 
 * Group: Touka
 * Triggered by label: toukahall
 * Triggered by branch label: doorknock2
-* Triggered by path: doorknock2->toukahall->toukafirsthall
+* Triggered by path: dorm2tuesday->toukahall->toukafirsthall
 
 ## Official wiki page
 

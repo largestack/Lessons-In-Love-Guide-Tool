@@ -19,7 +19,7 @@ None
 
 * Id: beachvacation13
 * Group: Main
-* Triggered by label: prisonerx
+* Triggered by label: ayanelust10
 * Chain sources: ayanelust10
 * Chain sources path: ayanelust10
 

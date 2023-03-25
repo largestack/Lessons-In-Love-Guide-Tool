@@ -20,9 +20,9 @@ This is generated automatically through code analysis and may include mistakes. 
 
 * Id: nodokafirsthall
 * Group: Nodoka
-* Triggered by label: nodokahall
+* Triggered by label: dorm2friday
 * Triggered by branch label: doorknock2
-* Triggered by path: doorknock2->dorm2friday->nodokafirsthall
+* Triggered by path: doorknock2->nodokahall->nodokafirsthall
 
 ## Official wiki page
 
@@ -222,7 +222,10 @@ label otohahall:
         jump otohahallgen
 
 label otohahallgen:
-    if chapthreeactive == True:
+    if otohaspecial15p2 == True:
+        scene otohasummer2hallgenhair
+        with dissolve
+    elif chapthreeactive == True and otohaspecial15p2 == False:
         scene otohasummer2hallgen
         with dissolve
     else:

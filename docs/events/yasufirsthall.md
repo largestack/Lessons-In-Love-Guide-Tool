@@ -22,7 +22,7 @@ This is generated automatically through code analysis and may include mistakes. 
 * Group: Yasu
 * Triggered by label: yasuhall
 * Triggered by branch label: doorknock2
-* Triggered by path: doorknock2->yasuhall->yasufirsthall
+* Triggered by path: dorm2thursday->yasuhall->yasufirsthall
 
 ## Official wiki page
 

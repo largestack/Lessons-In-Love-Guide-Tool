@@ -7,7 +7,7 @@ Lessons In Love Guide Tool looks at your most recent save game, and lets you kno
 Also see [the guide tool website here](http://largestack.github.io/Lessons-In-Love-Guide-Tool/) for a list of events and code corresponding to game events. You can go here if you are stuck on an event to see the code.
 
 ## Game version supported
-This tool is expected to work regardless of game version. However, the v1.1 release of this tool will only include events that were added in v0.28.0 and before.
+This tool works for any game version, since it loads the events from the version of the game installed on your device.
 
 ## Installation - Windows
 Download the [latest release](https://github.com/largestack/Lessons-In-Love-Guide-Tool/releases) executable here and run it.
@@ -17,7 +17,7 @@ Download the [latest release](https://github.com/largestack/Lessons-In-Love-Guid
 1. Install Python 3.7
 1. Install the dependency packages:
 * `pip install tkinter`
-* `pip install webbrowser`
+* `pip install webbrowser` (used to launch the event wiki pages)
 4. From terminal run `python main.py` or `python3 main.py`.
 
 ## Using the tool

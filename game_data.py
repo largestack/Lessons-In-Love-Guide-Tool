@@ -356,24 +356,25 @@ def load_game_data(game_folder):
   # Add these as requirements to the events.
   invite_pre_reqs = {}
   call_pre_reqs = {}
-  with open(os.path.join(game_folder, "game", "Phone.rpy"), "r", encoding="utf8") as f:
-    phone_script = f.read()
-    region = phone_script.split("contactsList = [")[1].split("]")[0]
-    contacts = region.split("Contact(")
-    for contact in contacts:
-      contact = contact.split("\n")[0]
-      tokens = contact.split(",")
+  if os.path.exists(os.path.join(game_folder, "game", "Phone.rpy")):
+    with open(os.path.join(game_folder, "game", "Phone.rpy"), "r", encoding="utf8") as f:
+      phone_script = f.read()
+      region = phone_script.split("contactsList = [")[1].split("]")[0]
+      contacts = region.split("Contact(")
+      for contact in contacts:
+        contact = contact.split("\n")[0]
+        tokens = contact.split(",")
 
-      if len(tokens) >= 9:
-        id_prefix = tokens[0].replace("\"","").strip()
-        id_req_call = tokens[7].strip()
-        id_req_invite = tokens[8].replace(")","").strip()
+        if len(tokens) >= 9:
+          id_prefix = tokens[0].replace("\"","").strip()
+          id_req_call = tokens[7].strip()
+          id_req_invite = tokens[8].replace(")","").strip()
 
-        if id_req_call not in ["True","False"]:
-          call_pre_reqs[id_prefix] = id_req_call
+          if id_req_call not in ["True","False"]:
+            call_pre_reqs[id_prefix] = id_req_call
 
-        if id_req_invite not in ["True","False"]:
-          invite_pre_reqs[id_prefix] = id_req_invite
+          if id_req_invite not in ["True","False"]:
+            invite_pre_reqs[id_prefix] = id_req_invite
   
   # Add the phone pre-requisites to the events
   for event_name, event in events.items():

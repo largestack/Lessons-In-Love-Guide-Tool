@@ -268,6 +268,8 @@ label nikiinvite2:
             jump endofsat
         else:
             jump endofweekday
+
+label nikilovesyou1:
 ...
 ```
 

@@ -19,7 +19,7 @@ None
 
 * Id: halloweentwo6
 * Group: Main
-* Triggered by label: amilust20
+* Triggered by label: amilust20x
 * Chain sources: amilust20
 * Chain sources path: amilust20
 

@@ -114,7 +114,7 @@ if __name__ == "__main__":
     event_template = Template(f.read())
     
   # Load the game data
-  game_path = "D:\\Games\\Dult\\LessonsInLove0.28.0-0.28.0-pc-subscribestar"
+  game_path = "D:\\Games\\Dult\\LessonsInLove0.29.0-0.29.0-pc-subscribestar"
   events, save_data, characters, save_file, save_file_timestamp = load_game_data(game_path)
 
   # Create the event pages

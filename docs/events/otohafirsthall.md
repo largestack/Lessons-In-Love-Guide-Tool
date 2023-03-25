@@ -20,9 +20,9 @@ This is generated automatically through code analysis and may include mistakes. 
 
 * Id: otohafirsthall
 * Group: Otoha
-* Triggered by label: otohahall
+* Triggered by label: dorm2monday
 * Triggered by branch label: dorm2monday
-* Triggered by path: dorm2monday->otohafirsthall
+* Triggered by path: otohahall->otohafirsthall
 
 ## Official wiki page
 

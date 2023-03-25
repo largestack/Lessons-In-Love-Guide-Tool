@@ -488,7 +488,7 @@ label beachmas20:
     $ renpy.end_replay()
     $ beachmas20 = True
 
-    scene tobecontinued
+    scene black
     with dissolve2
 
     jump postbeachmas1
@@ -497,7 +497,9 @@ label postbeachmas1:
     "........."
     "......"
     "..."
-    jump postbeachmas1
+    jump slumberreset1
+
+label slumberreset1:
 ...
 ```
 

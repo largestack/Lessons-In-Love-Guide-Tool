@@ -510,6 +510,8 @@ label yumispecial45:
     "..."
 
     jump afterschoolevent
+
+label yumislumber1:
 ...
 ```
 

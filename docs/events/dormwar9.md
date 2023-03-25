@@ -19,7 +19,7 @@ None
 
 * Id: dormwar9
 * Group: Main
-* Triggered by label: ayanelust15x
+* Triggered by label: dormwar8
 * Chain sources: dormwar8
 * Chain sources path: dormwar8
 

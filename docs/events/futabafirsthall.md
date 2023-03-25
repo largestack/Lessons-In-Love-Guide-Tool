@@ -20,7 +20,7 @@ None
 * Group: Futaba
 * Triggered by label: dormtuesday
 * Triggered by branch label: dorms
-* Triggered by path: dorms->dormtuesday->futabafirsthall
+* Triggered by path: dorm2tuesday->dormtuesday->futabafirsthall
 
 ## Official wiki page
 

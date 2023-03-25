@@ -19,7 +19,7 @@ None
 
 * Id: dormwartwo10
 * Group: Main
-* Triggered by label: harukalust25
+* Triggered by label: harukalust25intro
 * Chain sources: harukalust25
 * Chain sources path: harukalust25
 
